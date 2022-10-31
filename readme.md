@@ -12,27 +12,27 @@ ___
 
 ___
 
-<div id="Badge">
-<a href="https://angora.betteruptime.com"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
+<a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 &nbsp;
-<a href="https://bytecheck.com/results?resource=angora.id"><img alt="Uptime" src="https://img.shields.io/website?url=https://angora.id"></a>
+<a href="https://stats.uptimerobot.com/1rpAPu6Wj2/792884121" target="_blank" rel="noopener"><img alt="Uptime" src="https://img.shields.io/website?url=https://angora.id"></a>
 &nbsp;
-<a href="https://stats.uptimerobot.com/1rpAPu6Wj2/792884121"><img alt="Uptime Robot" src="https://img.shields.io/uptimerobot/ratio/m792884121-b3a24cfe1de92136b959be81"></a>
+<a href="https://validator.nu/?doc=https://angora.id/" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
 &nbsp;
-<a href="https://urlvoid.com/scan/angora.id"><img alt="URLVoid" src="https://img.shields.io/badge/urlvoid-safe-success"></a>
+<a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
 &nbsp;
-<a href="https://validator.nu/?doc=https://angora.id/"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
+<a href="https://website.grader.com/tests/angora.id" target="_blank" rel="noopener"><img alt="Grader" src="https://img.shields.io/badge/grader-100-success"></a>
 &nbsp;
-<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://img.shields.io/badge/lighthouse-100-success"></a>
+<a href="https://pwabuilder.com/reportcard?site=https://angora.id" target="_blank" rel="noopener"><img alt="PWA" src="https://img.shields.io/badge/PWA-✓-success"></a>
 &nbsp;
-<a href="https://observatory.mozilla.org/analyze/angora.id"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
+<a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
 &nbsp;
-<a href="https://securityheaders.com/?q=https://angora.id"><img alt="Security Headers" src="https://img.shields.io/security-headers?url=https://angora.id"></a>
+<a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
 &nbsp;
-<a href="https://app.netlify.com/sites/angora/deploys"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
+<a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/security-headers?url=https://angora.id"></a>
 &nbsp;
-<a href="https://app.netlify.com/sites/angora/deploys"><img alt="Netlify" src="https://api.netlify.com/api/v1/badges/3b4f7241-d58d-4cb3-9fdb-f909929dd567/deploy-status"></a>
-</div>
+<a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
+&nbsp;
+<a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://api.netlify.com/api/v1/badges/3b4f7241-d58d-4cb3-9fdb-f909929dd567/deploy-status"></a>
 
 ___
 
