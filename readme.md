@@ -14,7 +14,7 @@ ___
 
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 &nbsp;
-<a href="https://stats.uptimerobot.com/1rpAPu6Wj2/792884121" target="_blank" rel="noopener"><img alt="Uptime" src="https://img.shields.io/website?url=https://angora.id"></a>
+<a href="https://updown.io/nsvz" target="_blank" rel="noopener"><img alt="Uptime" src="https://img.shields.io/website?url=https://angora.id"></a>
 &nbsp;
 <a href="https://validator.nu/?doc=https://angora.id/" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
 &nbsp;
