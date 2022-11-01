@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/worker.js").then(function() {
-    console.log("Service Worker");
+    console.log("ServiceWorker");
   }).catch(function(err) {
     console.error(err);
   });
@@ -29,16 +29,28 @@ self.addEventListener("fetch", function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
       return response || fetch(event.request);
-    }).catch(function (err) {
-      return caches.match("/favicon.png");
+        }).catch(function (err) {
+      return caches.match("/");
     })
   )
+});
+
+navigator.serviceWorker.ready.then(function(registration) {
+  registration.sync.register("sync").then(function() {
+    }, function() {
+  });
+});
+
+self.addEventListener("periodicSync", (event) => {
+  if (event.tag === "sync") {
+    event.waitUntil(syncContent());
+  }
 });
 
 async function requestBackgroundSync() {
   await self.registration.sync.register("sync");}
     self.addEventListener("sync", event => {
       if (event.tag === "sync") {
-   event.waitUntil(doTheWork());
+    event.waitUntil(doTheWork());
   }
 });
