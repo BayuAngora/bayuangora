@@ -4,11 +4,11 @@
 
 ___
 
-<a href="https://fb.com/BayuAngora"><img alt="Facebook" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/facebook.svg" width="30%"></a>
+<a href="https://fb.com/BayuAngora"><img alt="Facebook" src="https://github.com/BayuAngora/BayuAngora/blob/main/icon/facebook.svg" width="30%"></a>
 &nbsp;
-<a href="https://twitter.com/BayuAngora"><img alt="Twitter" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/twitter.svg" width="30%"></a>
+<a href="https://twitter.com/BayuAngora"><img alt="Twitter" src="https://github.com/BayuAngora/BayuAngora/blob/main/icon/twitter.svg" width="30%"></a>
 &nbsp;
-<a href="https://instagram.com/BayuAngora"><img alt="Instagram" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/instagram.svg" width="30%"></a>
+<a href="https://instagram.com/BayuAngora"><img alt="Instagram" src="https://github.com/BayuAngora/BayuAngora/blob/main/icon/instagram.svg" width="30%"></a>
 
 ___
 
