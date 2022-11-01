@@ -1,0 +1,55 @@
+{
+  "name": "Bayu Angora",
+  "short_name": "Bayu Angora",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "id",
+  "dir": "auto",
+  "orientation": "any",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "categories": "freethinker",
+  "description": "★★★★★",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "/bayuangora.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Bayu Angora"
+    }
+  ],
+  "shortcuts" : [
+    {
+      "name": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "name": "Poem",
+      "url": "/poem/"
+    },
+    {
+      "name": "Quote",
+      "url": "/quote/"
+    },
+    {
+      "name": "About",
+      "url": "/about/"
+    }
+  ]
+}
