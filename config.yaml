@@ -6,11 +6,11 @@ params:
   menu1: post
   menu2: grade
   menu3: source
-  menusize: 10%
+  menusize: 48px
   color1: black
   color2: white
   color3: red
-  background: https://loremflickr.com/300/600/abstract
+  background: 
   fontlink: /font.woff2
   description: Keep On Rocking!
   copyright: • Bayu Angora (C) All Rights Reserved •
