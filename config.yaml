@@ -5,7 +5,7 @@ params:
   domain: angora.id
   menu1: post
   menu2: grade
-  menu3: source
+  menu3: score
   menusize: 36px
   color1: black
   color2: white
