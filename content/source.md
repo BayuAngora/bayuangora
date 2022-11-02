@@ -103,4 +103,4 @@ ___
 
 ___
 
-<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://pagespeed-insights-svg.glitch.me/?url=https://angora.id"></a>
+<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="/pagespeed.svg"></a>
