@@ -1,14 +1,14 @@
 <div id="BayuAngora">
-<a href="https://github.com/BayuAngora/BayuAngora"><img alt="BayuAngora" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/favicon.png" width="100%" height="100%"></a>
+<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/favicon.png" width="100%" height="100%"></a>
 </div>
 
 ___
 
-<a href="https://fb.com/BayuAngora"><img alt="Facebook" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/facebook.svg" width="30%"></a>
+<a href="https://github.com/BayuAngora/BayuAngora/content/"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/announce.svg" width="30%"></a>
 &nbsp;
-<a href="https://twitter.com/BayuAngora"><img alt="Twitter" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/twitter.svg" width="30%"></a>
+<a href="https://github.com/BayuAngora/BayuAngora/static/"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/document.svg" width="30%"></a>
 &nbsp;
-<a href="https://instagram.com/BayuAngora"><img alt="Instagram" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/instagram.svg" width="30%"></a>
+<a href="https://github.com/BayuAngora/BayuAngora/source.md"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/rocket.svg" width="30%"></a>
 
 ___
 
