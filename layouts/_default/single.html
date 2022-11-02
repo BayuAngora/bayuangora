@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+{{ partial "meta.html" . }}
+{{ partial "style.html" . }}
+
+</head>
+
+<body>
+
+<main>
+
+{{ partial "profile.html" . }}
+
+<br>
+
+<div class="content">
+
+{{ Content }}
+
+</div>
+
+</main>
+
+<div class="copyright">
+<a href="{{ .Site.Params.CopyrightLink }}">{{ .Site.Params.Copyright }}</a>
+</div>
+
+</body>
+
+</html>
