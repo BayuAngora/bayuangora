@@ -1,0 +1,17 @@
+title: Bayu Angora
+baseURL: /
+
+params:
+  domain: angora.id
+  facebook: BayuAngora
+  twitter: BayuAngora
+  instagram: BayuAngora
+  menusize: 10%
+  color1: black
+  color2: white
+  color3: red
+  background: https://loremflickr.com/300/600/abstract
+  fontlink: /font.woff2
+  description: Keep On Rocking!
+  copyright: • Bayu Angora (C) All Rights Reserved •
+  copyrightlink: https://s.id/sitelock
