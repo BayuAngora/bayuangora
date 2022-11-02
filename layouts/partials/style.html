@@ -1,0 +1,84 @@
+<style>
+html {
+scroll-behavior: smooth;
+text-rendering: optimizeSpeed;
+-webkit-tap-highlight-color: transparent;
+}
+::selection {
+color: {{ .Site.Params.Color3 }};
+background: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 24px auto 8px;
+}
+body {
+font-family: "font", sans-serif;
+width: 100%;
+max-width: 720px;
+margin: auto;
+color: {{ .Site.Params.Color2 }};
+background-color: {{ .Site.Params.Color1 }};
+background-image: url("{{ .Site.Params.Background }}");
+background-size: cover;
+background-blend-mode: screen;
+text-align: center;
+}
+main {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+}
+.profile {
+width: 150px;
+height: 150px;
+margin: 24px auto 8px;
+border-radius: 50%;
+}
+.title {
+margin: 0;
+font-size: 28px;
+}
+.description {
+font-size: 18px;
+width: 80%;
+}
+.menu {
+width: {{ .Site.Params.MenuSize }};
+padding: 10px;
+margin: auto;
+vertical-align: middle;
+}
+.content,
+.content a {
+width: 85%;
+margin: 10px;
+color: {{ .Site.Params.Color1 }};
+background: {{ .Site.Params.Color2 }};
+border-radius: 10px;
+font-size: 20px;
+font-color: {{ .Site.Params.Color1 }};
+text-decoration: none;
+}
+.content a:hover {
+color: {{ .Site.Params.Color3 }}
+}
+.copyright,
+.copyright a {
+font-size: 14px;
+font-weight: 700;
+margin: 24px auto;
+color: {{ .Site.Params.Color2 }};
+text-align: center;
+text-decoration: none;
+}
+.copyright a:hover {
+color: {{ .Site.Params.Color3 }}
+}
+@font-face {
+font-family: "font";
+font-display: swap;
+src: url("{{ .Site.Params.FontLink }}");
+}
+</style>
