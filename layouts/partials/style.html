@@ -44,10 +44,16 @@ font-size: 28px;
 font-size: 18px;
 width: 80%;
 }
-.menu {
+.menu, .menu a {
+max-width: 720px;
+margin: 20px auto 0;
+padding: 0 10px;
+text-align: center;
+}
+.menu-icon {
 width: {{ .Site.Params.MenuSize }};
-padding: 10px;
 margin: auto;
+fill: {{ .Site.Params.Color2 }};
 vertical-align: middle;
 }
 .content,
