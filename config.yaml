@@ -3,9 +3,9 @@ baseURL: /
 
 params:
   domain: angora.id
-  menu1: blog
-  menu2: poem
-  menu3: quote
+  menu1: post
+  menu2: grade
+  menu3: source
   menusize: 10%
   color1: black
   color2: white
