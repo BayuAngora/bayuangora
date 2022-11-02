@@ -89,7 +89,9 @@ width: 80%;
 max-width: 720px;
 margin: 20px auto 0;
 padding: 0 10px;
+font-size: {{ .Site.Params.MenuSize }}
 text-align: center;
+text-decoration: none;
 }
 .copyright,
 .copyright a {
@@ -127,6 +129,8 @@ src: url("/port.woff2");
 <a href="{{ .Site.Params.Menu2 | absURL }}">⚡</a>
 <a href="{{ .Site.Params.Menu3 | absURL }}">🎉</a>
 </div>
+
+<br>
 
 <div class="copyright">
 <a href="{{ .Site.Params.CopyrightLink }}">{{ .Site.Params.Copyright }}</a>
