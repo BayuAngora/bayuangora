@@ -88,4 +88,4 @@ https://observatory.mozilla.org
 
 ___
 
-<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="/pagespeed.svg"></a>
+<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://cdn.statically.io/gh/BayuAngora/BayuAngora/main/static/pagespeed.svg"></a>
