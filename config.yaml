@@ -6,7 +6,7 @@ params:
   menu1: post
   menu2: grade
   menu3: source
-  menusize: 48px
+  menusize: 36px
   color1: black
   color2: white
   color3: red
