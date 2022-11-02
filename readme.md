@@ -4,11 +4,11 @@
 
 ___
 
-<a href="https://github.com/BayuAngora/BayuAngora/main/content/"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/announce.svg" width="30%"></a>
+<h2><a href="https://github.com/BayuAngora/BayuAngora/tree/main/content/">🐶</a></h2>
 &nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/main/static/"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/document.svg" width="30%"></a>
+<h2><a href="https://github.com/BayuAngora/BayuAngora/tree/main/static/">🐷</a></h2>
 &nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/main/source.md"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/rocket.svg" width="30%"></a>
+<h2><a href="https://github.com/BayuAngora/BayuAngora/tree/main/source.md">🐻</a></h2>
 
 ___
 
