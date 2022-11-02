@@ -3,9 +3,9 @@ baseURL: /
 
 params:
   domain: angora.id
-  facebook: BayuAngora
-  twitter: BayuAngora
-  instagram: BayuAngora
+  menu1: blog
+  menu2: poem
+  menu3: quote
   menusize: 10%
   color1: black
   color2: white
