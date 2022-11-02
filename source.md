@@ -7,7 +7,7 @@ https://angora.on.fleek.co
 ___
 
 #### All In One  
-https://10015.io  
+https://free-for.dev  
 https://aspose.app  
 https://tinywow.com  
 https://toolsdome.com  
