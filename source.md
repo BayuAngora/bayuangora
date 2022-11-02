@@ -15,15 +15,6 @@ https://tools.pdf24.org
 
 ___
 
-#### Cloud Storage  
-https://storj.io  
-https://files.fm  
-https://box.com  
-https://degoo.com  
-https://multcloud.com  
-
-___
-
 #### Developer Tools  
 https://codepen.io  
 https://site-shot.com  
@@ -36,6 +27,22 @@ ___
 https://cloudns.net  
 https://mailtie.com  
 https://improvmx.com  
+
+___
+
+#### File Storage  
+https://storj.io  
+https://box.com  
+https://koofr.net  
+https://degoo.com  
+https://multcloud.com  
+
+___
+
+#### File Transfer  
+https://files.fm  
+https://wetransfer.com  
+https://mediafire.com  
 
 ___
 
