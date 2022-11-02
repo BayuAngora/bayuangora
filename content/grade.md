@@ -1,4 +1,4 @@
 ---
-title: Grade
-layout: grade
+title: Score
+layout: score
 ---
