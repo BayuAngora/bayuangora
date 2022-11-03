@@ -4,8 +4,8 @@ baseURL: /
 params:
   domain: angora.id
   menu1: post
-  menu2: status
-  menu3: score
+  menu2: score
+  menu3: status
   menusize: 36px
   color1: black
   color2: white
