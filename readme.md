@@ -18,7 +18,9 @@ ___
 &nbsp;
 <a href="https://updown.io/nsvz" target="_blank" rel="noopener"><img alt="Uptime" src="https://img.shields.io/website?url=https://angora.id"></a>
 &nbsp;
-<a href="https://validator.nu/?doc=https://angora.id/" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
+<a href="https://validator.nu/?doc=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
+&nbsp;
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/css-validated-success"></a>
 &nbsp;
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
 &nbsp;
