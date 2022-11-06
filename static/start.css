@@ -1,11 +1,11 @@
 html {
 scroll-behavior: smooth;
 text-rendering: optimizeSpeed;
--webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color:transparent;
 }
 ::selection {
 color: #e00;
-background: transparent;
+background: #000;
 }
 body {
 background-position: top center;
@@ -16,7 +16,7 @@ max-width: 720px;
 margin: auto;
 color: #fff;
 text-align: center;
-font-family: "font", sans-serif;
+font-family: font, sans-serif;
 }
 main {
 display: flex;
@@ -25,12 +25,6 @@ justify-content: center;
 min-height: 100vh;
 align-items: center;
 animation: fadeUp 1s;
-}
-.center {
-color: #fff;
-font-size: 1.25rem;
-font-weight: 700;
-text-align: center;
 }
 .hidden {
 display: none;
@@ -55,29 +49,15 @@ font-weight: 700;
 text-decoration: none;
 transition: color 1s ease;
 }
-.menu:hover, .menu a:hover {
+.menu a:hover, .menu:hover {
 color: #e00;
 }
 .menu-icon {
 width: 1.75rem;
-margin: auto;
+margin :auto;
 fill: #000;
 vertical-align: middle;
 transition: fill 1s ease;
-}
-.search {
-margin: 12px auto 0;
-padding: 12px 0 14px;
-color: #fff;
-background: transparent;
-border: .175rem solid #fff;
-border-radius: .5rem;
-outline: none;
-font-size: 1.25rem;
-font-weight: 700;
-text-align: center;
-font-family: "font", sans-serif;
-transition: border 1s ease, background 1s ease;
 }
 .source, .source a {
 max-width: 720px;
@@ -88,32 +68,37 @@ transition: color 1s ease;
 }
 .source-icon {
 width: 2.5rem;
-margin: auto;
+margin:bauto;
 fill: #fff;
-vertical-align: middle;
 transition: fill 1s ease;
 }
 .source-icon:hover {
-fill: #e00;
+fill:#e00;
 }
 .copyright, .copyright a {
 margin: 0 auto 12px;
 color: #fff;
 font-size: .75rem;
 font-weight: 700;
-text-align: center;
+text-align:bcenter;
 text-decoration: none;
 transition: color 1s ease;
 }
-.copyright:hover, .copyright a:hover {
+.copyright a:hover, .copyright:hover {
 color: #e00;
 }
 @font-face {
-font-family: "font";
+font-family: font;
 font-display: swap;
-src: url("/port.woff2");
+src: url(https://angora.id/port.woff2);
 }
 @keyframes fadeUp {
-from { opacity: 0; transform: translate3d(0,5px,0); }
-to { opacity: 1; transform: translate3d(0,0,0); }
+from {
+opacity: 0;
+transform: translate3d(0,5px,0);
+}
+to {
+opacity: 1;
+transform: translate3d(0,0,0);
+}
 }
