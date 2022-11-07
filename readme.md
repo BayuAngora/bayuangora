@@ -24,6 +24,8 @@ ___
 &nbsp;
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
 &nbsp;
+<a href="https://webaccessibility.com/results/?url=https://angora.id" target="_blank" rel="noopener"><img alt="Accessibility" src="https://img.shields.io/badge/accessibility-100-success"></a>
+&nbsp;
 <a href="https://website.grader.com/tests/angora.id" target="_blank" rel="noopener"><img alt="Grader" src="https://img.shields.io/badge/grader-100-success"></a>
 &nbsp;
 <a href="https://pwabuilder.com/reportcard?site=https://angora.id" target="_blank" rel="noopener"><img alt="PWA" src="https://img.shields.io/badge/PWA-✓-success"></a>
