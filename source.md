@@ -8,6 +8,7 @@
 ___
 
 ## All In One  
+[https://ifttt.com](https://ifttt.com)  
 [https://free-for.dev](https://free-for.dev)  
 [https://aspose.app](https://aspose.app)  
 [https://tinywow.com](https://tinywow.com)  
