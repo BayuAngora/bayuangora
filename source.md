@@ -4,8 +4,6 @@
 [https://angora.vercel.app](https://angora.vercel.app)  
 [https://angora.netlify.app](https://angora.netlify.app)  
 [https://angora.on.fleek.co](https://angora.on.fleek.co)  
-[https://angora.bearblog.dev](https://angora.bearblog.dev)  
-[https://angora.substack.com](https://angora.substack.com)  
 
 ___
 
@@ -17,6 +15,14 @@ ___
 [https://tinywow.com](https://tinywow.com)  
 [https://toolsdome.com](https://toolsdome.com)  
 [https://tools.pdf24.org](https://tools.pdf24.org)  
+
+___
+
+## Blogging Platform  
+
+[https://angora.postach.io](https://angora.postach.io)  
+[https://angora.bearblog.dev](https://angora.bearblog.dev)  
+[https://angora.substack.com](https://angora.substack.com)  
 
 ___
 
