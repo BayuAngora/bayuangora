@@ -11,6 +11,7 @@ ___
 
 ## All In One  
 [https://ifttt.com](https://ifttt.com)  
+[https://aspose.app](https://aspose.app)  
 [https://free-for.dev](https://free-for.dev)  
 [https://aspose.app](https://aspose.app)  
 [https://tinywow.com](https://tinywow.com)  
@@ -60,10 +61,10 @@ ___
 
 ## Image Editor  
 [https://ezgif.com](https://ezgif.com)  
-[https://freeconvert.comh](ttps://freeconvert.com)  
+[https://freeconvert.com](https://freeconvert.com)  
 [https://vectormagic.com](https://vectormagic.com)  
 [https://tools.picsart.com](https://tools.picsart.com)  
-[https://online-convert.comh](ttps://online-convert.com)  
+[https://online-convert.com](https://online-convert.com)  
 
 ___
 
