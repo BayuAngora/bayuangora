@@ -107,4 +107,8 @@ ___
 
 ___
 
+https://fonts.googleapis.com/css2?family=Google+Fonts:wght@400;700&text=1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz${}|%^<>\@#:;_-()/!'[]+=*",.?`~¢£¥¦§©®™«»¯°±´¬Μ·•※&subset=latin&display=swap
+
+___
+
 <a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://cdn.statically.io/gh/BayuAngora/BayuAngora/main/static/pagespeed.svg"></a>
