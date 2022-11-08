@@ -1,9 +1,11 @@
 ## Bayu Angora  
+[https://angora.now.sh](https://angora.now.sh)  
 [https://angora.pages.dev](https://angora.pages.dev)  
 [https://angora.vercel.app](https://angora.vercel.app)  
 [https://angora.netlify.app](https://angora.netlify.app)  
 [https://angora.on.fleek.co](https://angora.on.fleek.co)  
 [https://angora.bearblog.dev](https://angora.bearblog.dev)  
+[https://angora.substack.com](https://angora.substack.com)  
 
 ___
 
