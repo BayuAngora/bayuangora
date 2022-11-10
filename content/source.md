@@ -24,6 +24,7 @@ ___
 [https://angora.bearblog.dev](https://angora.bearblog.dev)  
 [https://angora.substack.com](https://angora.substack.com)  
 [https://angora.w3spaces.com](https://angora.w3spaces.com)  
+[https://angora.digitalpress.blog](https://angora.digitalpress.blog)  
 
 ___
 
