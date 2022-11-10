@@ -121,8 +121,8 @@ ___
 [https://validator.nu](https://validator.nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
-[https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
 [https://inspect.userway.org](https://inspect.userway.org/angora.id)  
+[https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
 
 ___
 
