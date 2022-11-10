@@ -60,10 +60,14 @@ ___
 ___
 
 ## Image Cloud  
-[https://angora.sirv.com](https://angora.sirv.com)  
-[https://angora.twic.pics](https://angora.twic.pics)  
-[https://angora.imgix.net](https://angora.imgix.net)  
-[https://angora.gumlet.com](https://angora.gumlet.com)  
+[https://angora.sirv.com/file-path](https://angora.sirv.com)  
+[https://angora.twic.pics/file-path](https://angora.twic.pics)  
+[https://angora.imgix.net/file-path](https://angora.imgix.net)  
+[https://angora.gumlet.com/file-path](https://angora.gumlet.com)  
+[https://angora.cloudimg.io/v7/file-path](https://angora.cloudimg.io)  
+[https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
+[https://cdn.statically.io/img/domain/file-path](https://statically.io)  
+[https://res.cloudinary.com/angora/image/fetch/domain/file-path](https://res.cloudinary.com)  
 
 ___
 
@@ -77,11 +81,12 @@ ___
 ___
 
 ## Image Source  
-[https://imagekit.io](https://imagekit.io)  
-[https://picsum.photos](https://picsum.photos)   
-[https://loremflickr.com](https://loremflickr.com)  
-[https://source.unsplash.com](https://source.unsplash.com)  
-
+[https://picsum.photos/seed/abstract/680/340
+](https://picsum.photos)   
+[https://loremflickr.com/680/340/abstract
+](https://loremflickr.com)  
+[https://source.unsplash.com/680x340/?abstract
+](https://source.unsplash.com)  
 ___
 
 ## Website Monitor  
