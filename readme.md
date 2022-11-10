@@ -6,9 +6,9 @@ ___
 
 <a href="https://github.com/BayuAngora/BayuAngora/tree/main/content"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/owl.svg" width="30%"></a>
 &nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/tree/main/static"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/panda.svg" width="30%"></a>
+<a href="https://github.com/BayuAngora/BayuAngora/tree/main/layouts"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/panda.svg" width="30%"></a>
 &nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/tree/main/source.md"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/insect.svg" width="30%"></a>
+<a href="https://github.com/BayuAngora/BayuAngora/tree/main/static"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/insect.svg" width="30%"></a>
 
 ___
 
