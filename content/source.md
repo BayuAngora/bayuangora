@@ -55,7 +55,6 @@ ___
 
 ## File Transfer  
 [https://files.fm](https://files.fm)  
-[https://filemail.com](https://filemail.com)  
 [https://sharedrop.io](https://sharedrop.io)  
 [https://filetransfer.io](https://filetransfer.io)  
 [https://mediafire.com](https://mediafire.com)  
