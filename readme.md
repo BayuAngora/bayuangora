@@ -4,14 +4,6 @@
 
 ___
 
-<a href="https://github.com/BayuAngora/BayuAngora/tree/main/content"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/owl.svg" width="30%"></a>
-&nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/tree/main/layouts"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/panda.svg" width="30%"></a>
-&nbsp;
-<a href="https://github.com/BayuAngora/BayuAngora/tree/main/static"><img src="https://github.com/BayuAngora/BayuAngora/blob/main/static/icon/insect.svg" width="30%"></a>
-
-___
-
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 &nbsp;
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Status" src="https://img.shields.io/badge/status-✓-success"></a>
