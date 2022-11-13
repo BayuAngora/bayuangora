@@ -54,7 +54,7 @@ ___
 
 ___
 
-## Blogging Hosting  
+## Blogging Space  
 
 [https://angora.postach.io](https://angora.postach.io)  
 [https://angora.bearblog.dev](https://angora.bearblog.dev)  
