@@ -34,15 +34,6 @@ ___
 
 ___
 
-## Bayu Angora  
-[https://angora.now.sh](https://angora.now.sh)  
-[https://angora.pages.dev](https://angora.pages.dev)  
-[https://angora.vercel.app](https://angora.vercel.app)  
-[https://angora.netlify.app](https://angora.netlify.app)  
-[https://angora.on.fleek.co](https://angora.on.fleek.co)  
-
-___
-
 ## All In One  
 [https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
@@ -54,7 +45,16 @@ ___
 
 ___
 
-## Blogging Platform  
+## Static Hosting  
+[https://angora.now.sh](https://angora.now.sh)  
+[https://angora.pages.dev](https://angora.pages.dev)  
+[https://angora.vercel.app](https://angora.vercel.app)  
+[https://angora.netlify.app](https://angora.netlify.app)  
+[https://angora.on.fleek.co](https://angora.on.fleek.co)  
+
+___
+
+## Blogging Hosting  
 
 [https://angora.postach.io](https://angora.postach.io)  
 [https://angora.bearblog.dev](https://angora.bearblog.dev)  
