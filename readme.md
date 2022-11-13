@@ -69,6 +69,7 @@ ___
 [https://site-shot.com](https://site-shot.com)  
 [https://browserling.com](https://browserling.com)  
 [https://smallseotools.com](https://smallseotools.com)    
+[https://imagecolorpicker.com](https://imagecolorpicker.com)  
 
 ___
 
@@ -117,12 +118,6 @@ ___
 [https://vectormagic.com](https://vectormagic.com)  
 [https://tools.picsart.com](https://tools.picsart.com)  
 [https://online-convert.com](https://online-convert.com)  
-
-___
-
-## Image Picker  
-[https://imgdownloader.com](https://imgdownloader.com)  
-[https://imagecolorpicker.com](https://imagecolorpicker.com)  
 
 ___
 
