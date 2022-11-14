@@ -37,8 +37,6 @@ ___
 ## All In One  
 [https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
-[https://free-for.dev](https://free-for.dev)  
-[https://aspose.app](https://aspose.app)  
 [https://tinywow.com](https://tinywow.com)  
 [https://toolsdome.com](https://toolsdome.com)  
 [https://tools.pdf24.org](https://tools.pdf24.org)  
