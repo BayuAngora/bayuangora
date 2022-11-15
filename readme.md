@@ -140,7 +140,7 @@ ___
 ## Website Optimize  
 [https://web.dev](https://web.dev)  
 [https://loader.io](https://loader.io)  
-[https://loadster.app][https://loadster.app)  
+[https://loadster.app](https://loadster.app)  
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://pwabuilder.com](https://pwabuilder.com)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
