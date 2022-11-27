@@ -119,11 +119,11 @@ ___
 ___
 
 ## Image Source  
-[https://picsum.photos/seed/abstract/680/340
+[https://picsum.photos/seed/abstract/600/300
 ](https://picsum.photos)   
-[https://loremflickr.com/680/340/abstract
+[https://loremflickr.com/600/300/abstract
 ](https://loremflickr.com)  
-[https://source.unsplash.com/680x340/?abstract
+[https://source.unsplash.com/600x300/?abstract
 ](https://source.unsplash.com)  
 ___
 
