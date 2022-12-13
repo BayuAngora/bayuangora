@@ -23,7 +23,7 @@ link.onerror = reject;
 document.head.appendChild(link);
 });
 const prefetchWithTimeout = (url) => {
-const timer = setTimeout(() => stopPrefetching(), 5000);
+const timer = setTimeout(() => stopPrefetching(), 1000);
 prefetch(url)
 .catch(() => stopPrefetching())
 .finally(() => clearTimeout(timer));
@@ -100,8 +100,8 @@ document.removeEventListener("touchstart", touchStartListener, true);
 const defaultOptions = {
 delay: 0,
 ignoreKeywords: [],
-maxRPS: 10,
-hoverDelay: 10,
+maxRPS: 20,
+hoverDelay: 20,
 };
 window.FPConfig = Object.assign(defaultOptions, window.FPConfig);
 startQueue();
