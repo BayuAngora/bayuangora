@@ -119,6 +119,12 @@ ___
 ___
 
 ## Image Source  
+https://logowik.com](https://logowik.com)  
+[https://freepik.com](https://freepik.com)  
+
+___
+
+## Image Dynamic  
 [https://placeimg.com/600/300/any](https://placeimg.com)  
 [https://loremflickr.com/600/300/abstract
 ](https://loremflickr.com)  
