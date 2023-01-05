@@ -67,9 +67,9 @@ ___
 [https://stackblitz.com](https://stackblitz.com)  
 [https://site-shot.com](https://site-shot.com)  
 [https://browserling.com](https://browserling.com)  
-[https://layout.bradwoods.io](https://layout.bradwoods.io)  
 [https://purifycss.online](https://purifycss.online)  
-[https://smallseotools.com](https://smallseotools.com)    
+[https://smallseotools.com](https://smallseotools.com)  
+[https://layout.bradwoods.io](https://layout.bradwoods.io)  
 [https://imagecolorpicker.com](https://imagecolorpicker.com)  
 
 ___
