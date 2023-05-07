@@ -24,7 +24,7 @@ ___
 &nbsp;
 <a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
 &nbsp;
-<a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/security-headers?url=https://angora.id"></a>
+<a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/badge/securityheaders-A+-success"></a>
 &nbsp;
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
 &nbsp;
