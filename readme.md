@@ -130,7 +130,6 @@ ___
 ___
 
 ## Image Dynamic  
-[https://placeimg.com/600/300/any](https://placeimg.com)  
 [https://loremflickr.com/600/300/abstract
 ](https://loremflickr.com)  
 [https://picsum.photos/seed/abstract/600/300
