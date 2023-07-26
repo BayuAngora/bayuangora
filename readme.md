@@ -86,6 +86,7 @@ ___
 ## File Storage  
 [https://storj.io](https://storj.io)  
 [https://box.com](https://box.com)  
+[https://blomp.com](https://blomp.com)  
 [https://koofr.net](https://koofr.net)  
 [https://degoo.com](https://degoo.com)  
 [https://multcloud.com](https://multcloud.com)  
