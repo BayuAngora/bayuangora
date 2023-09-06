@@ -5,31 +5,18 @@
 ___
 
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
-&nbsp;
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Uptime Status" src="https://img.shields.io/website?url=https://angora.id"></a>
-&nbsp;
 <a href="https://validator.nu/?doc=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
-&nbsp;
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id" target="_blank" rel="noopener"><img alt="Jigsaw" src="https://img.shields.io/badge/jigsaw-validated-success"></a>
-&nbsp;
 <a href="https://webaccessibility.com/results/?url=https://angora.id" target="_blank" rel="noopener"><img alt="Accessibility" src="https://img.shields.io/badge/accessibility-100-success"></a>
-&nbsp;
 <a href="https://website.grader.com/tests/angora.id" target="_blank" rel="noopener"><img alt="Grader" src="https://img.shields.io/badge/grader-100-success"></a>
-&nbsp;
 <a href="https://pwabuilder.com/reportcard?site=https://angora.id" target="_blank" rel="noopener"><img alt="PWA" src="https://img.shields.io/badge/PWA-✓-success"></a>
-&nbsp;
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
-&nbsp;
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
-&nbsp;
 <a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
-&nbsp;
 <a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
-&nbsp;
 <a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/badge/securityheaders-A+-success"></a>
-&nbsp;
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
-&nbsp;
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://api.netlify.com/api/v1/badges/3b4f7241-d58d-4cb3-9fdb-f909929dd567/deploy-status"></a>
 
 ___
