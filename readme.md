@@ -87,7 +87,6 @@ ___
 [https://box.com](https://box.com)  
 [https://koofr.net](https://koofr.net)  
 [https://blomp.com](https://blomp.com)  
-[https://degoo.com](https://degoo.com)  
 [https://multcloud.com](https://multcloud.com)  
 
 ___
