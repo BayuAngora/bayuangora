@@ -20,6 +20,8 @@ ___
 &nbsp;
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
 &nbsp;
+<a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
+&nbsp;
 <a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
 &nbsp;
 <a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
