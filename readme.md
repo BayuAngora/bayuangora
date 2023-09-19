@@ -22,8 +22,7 @@ ___
 ___
 
 ## All In One  
-[https://rss.app]
-(https://rss.app)  
+[https://rss.app](https://rss.app)  
 [https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
 [https://tinywow.com](https://tinywow.com)  
