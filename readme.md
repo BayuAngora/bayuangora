@@ -21,6 +21,16 @@ ___
 
 ___
 
+[https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
+[https://dev.to/BayuAngora](https://dev.to/BayuAngora)  
+[https://facebook.com/BayuAngora](https://facebook.com/BayuAngora)  
+[https://github.com/BayuAngora](https://github.com/BayuAngora)  
+[https://instagram.com/BayuAngora](https://github.com/BayuAngora)  
+[https://pinterest.com/BayuAngora](https://pinterest.com/BayuAngora)  
+[https://twitter.com/BayuAngora](https://twitter.com/BayuAngora)  
+
+___
+
 ## All In One  
 [https://rss.app](https://rss.app)  
 [https://ifttt.com](https://ifttt.com)  
