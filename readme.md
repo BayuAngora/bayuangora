@@ -24,6 +24,7 @@ ___
 [https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
 [https://dev.to/BayuAngora](https://dev.to/BayuAngora)  
 [https://facebook.com/BayuAngora](https://facebook.com/BayuAngora)  
+[https://gab.com/BayuAngora](https://gab.com/BayuAngora)  
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
 [https://instagram.com/BayuAngora](https://github.com/BayuAngora)  
 [https://pinterest.com/BayuAngora](https://pinterest.com/BayuAngora)  
