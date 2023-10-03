@@ -2,10 +2,6 @@
 <a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://raw.githubusercontent.com/BayuAngora/BayuAngora/main/static/bayuangora.webp" width="100%" height="100%"></a>
 </div>
 
-<div id="BayuAngora">
-<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://angora.id/bayuangora.webp" width="100%" height="100%"></a>
-</div>
-
 ___
 
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
