@@ -8,7 +8,7 @@ text-rendering: optimizeSpeed;
 outline: none;
 box-sizing: border-box;
 color: #ddd;
-font-family: "font", sans-serif;
+font-family: &quot;font&quot;, sans-serif;
 font-weight: 700;
 text-decoration: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
@@ -56,7 +56,7 @@ backdrop-filter: blur(1rem);
 .menu a {
 display: flex;
 width: 100%;
-margin: .7rem 1rem .8rem;
+margin: .8rem 1rem 1rem;
 color: #ddd;
 font-size: 1.5rem;
 }
@@ -107,9 +107,9 @@ color: #e00;
 text-shadow: .4px .4px .2px #222;
 }
 @font-face {
-font-family: "font";
+font-family: &quot;font&quot;;
 font-display: swap;
-src: url("https://angora.twic.pics/font.woff2");
+src: url(&quot;https://angora.twic.pics/font.woff2&quot;);
 }
 @keyframes fadeIn {
 from { opacity: 0; }
