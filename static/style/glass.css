@@ -274,6 +274,9 @@ fill: #000;
 vertical-align: middle;
 transition: fill 1s;
 }
+.source-about {
+margin: -.75rem auto 0;
+}
 .title {
 margin: .5rem 1.5rem;
 }
@@ -318,15 +321,15 @@ text-align: center;
 text-shadow: none;
 }
 .heartbeat {
-width: 3rem;
-margin: -.25rem auto;
+width: 3.5rem;
+margin: -.25rem auto .25rem;
 animation: heartbeat 1.2s infinite;
 }
 .pagination {
 display: flex;
 }
 .pagination a {
-padding: .1rem 1rem .5rem;
+padding: .1rem 1.25rem .5rem;
 font-size: 2rem;
 font-weight: 700;
 }
