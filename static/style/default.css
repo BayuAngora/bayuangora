@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6, p, img {
 animation: fadeIn 1s;
 }
 h1 {
-margin: -.1rem 0 .6rem;
+margin: 0 0 .8rem;
 }
 h2, h3, h4, h5, h6, p, a, small, large {
 margin: 0 0 .5rem;
@@ -273,6 +273,7 @@ transition: fill 1s;
 fill: #fff;
 }
 .source-about {
+margin: -.75rem auto 0;
 fill: #000;
 }
 .title {
@@ -319,15 +320,15 @@ text-align: center;
 text-shadow: none;
 }
 .heartbeat {
-width: 3rem;
-margin: -.5rem auto .5rem;
+width: 3.5rem;
+margin: -.25rem auto .25rem;
 animation: heartbeat 1.2s infinite;
 }
 .pagination {
 display: flex;
 }
 .pagination a {
-padding: 0 1rem;
+padding: .1rem 1.25rem .5rem;
 font-size: 2rem;
 font-weight: 700;
 }
