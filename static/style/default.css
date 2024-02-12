@@ -55,7 +55,7 @@ border-radius: .5rem;
 .menu a {
 display: flex;
 width: 100%;
-margin: .7rem 1rem .8rem;
+margin: .8rem 1rem 1rem;
 color: #000;
 font-size: 1.5rem;
 }
@@ -72,7 +72,7 @@ margin-left: auto;
 }
 .search {
 margin: 1rem auto 0;
-padding: .7rem 0 .8rem;
+padding: .8rem 0 1rem;
 background: transparent;
 border: .2rem solid #fff;
 border-radius: .5rem;
@@ -273,7 +273,7 @@ transition: fill 1s;
 fill: #fff;
 }
 .source-about {
-margin: -.75rem auto 0;
+margin: -.5rem auto 0;
 fill: #000;
 }
 .title {
@@ -307,7 +307,7 @@ border: .2rem solid #000;
 }
 .button, .search {
 width: 100%;
-padding: .7rem 0 .8rem;
+padding: .9rem 0 1rem;
 background: #000;
 font-size: 1.2rem;
 }
