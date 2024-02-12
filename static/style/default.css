@@ -221,7 +221,7 @@ animation: fadeIn 1s;
 h1 {
 margin: -.1rem 0 .6rem;
 }
-h2, h3, h4, h5, h6, p, a {
+h2, h3, h4, h5, h6, p, a, small, large {
 margin: 0 0 .5rem;
 }
 h1, h2 {
@@ -367,7 +367,8 @@ border: 0;
 .mode h1, .mode h2,
 .mode h3, .mode h4,
 .mode h5, .mode h6,
-.mode p, .mode a {
+.mode p, .mode a,
+.mode small, .mode large {
 color: #ddd;
 }
 .mode .menu-icon,
