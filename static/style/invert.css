@@ -73,7 +73,7 @@ margin-left: auto;
 }
 .search {
 margin: 1rem auto 0;
-padding: .8rem 0 1rem;
+padding: .9rem 0 1rem;
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
 background-color: #ddd;
@@ -213,7 +213,7 @@ display: block;
 padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, small, large {
 color: #ddd;
 }
 h1, h2, h3, h4, h5, h6, p, img {
@@ -272,7 +272,7 @@ vertical-align: middle;
 transition: fill 1s;
 }
 .source-about {
-margin: -.75rem auto 0;
+margin: -.5rem auto 0;
 }
 .title {
 margin: .5rem 1.5rem;
@@ -367,7 +367,8 @@ border: 0;
 .mode h1, .mode h2,
 .mode h3, .mode h4,
 .mode h5, .mode h6,
-.mode p, .mode a {
+.mode p, .mode a,
+.mode small, .mode large {
 color: #000;
 }
 .mode .menu-icon,
