@@ -370,11 +370,9 @@ color: #000;
 background: #ddd;
 border: 0;
 }
-.mode h1, .mode h2,
-.mode h3, .mode h4,
-.mode h5, .mode h6,
-.mode p, .mode a, .mode b,
-.mode small, .mode large {
+.mode h1, .mode h2, .mode h3,
+.mode h4, .mode h5, .mode h6,
+.mode p, .mode a, .mode b {
 color: #ddd;
 }
 .mode .menu-icon,
