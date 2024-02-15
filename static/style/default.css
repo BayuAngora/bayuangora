@@ -213,7 +213,7 @@ display: block;
 padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
-h1, h2, h3, h4, h5, h6, p, a, small, large {
+h1, h2, h3, h4, h5, h6, p, a, b, small, large {
 color: #000;
 }
 h1, h2, h3, h4, h5, h6, p, img {
@@ -372,7 +372,7 @@ border: 0;
 .mode h1, .mode h2,
 .mode h3, .mode h4,
 .mode h5, .mode h6,
-.mode p, .mode a,
+.mode p, .mode a, .mode b,
 .mode small, .mode large {
 color: #ddd;
 }
