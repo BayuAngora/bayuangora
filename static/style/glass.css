@@ -206,8 +206,7 @@ max-width: 50rem;
 line-height: 1.4;
 margin: auto;
 background-size: cover;
-background-color: #000;
-background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
+background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
 }
 main {
 display: block;
@@ -215,13 +214,13 @@ padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
 h1, h2, h3, h4, h5, h6, p, a, small, large {
-color: #000;
+color: #ddd;
 }
 h1, h2, h3, h4, h5, h6, p, img {
 animation: fadeIn 1s;
 }
 h1 {
-margin: -.1rem 0 .5rem;
+margin: -.1rem 0 .6rem;
 }
 h2, h3, h4, h5, h6, p, a {
 margin: 0 0 .5rem;
@@ -242,7 +241,7 @@ font-size: 1.2rem;
 hr {
 height: .2rem;
 margin: 1.5rem 0;
-background: #000;
+background: #ddd;
 border: 0;
 border-radius: 100%;
 }
@@ -268,12 +267,12 @@ text-align: center;
 .menu-icon, .source-icon, .source-about {
 width: 3rem;
 margin: auto;
-fill: #000;
+fill: #ddd;
 vertical-align: middle;
 transition: fill 1s;
 }
 .source-about {
-margin: -.5rem auto 0;
+margin: -.5 auto 0;
 }
 .title {
 margin: .5rem 1.5rem;
@@ -285,11 +284,11 @@ margin: .5rem 1.5rem 1.5rem;
 text-shadow: .4px .4px .2px #222;
 }
 .profile {
-outline: .1rem solid #000;
+outline: .1rem solid #ddd;
 }
 .box {
 margin: 0 auto 1.25rem;
-padding: .5rem 0 0;
+padding: .6rem .1rem .1rem;
 }
 .box, .button, .search,
 .pagination a {
@@ -297,23 +296,23 @@ border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
 }
 .box, .pagination a {
-color: #000;
-background: rgba(250,250,250,.5);
+color: #ddd;
+background: #000;
 overflow: hidden;
 }
 .button {
-border: .1rem solid #000;
+border: .1rem solid #ddd;
 }
 .button, .search {
 width: 100%;
-padding: .7rem 0 .8rem;
-background: rgba(250,250,250,.5);
+padding: .8rem .1rem .9rem;
+background: #000;
 font-size: 1.2rem;
 }
 .button, .search, form,
 .copyright, .copyright a {
 line-height: 1.25;
-color: #000;
+color: #ddd;
 font-weight: 700;
 text-align: center;
 text-shadow: none;
@@ -330,7 +329,7 @@ border-radius: 0;
 display: flex;
 }
 .pagination a {
-padding: 0 1rem;
+padding: 0 1.1rem;
 font-size: 2rem;
 font-weight: 700;
 }
@@ -364,7 +363,8 @@ text-shadow: .4px .4px .2px #222;
 }
 .mode, .mode hr {
 color: #000;
-background: #000;
+background-color: #000;
+background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
 border: 0;
 }
 .mode h1, .mode h2,
@@ -372,27 +372,25 @@ border: 0;
 .mode h5, .mode h6,
 .mode p, .mode a,
 .mode small, .mode large {
-color: #ddd;
+color: #000;
 }
 .mode .menu-icon,
 .mode .source-icon,
 .mode .source-about {
-fill: #ddd;
+fill: #000;
 }
 .mode .box,
-.mode .button,
 .mode .search,
 .mode .pagination a {
-color: #ddd;
-background-color: #000;
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
+color: #000;
+background: rgba(250,250,250,.5);
 border: .1rem solid rgba(250,250,250,.5);
 }
 .mode .button,
 .mode .search,
 .mode .copyright,
 .mode .copyright a {
-color: #ddd;
+color: #000;
 text-shadow: none;
 }
 @font-face {
