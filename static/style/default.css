@@ -222,7 +222,7 @@ animation: fadeIn 1s;
 h1 {
 margin: -.1rem 0 .5rem;
 }
-h2, h3, h4, h5, h6, p, a {
+h2, h3, h4, h5, h6, p, a, b, small, large {
 margin: 0 0 .5rem;
 }
 h1, h2 {
