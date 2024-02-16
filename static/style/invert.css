@@ -410,4 +410,67 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 60% { transform: scale(1.05); }
 100% { transform: scale(1); }
 }
+.bubbles li {
+position: fixed;
+display: block;
+top: 0%;
+left: 0%;
+background: #ddd;
+z-index: -1;
+animation: animate 10s linear infinite;
+}
+.bubbles li:nth-child(1) {
+left: 0%;
+width: .1rem;
+height: 2rem;
+animation-duration: 8s;
+}
+.bubbles li:nth-child(2) {
+left: 30%;
+width: .1rem;
+height: 6rem;
+animation-duration: 16s;
+}
+.bubbles li:nth-child(3) {
+left: 60%;
+width: .1rem;
+height: 4rem;
+animation-duration: 12s;
+}
+.bubbles li:nth-child(4) {
+left: 90%;
+width: .1rem;
+height: 8rem;
+animation-duration: 20s;
+}
+.bubbles li:nth-child(5) {
+right: 0%;
+width: .1rem;
+height: 2rem;
+animation-duration: 6s;
+}
+.bubbles li:nth-child(6) {
+right: 30%;
+width: .1rem;
+height: 8rem;
+animation-duration: 18s;
+}
+.bubbles li:nth-child(7) {
+right: 60%;
+width: .1rem;
+height: 4rem;
+animation-duration: 10s;
+}
+.bubbles li:nth-child(8) {
+right: 90%;
+width: .1rem;
+height: 6rem;
+animation-duration: 14s;
+}
+@keyframes animate {
+0% { transform: translateY(0);
+opacity: .5; rotate: 150deg; border-radius: 50%; }
+100% { transform: translateY(-100rem);
+opacity: 0; rotate: 150deg; border-radius: 50%; }
+}
 </style>
