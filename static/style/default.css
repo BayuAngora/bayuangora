@@ -5,12 +5,12 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-outline: none;
 box-sizing: border-box;
 color: #fff;
 font-family: "font", sans-serif;
 font-weight: 700;
 text-decoration: none;
+outline: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -118,8 +118,8 @@ from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 .bubbles li {
-position: fixed;
 display: block;
+position: fixed;
 bottom: -10rem;
 background: #e00;
 z-index: -1;
@@ -370,8 +370,9 @@ color: #000;
 background: #ddd;
 border: 0;
 }
-.mode h1, .mode h2, .mode h3,
-.mode h4, .mode h5, .mode h6,
+.mode h1, .mode h2,
+.mode h3, .mode h4,
+.mode h5, .mode h6,
 .mode p, .mode a, .mode b {
 color: #ddd;
 }
@@ -429,64 +430,63 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 .bubbles li {
 position: fixed;
 display: block;
-top: 0%;
-left: 0%;
-background: #fff;
+bottom: -10rem;
+background: #e00;
 z-index: -1;
 animation: animate 10s linear infinite;
 }
 .bubbles li:nth-child(1) {
-left: 0%;
-width: .1rem;
+left: 20%;
+width: 2rem;
 height: 2rem;
-animation-duration: 8s;
+animation-duration: 4s;
 }
 .bubbles li:nth-child(2) {
-left: 30%;
-width: .1rem;
+left: 40%;
+width: 6rem;
 height: 6rem;
-animation-duration: 16s;
+animation-duration: 8s;
 }
 .bubbles li:nth-child(3) {
 left: 60%;
-width: .1rem;
+width: 4rem;
 height: 4rem;
-animation-duration: 12s;
-}
-.bubbles li:nth-child(4) {
-left: 90%;
-width: .1rem;
-height: 8rem;
-animation-duration: 20s;
-}
-.bubbles li:nth-child(5) {
-right: 0%;
-width: .1rem;
-height: 2rem;
 animation-duration: 6s;
 }
-.bubbles li:nth-child(6) {
-right: 30%;
-width: .1rem;
+.bubbles li:nth-child(4) {
+left: 80%;
+width: 8rem;
 height: 8rem;
-animation-duration: 18s;
+animation-duration: 10s;
+}
+.bubbles li:nth-child(5) {
+right: 20%;
+width: 2rem;
+height: 2rem;
+animation-duration: 3s;
+}
+.bubbles li:nth-child(6) {
+right: 40%;
+width: 8rem;
+height: 8rem;
+animation-duration: 9s;
 }
 .bubbles li:nth-child(7) {
 right: 60%;
-width: .1rem;
+width: 4rem;
 height: 4rem;
-animation-duration: 10s;
+animation-duration: 5s;
 }
 .bubbles li:nth-child(8) {
-right: 90%;
-width: .1rem;
+right: 80%;
+width: 6rem;
 height: 6rem;
-animation-duration: 14s;
+animation-duration: 7s;
 }
 @keyframes animate {
 0% { transform: translateY(0);
-opacity: .5; rotate: 150deg; border-radius: 50%; }
+opacity: 1; border-radius: 50%; }
 100% { transform: translateY(-100rem);
-opacity: 0; rotate: 150deg; border-radius: 50%; }
+opacity: 0; border-radius: 50%; }
 }
 </style>
