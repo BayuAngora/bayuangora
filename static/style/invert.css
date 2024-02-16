@@ -5,12 +5,11 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-outline: none;
 box-sizing: border-box;
-color: #ddd;
 font-family: "font", sans-serif;
 font-weight: 700;
 text-decoration: none;
+outline: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -21,10 +20,11 @@ text-shadow: .4px .4px .2px #222;
 body {
 max-width: 50rem;
 margin: auto;
+color: #ddd;
 background-position: top center;
 background-size: cover;
-background-color: #000;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
+text-align: center;
 }
 main {
 display: flex;
@@ -48,14 +48,11 @@ border-radius: 50%;
 display: flex;
 width: 85%;
 margin: .1rem;
-background: rgba(0,0,0,.25);
-border: .1rem solid rgba(250,250,250,.5);
-border-radius: .5rem;
+padding: .7rem 1rem .9rem;
 }
 .menu a {
 display: flex;
 width: 100%;
-margin: .6rem 1rem .8rem;
 color: #ddd;
 font-size: 1.5rem;
 }
@@ -70,13 +67,16 @@ margin-right: auto;
 .menu-right {
 margin-left: auto;
 }
-.search {
-margin: 1rem auto 0;
-padding: .9rem 0 1rem;
+.menu, .search {
+color: #ddd;
+background: rgba(0,0,0,.5);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
-background: rgba(250,250,250,.25);
-backdrop-filter: blur(1rem);
+}
+.search {
+line-height: 1.25;
+margin: 1rem auto 0;
+padding: .8rem .1rem .9rem;
 font-size: 1.2rem;
 text-align: center;
 }
@@ -107,7 +107,7 @@ text-shadow: .4px .4px .2px #222;
 @font-face {
 font-family: "font";
 font-display: swap;
-src: url("https://angora.twic.pics/font.woff2");
+src: url("/font.woff2");
 }
 @keyframes fadeIn {
 from { opacity: 0; }
@@ -118,66 +118,66 @@ from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 .bubbles li {
-position: fixed;
 display: block;
-bottom: -10rem;
-background: #e00;
+position: fixed;
+top: 0%;
+background: #ddd;
 z-index: -1;
 animation: animate 10s linear infinite;
 }
 .bubbles li:nth-child(1) {
-left: 20%;
-width: 2rem;
+left: 0%;
+width: .1rem;
 height: 2rem;
-animation-duration: 4s;
-}
-.bubbles li:nth-child(2) {
-left: 40%;
-width: 6rem;
-height: 6rem;
 animation-duration: 8s;
 }
+.bubbles li:nth-child(2) {
+left: 33%;
+width: .1rem;
+height: 6rem;
+animation-duration: 16s;
+}
 .bubbles li:nth-child(3) {
-left: 60%;
-width: 4rem;
+left: 66%;
+width: .1rem;
 height: 4rem;
-animation-duration: 6s;
+animation-duration: 12s;
 }
 .bubbles li:nth-child(4) {
-left: 80%;
-width: 8rem;
+left: 100%;
+width: .1rem;
 height: 8rem;
-animation-duration: 10s;
+animation-duration: 20s;
 }
 .bubbles li:nth-child(5) {
-right: 20%;
-width: 2rem;
+right: 0%;
+width: .1rem;
 height: 2rem;
-animation-duration: 3s;
+animation-duration: 6s;
 }
 .bubbles li:nth-child(6) {
-right: 40%;
-width: 8rem;
+right: 33%;
+width: .1rem;
 height: 8rem;
-animation-duration: 9s;
+animation-duration: 18s;
 }
 .bubbles li:nth-child(7) {
-right: 60%;
-width: 4rem;
+right: 66%;
+width: .1rem;
 height: 4rem;
-animation-duration: 5s;
+animation-duration: 10s;
 }
 .bubbles li:nth-child(8) {
-right: 80%;
-width: 6rem;
+right: 100%;
+width: .1rem;
 height: 6rem;
-animation-duration: 7s;
+animation-duration: 14s;
 }
 @keyframes animate {
 0% { transform: translateY(0);
-opacity: 1; border-radius: 50%; }
+opacity: .5; rotate: 150deg; border-radius: 50%; }
 100% { transform: translateY(-100rem);
-opacity: 0; border-radius: 50%; }
+opacity: 0; rotate: 150deg; border-radius: 50%; }
 }
 </style>
 
@@ -188,10 +188,10 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-outline: none;
 box-sizing: border-box;
 font-family: "font", sans-serif;
 text-decoration: none;
+outline: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -203,6 +203,8 @@ body {
 max-width: 50rem;
 line-height: 1.4;
 margin: auto;
+color: #000;
+background-position: top center;
 background-size: cover;
 background: #000;
 }
@@ -218,7 +220,7 @@ h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
 }
 h1 {
-margin: -.1rem 0 .6rem;
+margin: -.1rem 0 .5rem;
 }
 h2, h3, h4, h5, h6, p, a, b {
 margin: 0 0 .5rem;
@@ -271,7 +273,7 @@ vertical-align: middle;
 transition: fill 1s;
 }
 .source-about {
-margin: -.5 auto 0;
+margin: -.5rem auto 0;
 }
 .title {
 margin: .5rem 1.5rem;
@@ -289,23 +291,19 @@ outline: .1rem solid #ddd;
 margin: 0 auto 1.25rem;
 padding: .6rem .1rem .1rem;
 }
-.box, .button, .search,
-.pagination a {
-border: .1rem solid rgba(250,250,250,.5);
-border-radius: .5rem;
-}
-.box, .pagination a {
+.box, .search, .pagination a {
 color: #ddd;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
+border: .1rem solid rgba(250,250,250,.5);
+border-radius: .5rem;
 overflow: hidden;
-}
-.button {
-border: .1rem solid #ddd;
 }
 .button, .search {
 width: 100%;
 padding: .8rem .1rem .9rem;
-background: rgba(0,0,0,.5);
+background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
+border: .1rem solid rgba(250,250,250,.5);
+border-radius: .5rem;
 font-size: 1.2rem;
 }
 .button, .search, form,
@@ -362,13 +360,13 @@ text-shadow: .4px .4px .2px #222;
 }
 .mode, .mode hr {
 color: #000;
-background-color: #000;
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
 border: 0;
 }
-.mode h1, .mode h2, .mode h3,
-.mode h4, .mode h5, .mode h6,
-.mode p, .mode a, mode b {
+.mode h1, .mode h2,
+.mode h3, .mode h4,
+.mode h5, .mode h6,
+.mode p, .mode a, .mode b {
 color: #000;
 }
 .mode .menu-icon,
@@ -383,6 +381,10 @@ color: #000;
 background: rgba(250,250,250,.5);
 border: .1rem solid rgba(250,250,250,.5);
 }
+.mode .button {
+background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
+border: .1rem solid rgba(250,250,250,.5);
+}
 .mode .button,
 .mode .search,
 .mode .copyright,
@@ -393,7 +395,7 @@ text-shadow: none;
 @font-face {
 font-family: "font";
 font-display: swap;
-src: url("https://angora.twic.pics/font.woff2");
+src: url("/font.woff2");
 }
 @keyframes fadeIn {
 from { opacity: 0; }
@@ -426,19 +428,19 @@ height: 2rem;
 animation-duration: 8s;
 }
 .bubbles li:nth-child(2) {
-left: 30%;
+left: 33%;
 width: .1rem;
 height: 6rem;
 animation-duration: 16s;
 }
 .bubbles li:nth-child(3) {
-left: 60%;
+left: 66%;
 width: .1rem;
 height: 4rem;
 animation-duration: 12s;
 }
 .bubbles li:nth-child(4) {
-left: 90%;
+left: 100%;
 width: .1rem;
 height: 8rem;
 animation-duration: 20s;
@@ -450,19 +452,19 @@ height: 2rem;
 animation-duration: 6s;
 }
 .bubbles li:nth-child(6) {
-right: 30%;
+right: 33%;
 width: .1rem;
 height: 8rem;
 animation-duration: 18s;
 }
 .bubbles li:nth-child(7) {
-right: 60%;
+right: 66%;
 width: .1rem;
 height: 4rem;
 animation-duration: 10s;
 }
 .bubbles li:nth-child(8) {
-right: 90%;
+right: 100%;
 width: .1rem;
 height: 6rem;
 animation-duration: 14s;
