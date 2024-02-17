@@ -125,26 +125,26 @@ animation: animate 10s linear infinite;
 .bubbles li:nth-child(1) {
 left: 0%;
 width: .1rem;
-height: 2rem;
-animation-duration: 8s;
+height: 8rem;
+animation-duration: 20s;
 }
 .bubbles li:nth-child(2) {
 left: 15%;
 width: .1rem;
-height: 6rem;
-animation-duration: 16s;
+height: 4rem;
+animation-duration: 12s;
 }
 .bubbles li:nth-child(3) {
 left: 30%;
 width: .1rem;
-height: 4rem;
-animation-duration: 12s;
+height: 6rem;
+animation-duration: 16s;
 }
 .bubbles li:nth-child(4) {
 left: 45%;
 width: .1rem;
-height: 8rem;
-animation-duration: 20s;
+height: 2rem;
+animation-duration: 8s;
 }
 .bubbles li:nth-child(5) {
 right: 0%;
@@ -420,26 +420,26 @@ animation: animate 10s linear infinite;
 .bubbles li:nth-child(1) {
 left: 0%;
 width: .1rem;
-height: 2rem;
-animation-duration: 8s;
+height: 8rem;
+animation-duration: 20s;
 }
 .bubbles li:nth-child(2) {
 left: 15%;
 width: .1rem;
-height: 6rem;
-animation-duration: 16s;
+height: 4rem;
+animation-duration: 12s;
 }
 .bubbles li:nth-child(3) {
 left: 30%;
 width: .1rem;
-height: 4rem;
-animation-duration: 12s;
+height: 6rem;
+animation-duration: 16s;
 }
 .bubbles li:nth-child(4) {
 left: 45%;
 width: .1rem;
-height: 8rem;
-animation-duration: 20s;
+height: 2rem;
+animation-duration: 8s;
 }
 .bubbles li:nth-child(5) {
 right: 0%;
