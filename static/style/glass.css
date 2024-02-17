@@ -5,12 +5,11 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-outline: none;
 box-sizing: border-box;
-color: #000;
 font-family: "font", sans-serif;
 font-weight: 700;
 text-decoration: none;
+outline: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -21,9 +20,9 @@ text-shadow: .4px .4px .2px #222;
 body {
 max-width: 50rem;
 margin: auto;
+color: #000;
 background-position: top center;
 background-size: cover;
-background-color: #000;
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
 text-align: center;
 }
@@ -31,13 +30,10 @@ main {
 display: flex;
 flex-direction: column;
 justify-content: center;
-min-height: 100vh;
 align-items: center;
+min-height: 100vh;
+margin: 1.5rem;
 animation: fadeUp 1s;
-}
-.center {
-font-size: 1.2rem;
-text-align: center;
 }
 .profile {
 width: 8rem;
@@ -45,23 +41,19 @@ height: 8rem;
 margin: 1rem auto;
 border-radius: 50%;
 }
-.menu {
-display: flex;
-width: 85%;
-margin: .1rem;
-background: rgba(250,250,250,.25);
-border: .1rem solid rgba(250,250,250,.5);
-border-radius: .5rem;
-}
-.menu a {
+.menu, .menu a {
 display: flex;
 width: 100%;
-margin: .6rem 1rem .8rem;
+}
+.menu {
+margin: .1rem;
+padding: .7rem 1rem .9rem;
+}
+.menu a {
 color: #000;
 font-size: 1.5rem;
 }
-.menu-left,
-.menu-right {
+.menu-left, .menu-right {
 width: 1.5rem;
 fill: #000;
 }
@@ -71,12 +63,16 @@ margin-right: auto;
 .menu-right {
 margin-left: auto;
 }
-.search {
-margin: 1rem auto 0;
-padding: .7rem 0 .8rem;
-background: rgba(250,250,250,.25);
+.menu, .search {
+color: #000;
+background: rgba(250,250,250,.5);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
+}
+.search {
+line-height: 1.25;
+margin: 1rem auto 0;
+padding: .8rem 2rem .9rem;
 font-size: 1.2rem;
 text-align: center;
 }
@@ -118,65 +114,65 @@ from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 .bubbles li {
-position: fixed;
 display: block;
-bottom: -10rem;
-background: #e00;
+position: fixed;
+top: 0%;
 z-index: -1;
+background: #fff;
 animation: animate 10s linear infinite;
 }
 .bubbles li:nth-child(1) {
-left: 20%;
-width: 2rem;
-height: 2rem;
-animation-duration: 4s;
+left: 0%;
+width: .1rem;
+height: 8rem;
+animation-duration: 20s;
 }
 .bubbles li:nth-child(2) {
-left: 40%;
-width: 6rem;
-height: 6rem;
-animation-duration: 8s;
+left: 15%;
+width: .1rem;
+height: 4rem;
+animation-duration: 12s;
 }
 .bubbles li:nth-child(3) {
-left: 60%;
-width: 4rem;
-height: 4rem;
-animation-duration: 6s;
+left: 30%;
+width: .1rem;
+height: 6rem;
+animation-duration: 16s;
 }
 .bubbles li:nth-child(4) {
-left: 80%;
-width: 8rem;
-height: 8rem;
-animation-duration: 10s;
+left: 45%;
+width: .1rem;
+height: 2rem;
+animation-duration: 8s;
 }
 .bubbles li:nth-child(5) {
-right: 20%;
-width: 2rem;
+right: 0%;
+width: .1rem;
 height: 2rem;
-animation-duration: 3s;
+animation-duration: 6s;
 }
 .bubbles li:nth-child(6) {
-right: 40%;
-width: 8rem;
+right: 15%;
+width: .1rem;
 height: 8rem;
-animation-duration: 9s;
+animation-duration: 18s;
 }
 .bubbles li:nth-child(7) {
-right: 60%;
-width: 4rem;
+right: 30%;
+width: .1rem;
 height: 4rem;
-animation-duration: 5s;
+animation-duration: 10s;
 }
 .bubbles li:nth-child(8) {
-right: 80%;
-width: 6rem;
+right: 45%;
+width: .1rem;
 height: 6rem;
-animation-duration: 7s;
+animation-duration: 14s;
 }
 @keyframes animate {
-0% { transform: translateY(0);
-opacity: 1; border-radius: 50%; }
-100% { transform: translateY(-100rem);
+0% { transform: rotate(150deg) translateY(0);
+opacity: .5; border-radius: 50%; }
+100% { transform: rotate(150deg) translateY(-100rem);
 opacity: 0; border-radius: 50%; }
 }
 </style>
