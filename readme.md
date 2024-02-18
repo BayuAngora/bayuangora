@@ -6,7 +6,7 @@ ___
 
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Uptime Status" src="https://img.shields.io/website?url=https://angora.id"></a>
-<a href="https://validator.nu/?doc=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id" target="_blank" rel="noopener"><img alt="Jigsaw" src="https://img.shields.io/badge/jigsaw-validated-success"></a>
 <a href="https://pwabuilder.com/reportcard?site=https://angora.id" target="_blank" rel="noopener"><img alt="PWA" src="https://img.shields.io/badge/PWA-✓-success"></a>
 <a href="https://www.accessibilitychecker.org/audit/?website=https://angora.id" target="_blank" rel="noopener"><img alt="Accessibility" src="https://img.shields.io/badge/accessibility-100-success"></a>
