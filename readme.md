@@ -4,6 +4,7 @@
 
 ___
 
+<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/image/pagespeed.svg"></a>
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Uptime Status" src="https://img.shields.io/website?url=https://angora.id"></a>
 <a href="https://validator.w3.org/nu/?doc=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
@@ -188,5 +189,4 @@ https://fonts.googleapis.com/css2?family=Google+Fonts:wght@400;700&text=12345678
 
 ___
 
-<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/image/pagespeed.svg"></a>
 <a href="https://trustedsite.com/verify?host=angora.id"><img alt="TrustedSite" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/image/trustedsite.svg"></a>
