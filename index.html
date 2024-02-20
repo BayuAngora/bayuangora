@@ -131,7 +131,7 @@ font-size: 1.2rem;
 text-align: center;
 }
 .source, .source a {
-margin: -1rem auto 0;
+margin: -1rem auto -2rem;
 padding: .5rem;
 }
 .source-icon {
@@ -142,7 +142,7 @@ transition: fill 1s;
 }
 .copyright, .copyright a {
 max-height: 100%;
-margin: 0 auto 1rem;
+margin: 0 auto;
 font-size: .8rem;
 }
 .menu:hover,
@@ -167,7 +167,7 @@ to { opacity: 1; }
 from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
-.bubbles li {
+.motion li {
 position: fixed;
 display: block;
 bottom: -10rem;
@@ -175,49 +175,49 @@ background: #e00;
 z-index: -1;
 animation: animate 10s linear infinite;
 }
-.bubbles li:nth-child(1) {
+.motion li:nth-child(1) {
 left: 20%;
 width: 2rem;
 height: 2rem;
 animation-duration: 4s;
 }
-.bubbles li:nth-child(2) {
+.motion li:nth-child(2) {
 left: 40%;
 width: 6rem;
 height: 6rem;
 animation-duration: 8s;
 }
-.bubbles li:nth-child(3) {
+.motion li:nth-child(3) {
 left: 60%;
 width: 4rem;
 height: 4rem;
 animation-duration: 6s;
 }
-.bubbles li:nth-child(4) {
+.motion li:nth-child(4) {
 left: 80%;
 width: 8rem;
 height: 8rem;
 animation-duration: 10s;
 }
-.bubbles li:nth-child(5) {
+.motion li:nth-child(5) {
 right: 20%;
 width: 2rem;
 height: 2rem;
 animation-duration: 3s;
 }
-.bubbles li:nth-child(6) {
+.motion li:nth-child(6) {
 right: 40%;
 width: 8rem;
 height: 8rem;
 animation-duration: 9s;
 }
-.bubbles li:nth-child(7) {
+.motion li:nth-child(7) {
 right: 60%;
 width: 4rem;
 height: 4rem;
 animation-duration: 5s;
 }
-.bubbles li:nth-child(8) {
+.motion li:nth-child(8) {
 right: 80%;
 width: 6rem;
 height: 6rem;
@@ -339,6 +339,11 @@ About
 <div id="mode" hidden>
 <div id="dark">_</div>
 <div id="light">_</div>
+</div>
+
+<div class="motion">
+<li></li><li></li><li></li><li></li>
+<li></li><li></li><li></li><li></li>
 </div>
 
 <div class="copyright">
