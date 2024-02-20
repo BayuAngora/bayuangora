@@ -21,12 +21,15 @@ ___
 
 ___
 
+[https://about.me/BayuAngora](https://about.me/BayuAngora)  
 [https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
 [https://dev.to/BayuAngora](https://dev.to/BayuAngora)  
 [https://facebook.com/BayuAngora](https://facebook.com/BayuAngora)  
 [https://gab.com/BayuAngora](https://gab.com/BayuAngora)  
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
-[https://instagram.com/BayuAngora](https://github.com/BayuAngora)  
+[https://instagram.com/BayuAngora](https://instagram.com/BayuAngora)  
+[https://linkedin.com/in/BayuAngora](https://linkedin.com/in/BayuAngora
+)  
 [https://pinterest.com/BayuAngora](https://pinterest.com/BayuAngora)  
 [https://twitter.com/BayuAngora](https://twitter.com/BayuAngora)  
 
