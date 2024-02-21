@@ -86,7 +86,7 @@ padding: .5rem;
 }
 .source-icon {
 width: 3rem;
-fill: #ddd;
+fill: #000;
 vertical-align: middle;
 transition: fill 1s;
 }
