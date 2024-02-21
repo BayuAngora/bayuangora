@@ -163,6 +163,7 @@ ___
 [https://loadster.app](https://loadster.app)  
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://giftofspeed.com](https://giftofspeed.com)  
+[https://app.wattspeed.com](https://app.wattspeed.com/snapshot?url=https://angora.id/)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 
