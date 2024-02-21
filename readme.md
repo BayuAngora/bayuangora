@@ -162,7 +162,7 @@ ___
 [https://loader.io](https://loader.io)  
 [https://loadster.app](https://loadster.app)  
 [https://gtmetrix.com](https://gtmetrix.com)  
-[https://pwabuilder.com](https://pwabuilder.com)  
+[https://giftofspeed.com](https://giftofspeed.com)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 
@@ -177,8 +177,9 @@ ___
 ___
 
 ## Website Validator    
-[https://validator.nu](https://validator.nu/?doc=https://angora.id)  
+[https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
+[https://pwabuilder.com](https://pwabuilder.com)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
 [https://inspect.userway.org](https://inspect.userway.org/angora.id)  
 [https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
