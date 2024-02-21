@@ -12,7 +12,7 @@ ___
 <a href="https://pwabuilder.com/reportcard?site=https://angora.id" target="_blank" rel="noopener"><img alt="PWA" src="https://img.shields.io/badge/PWA-✓-success"></a>
 <a href="https://www.accessibilitychecker.org/audit/?website=https://angora.id" target="_blank" rel="noopener"><img alt="Accessibility" src="https://img.shields.io/badge/accessibility-100-success"></a>
 <a href="https://website.grader.com/tests/angora.id" target="_blank" rel="noopener"><img alt="Grader" src="https://img.shields.io/badge/grader-100-success"></a>
-<a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://img.shields.io/badge/pagespeed-100-success"></a>
+<a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
 <a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
 <a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
@@ -151,6 +151,7 @@ ___
 
 ## Website Monitor  
 [https://pagescreen.io](https://pagescreen.io)  
+[https://uptrends.com/tools/uptime](https://uptrends.com/tools/uptime)  
 [https://updown.io/nsvz](https://updown.io/nsvz)  
 [https://angora.instatus.com](https://angora.instatus.com)  
 [https://angora.betteruptime.com](https://angora.betteruptime.com)  
@@ -163,7 +164,7 @@ ___
 [https://loadster.app](https://loadster.app)  
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://giftofspeed.com](https://giftofspeed.com)  
-[https://app.wattspeed.com](https://app.wattspeed.com/snapshot?url=https://angora.id/)  
+[https://app.wattspeed.com](https://app.wattspeed.com)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 
