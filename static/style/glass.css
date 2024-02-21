@@ -70,11 +70,15 @@ border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
 }
 .search {
+width: 100%;
 line-height: 1.25;
-margin: 1rem auto 0;
+margin: .25rem auto -.5rem;
 padding: .8rem 2rem .9rem;
 font-size: 1.2rem;
 text-align: center;
+}
+.not-found {
+margin: .5rem auto 1rem;
 }
 .source, .source a {
 margin: -1rem auto -2rem;
@@ -82,7 +86,7 @@ padding: .5rem;
 }
 .source-icon {
 width: 3rem;
-fill: #000;
+fill: #ddd;
 vertical-align: middle;
 transition: fill 1s;
 }
