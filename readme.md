@@ -166,6 +166,8 @@ ___
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://speedvitals.com](https://speedvitals.com)  
 [https://giftofspeed.com](https://giftofspeed.com)  
+[https://webpagetest.org](https://webpagetest.org)  
+[https://yellowlab.tools](https://yellowlab.tools)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 [https://app.wattspeed.com](https://app.wattspeed.com)  
