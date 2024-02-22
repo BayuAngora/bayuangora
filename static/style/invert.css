@@ -239,11 +239,8 @@ p, a {
 font-size: 1.2rem;
 }
 hr {
-height: .2rem;
-margin: 1.5rem 0;
-background: #ddd;
-border: 0;
-border-radius: 100%;
+margin: 1rem auto;
+border: .05rem solid rgba(250,250,250,.5);
 }
 img {
 width: 100%;
@@ -283,9 +280,6 @@ margin: .5rem 1.5rem 1.5rem;
 }
 .content p, .content a {
 text-shadow: .4px .4px .2px #222;
-}
-.profile {
-outline: .1rem solid #ddd;
 }
 .box {
 margin: 0 auto 1.25rem;
@@ -368,6 +362,9 @@ border: 0;
 .mode h5, .mode h6,
 .mode p, .mode a, .mode b {
 color: #000;
+}
+.mode hr {
+border: .05rem solid rgba(0,0,0,1);
 }
 .mode .menu-icon,
 .mode .source-icon,
