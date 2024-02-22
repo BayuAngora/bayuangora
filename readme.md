@@ -164,10 +164,11 @@ ___
 [https://loader.io](https://loader.io)  
 [https://loadster.app](https://loadster.app)  
 [https://gtmetrix.com](https://gtmetrix.com)  
+[https://speedvitals.com](https://speedvitals.com)  
 [https://giftofspeed.com](https://giftofspeed.com)  
-[https://app.wattspeed.com](https://app.wattspeed.com)  
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
+[https://app.wattspeed.com](https://app.wattspeed.com)  
 
 ___
 
@@ -175,6 +176,7 @@ ___
 [https://ssllabs.com](https://ssllabs.com)  
 [https://hardenize.com](https://hardenize.com)  
 [https://securityheaders.com](https://securityheaders.com)  
+[https://sitecheck.sucuri.net](https://sitecheck.sucuri.net)  
 [https://observatory.mozilla.org](https://observatory.mozilla.org)  
 
 ___
@@ -182,7 +184,7 @@ ___
 ## Website Validator    
 [https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
-[https://pwabuilder.com](https://pwabuilder.com)  
+[https://pwabuilder.com](https://pwabuilder.com/reportcard?site=https://angora.id)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
 [https://inspect.userway.org](https://inspect.userway.org/angora.id)  
 [https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
