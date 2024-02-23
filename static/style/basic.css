@@ -6,7 +6,6 @@ text-rendering: optimizeSpeed;
 }
 * {
 box-sizing: border-box;
-color: #fff;
 font-family: "font", sans-serif;
 font-weight: 700;
 text-decoration: none;
@@ -21,6 +20,7 @@ text-shadow: .4px .4px .2px #222;
 body {
 max-width: 50rem;
 margin: auto;
+color: #fff;
 background-position: top center;
 background-size: cover;
 background: #000;
@@ -46,18 +46,13 @@ display: flex;
 width: 100%;
 }
 .menu {
-margin: .1rem;
-padding: .6rem 1rem .8rem;
-background: #fff;
-border: .2rem solid #fff;
-border-radius: .5rem;
+padding: .7rem 1rem 1rem;
 }
 .menu a {
 color: #000;
 font-size: 1.5rem;
 }
-.menu-left,
-.menu-right {
+.menu-left, .menu-right {
 width: 1.5rem;
 fill: #000;
 }
@@ -67,16 +62,22 @@ margin-right: auto;
 .menu-right {
 margin-left: auto;
 }
+.menu .search {
+color: #000;
+background: #fff;
+border: .1rem solid #fff;
+border-radius: .5rem;
+}
 .search {
 width: 100%;
 line-height: 1.25;
-margin: .25rem auto -.5rem;
-padding: .8rem 2rem .9rem;
+margin: 0 auto -1rem;
+padding: .8rem 2rem 1rem;
 font-size: 1.2rem;
 text-align: center;
 }
 .not-found {
-margin: .5rem auto 1rem;
+margin: .25rem auto 1rem;
 }
 .source, .source a {
 margin: -1rem auto -2rem;
@@ -90,7 +91,7 @@ transition: fill 1s;
 }
 .copyright, .copyright a {
 max-height: 100%;
-margin: 0 auto;
+margin: 0 auto 1rem;
 font-size: .8rem;
 }
 .menu:hover,
@@ -186,10 +187,10 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-outline: none;
 box-sizing: border-box;
 font-family: "font", sans-serif;
 text-decoration: none;
+outline: none;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -212,16 +213,11 @@ padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
 h1, h2, h3, h4, h5, h6, p, a, b {
+margin: 0 0 .5rem;
 color: #000;
 }
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
-}
-h1 {
-margin: -.1rem 0 .5rem;
-}
-h2, h3, h4, h5, h6, p, a, b {
-margin: 0 0 .5rem;
 }
 h1, h2 {
 font-size: 1.5rem;
@@ -263,14 +259,12 @@ text-align: center;
 .menu-icon, .source-icon, .source-about {
 width: 3rem;
 margin: auto;
+fill: #fff;
 vertical-align: middle;
 transition: fill 1s;
 }
-.menu-icon, .source-icon {
-fill: #fff;
-}
 .source-about {
-margin: -.5rem auto 0;
+margin: -.5rem auto 1rem;
 fill: #000;
 }
 .title {
@@ -283,26 +277,22 @@ margin: .5rem 1.5rem 1.5rem;
 text-shadow: .4px .4px .2px #222;
 }
 .box {
-margin: 0 auto 1.25rem;
-padding: .5rem 0 0;
+margin: 0 auto 1rem;
+padding: .5rem 0 .2rem;
 }
-.box, .button, .search,
-.pagination a {
-border: .2rem solid #fff;
-border-radius: .5rem;
-}
-.box, .pagination a {
+.box, .search, .pagination a {
 color: #000;
 background: #fff;
+border: .1rem solid #fff;
+border-radius: .5rem;
 overflow: hidden;
-}
-.button {
-border: .2rem solid #000;
 }
 .button, .search {
 width: 100%;
-padding: .7rem 0 .8rem;
+padding: .8rem 0 1rem;
 background: #000;
+border: #fff;
+border-radius: .5rem;
 font-size: 1.2rem;
 }
 .button, .search, form,
@@ -323,9 +313,10 @@ border-radius: 0;
 }
 .pagination {
 display: flex;
+margin: -.25rem 0rem;
 }
 .pagination a {
-padding: 0 1rem;
+padding: 0 1.1rem;
 font-size: 2rem;
 font-weight: 700;
 }
@@ -381,19 +372,14 @@ fill: #ddd;
 .mode .box,
 .mode .search,
 .mode .pagination a {
-border: .2rem solid #000;
-}
-.mode .box,
-.mode .pagination a {
 color: #ddd;
 background: #000;
-}
-.mode .button {
-border: .2rem solid #ddd;
+border: .1rem solid #000;
 }
 .mode .button,
 .mode .search {
 background: #ddd;
+border: .1rem solid #000;
 }
 .mode .button,
 .mode .search,
