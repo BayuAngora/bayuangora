@@ -122,54 +122,47 @@ display: block;
 position: fixed;
 top: 0%;
 z-index: -1;
+width: .1rem;
 background: #fff;
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
 left: 0%;
-width: .1rem;
 height: 8rem;
 animation-duration: 20s;
 }
 .motion li:nth-child(2) {
 left: 15%;
-width: .1rem;
 height: 4rem;
 animation-duration: 12s;
 }
 .motion li:nth-child(3) {
 left: 30%;
-width: .1rem;
 height: 6rem;
 animation-duration: 16s;
 }
 .motion li:nth-child(4) {
 left: 45%;
-width: .1rem;
 height: 2rem;
 animation-duration: 8s;
 }
 .motion li:nth-child(5) {
 right: 0%;
-width: .1rem;
 height: 2rem;
 animation-duration: 6s;
 }
 .motion li:nth-child(6) {
 right: 15%;
-width: .1rem;
 height: 8rem;
 animation-duration: 18s;
 }
 .motion li:nth-child(7) {
 right: 30%;
-width: .1rem;
 height: 4rem;
 animation-duration: 10s;
 }
 .motion li:nth-child(8) {
 right: 45%;
-width: .1rem;
 height: 6rem;
 animation-duration: 14s;
 }
@@ -416,54 +409,47 @@ position: fixed;
 display: block;
 top: 0%;
 z-index: -1;
+width: .1rem;
 background: #ddd;
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
 left: 0%;
-width: .1rem;
 height: 8rem;
 animation-duration: 20s;
 }
 .motion li:nth-child(2) {
 left: 15%;
-width: .1rem;
 height: 4rem;
 animation-duration: 12s;
 }
 .motion li:nth-child(3) {
 left: 30%;
-width: .1rem;
 height: 6rem;
 animation-duration: 16s;
 }
 .motion li:nth-child(4) {
 left: 45%;
-width: .1rem;
 height: 2rem;
 animation-duration: 8s;
 }
 .motion li:nth-child(5) {
 right: 0%;
-width: .1rem;
 height: 2rem;
 animation-duration: 6s;
 }
 .motion li:nth-child(6) {
 right: 15%;
-width: .1rem;
 height: 8rem;
 animation-duration: 18s;
 }
 .motion li:nth-child(7) {
 right: 30%;
-width: .1rem;
 height: 4rem;
 animation-duration: 10s;
 }
 .motion li:nth-child(8) {
 right: 45%;
-width: .1rem;
 height: 6rem;
 animation-duration: 14s;
 }
