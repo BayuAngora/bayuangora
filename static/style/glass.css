@@ -47,7 +47,7 @@ width: 100%;
 }
 .menu {
 margin: .1rem;
-padding: .7rem 1rem .9rem;
+padding: .7rem 1rem 1rem;
 }
 .menu a {
 color: #000;
@@ -72,13 +72,13 @@ border-radius: .5rem;
 .search {
 width: 100%;
 line-height: 1.25;
-margin: .25rem auto -.5rem;
-padding: .8rem 2rem .9rem;
+margin: 0 auto -1rem;
+padding: .8rem 2rem 1rem;
 font-size: 1.2rem;
 text-align: center;
 }
 .not-found {
-margin: .5rem auto 1rem;
+margin: .25rem auto 1rem;
 }
 .source, .source a {
 margin: -1rem auto -2rem;
@@ -207,16 +207,11 @@ padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
 h1, h2, h3, h4, h5, h6, p, a, b {
+margin: 0 0 .5rem;
 color: #000;
 }
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
-}
-h1 {
-margin: -.1rem 0 .5rem;
-}
-h2, h3, h4, h5, h6, p, a, b {
-margin: 0 0 .5rem;
 }
 h1, h2 {
 font-size: 1.5rem;
@@ -275,8 +270,8 @@ margin: .5rem 1.5rem 1.5rem;
 text-shadow: .4px .4px .2px #222;
 }
 .box {
-margin: 0 auto 1.25rem;
-padding: .6rem .1rem .1rem;
+margin: 0 auto 1rem;
+padding: .5rem 0 .2rem;
 }
 .box, .search, .pagination a {
 color: #000;
@@ -287,7 +282,7 @@ overflow: hidden;
 }
 .button, .search {
 width: 100%;
-padding: .8rem .1rem .9rem;
+padding: .8rem 0 1rem;
 font-size: 1.2rem;
 }
 .button {
