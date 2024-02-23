@@ -52,14 +52,14 @@ padding: .7rem 1rem 1rem;
 color: #ddd;
 font-size: 1.5rem;
 }
-.menu-left, .menu-right {
+.menu .left, .menu .right {
 width: 1.5rem;
 fill: #ddd;
 }
-.menu-left {
+.menu .left {
 margin-right: auto;
 }
-.menu-right {
+.menu .right {
 margin-left: auto;
 }
 .menu, .search {
@@ -79,11 +79,11 @@ text-align: center;
 .not-found {
 margin: .25rem auto 1rem;
 }
-.source, .source a {
+.link, .link a {
 margin: -1rem auto -2rem;
 padding: .5rem;
 }
-.source-icon {
+.link .icon {
 width: 3rem;
 fill: #ddd;
 vertical-align: middle;
@@ -96,7 +96,7 @@ font-size: .8rem;
 }
 .menu:hover,
 .menu a:hover,
-.source-icon:hover,
+.link .icon:hover,
 .copyright:hover,
 .copyright a:hover {
 fill: #e00;
@@ -212,17 +212,10 @@ color: #ddd;
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
 }
-h1, h2 {
+h1, h2, h3 {
 font-size: 1.5rem;
 }
-h3, h4 {
-font-size: 1.4rem;
-}
-h5, h6 {
-margin: auto;
-font-size: 1.3rem;
-}
-p, a {
+h4, h5, h6, p, a {
 font-size: 1.2rem;
 }
 hr {
@@ -244,20 +237,17 @@ text-align: justify;
 .hollow {
 opacity: 0;
 }
-.menu, .menu a {
-margin: 1rem auto 0;
-padding: 0 .5rem;
-text-align: center;
-}
-.menu-icon, .source-icon, .source-about {
+.icon {
 width: 3rem;
 margin: auto;
 fill: #ddd;
 vertical-align: middle;
 transition: fill 1s;
 }
-.source-about {
-margin: -.5rem auto 1rem;
+.menu, .menu a {
+margin: 1rem auto 0;
+padding: 0 .5rem;
+text-align: center;
 }
 .title {
 margin: .5rem 1.5rem;
@@ -295,12 +285,12 @@ font-weight: 700;
 text-align: center;
 text-shadow: none;
 }
-.heartbeat {
+.favicon {
 width: 3rem;
 margin: -.25rem auto .25rem;
 animation: heartbeat 1.2s infinite;
 }
-.heartbeat img {
+.favicon img {
 border-radius: 0;
 }
 .pagination {
@@ -312,13 +302,13 @@ padding: 0 1.1rem;
 font-size: 2rem;
 font-weight: 700;
 }
-.pagination .prev {
+.pagination .left {
 margin-right: auto;
 }
-.pagination .next {
+.pagination .right {
 margin-left: auto;
 }
-.source, .source a {
+.link, .link a {
 margin: -1rem auto;
 padding: .5rem;
 text-align: center;
@@ -345,18 +335,15 @@ color: #000;
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
 border: 0;
 }
-.mode h1, .mode h2,
-.mode h3, .mode h4,
-.mode h5, .mode h6,
+.mode h1, .mode h2, .mode h3,
+.mode h4, .mode h5, .mode h6,
 .mode p, .mode a, .mode b {
 color: #000;
 }
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
 }
-.mode .menu-icon,
-.mode .source-icon,
-.mode .source-about {
+.mode .icon {
 fill: #000;
 }
 .mode .box,
