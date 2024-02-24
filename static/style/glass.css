@@ -212,6 +212,9 @@ color: #000;
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
 }
+h1 {
+padding: 0 0 .2rem;
+}
 h1, h2, h3 {
 font-size: 1.5rem;
 }
@@ -260,7 +263,7 @@ text-shadow: .4px .4px .2px #222;
 }
 .box {
 margin: 0 auto 1rem;
-padding: .5rem 0 .2rem;
+padding: .5rem 0 0;
 }
 .box, .search, .pagination a {
 color: #000;
