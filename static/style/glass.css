@@ -5,7 +5,6 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-box-sizing: border-box;
 font-family: "font", sans-serif;
 font-weight: 700;
 text-decoration: none;
@@ -21,9 +20,8 @@ body {
 max-width: 50rem;
 margin: auto;
 color: #000;
-background-position: top center;
-background-size: cover;
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
+border: .1rem solid rgba(250,250,250,.5);
 text-align: center;
 }
 main {
@@ -32,7 +30,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-margin: 0 1.5rem;
+padding: 0 1.6rem;
 animation: fadeUp 1s;
 }
 .profile {
@@ -46,7 +44,7 @@ display: flex;
 width: 100%;
 }
 .menu {
-padding: .7rem 1rem 1rem;
+padding: .7rem 0 1rem;
 }
 .menu a {
 color: #000;
@@ -54,6 +52,7 @@ font-size: 1.5rem;
 }
 .menu .left, .menu .right {
 width: 1.5rem;
+padding: 0 1rem;
 fill: #000;
 }
 .menu .left {
@@ -62,31 +61,33 @@ margin-right: auto;
 .menu .right {
 margin-left: auto;
 }
-.menu, .search {
+.menu, .error, .search {
 color: #000;
 background: rgba(250,250,250,.5);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
 }
-.search {
+.error {
 width: 100%;
-line-height: 1.25;
 margin: 0 auto -1rem;
-padding: .8rem 2rem 1rem;
+padding: 1rem 0;
 font-size: 1.2rem;
-text-align: center;
 }
-.not-found {
-margin: .25rem auto 1rem;
+.search {
+width: 85%;
+line-height: 1.25;
+text-align: center;
+margin: 1rem auto .5rem;
+padding: .8rem 0 1rem;
+font-size: 1.2rem;
 }
 .link, .link a {
-margin: -1rem auto -2rem;
+margin: 0 auto -2.5rem;
 padding: .5rem;
 }
 .link .icon {
 width: 3rem;
 fill: #000;
-vertical-align: middle;
 transition: fill 1s;
 }
 .copyright, .copyright a {
@@ -106,7 +107,7 @@ text-shadow: .4px .4px .2px #222;
 @font-face {
 font-family: "font";
 font-display: swap;
-src: url("/font.woff2");
+src: url("https://angora.twic.pics/font.woff2");
 }
 @keyframes fadeIn {
 from { opacity: 0; }
@@ -180,7 +181,6 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-box-sizing: border-box;
 font-family: "font", sans-serif;
 text-decoration: none;
 outline: none;
@@ -195,13 +195,9 @@ body {
 max-width: 50rem;
 line-height: 1.4;
 margin: auto;
-color: #000;
-background-position: top center;
-background-size: cover;
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
 }
 main {
-display: block;
 padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
@@ -212,9 +208,6 @@ color: #000;
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
 }
-h1 {
-padding: 0 0 .2rem;
-}
 h1, h2, h3 {
 font-size: 1.5rem;
 }
@@ -223,15 +216,16 @@ font-size: 1.2rem;
 }
 hr {
 margin: 1rem auto;
-border: .05rem solid #000;
+border: .05rem solid rgba(0,0,0,.5);
 }
 img {
 width: 100%;
-margin: .5rem 0 0;
+margin: .25rem auto;
 border-radius: .5rem;
 animation: fadeIn 1s;
 }
 .center {
+margin: 0 auto -.25rem;
 text-align: center;
 }
 .justify {
@@ -242,42 +236,36 @@ opacity: 0;
 }
 .icon {
 width: 3rem;
-margin: auto;
 fill: #000;
-vertical-align: middle;
 transition: fill 1s;
 }
 .menu, .menu a {
-margin: 1rem auto 0;
+margin: 1rem auto -.5rem;
 padding: 0 .5rem;
 text-align: center;
 }
 .title {
-margin: .5rem 1.5rem;
+margin: .5rem 1.5rem -.25rem;
 }
 .content {
-margin: .5rem 1.5rem 1.5rem;
+margin: .5rem 1.5rem 1rem;
 }
 .content p, .content a {
 text-shadow: .4px .4px .2px #222;
 }
 .box {
 margin: 0 auto 1rem;
-padding: .5rem 0 0;
+padding: .5rem 0;
 }
-.box, .search, .pagination a {
+.box, .button, .search, .pagination a {
 color: #000;
 background: rgba(250,250,250,.5);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
-overflow: hidden;
 }
 .button, .search {
 width: 100%;
 padding: .8rem 0 1rem;
-background: rgba(250,250,250,.5);
-border: .1rem solid rgba(250,250,250,.5);
-border-radius: .5rem;
 font-size: 1.2rem;
 }
 .button, .search, form,
@@ -288,17 +276,9 @@ font-weight: 700;
 text-align: center;
 text-shadow: none;
 }
-.favicon {
-width: 3rem;
-margin: -.25rem auto .25rem;
-animation: heartbeat 1.2s infinite;
-}
-.favicon img {
-border-radius: 0;
-}
 .pagination {
 display: flex;
-margin: -.25rem 0rem;
+margin: -.25rem auto;
 }
 .pagination a {
 padding: 0 1.1rem;
@@ -311,8 +291,16 @@ margin-right: auto;
 .pagination .right {
 margin-left: auto;
 }
+.favicon {
+width: 3rem;
+margin: auto;
+}
+.favicon img {
+border-radius: 0;
+animation: heartbeat 1.2s infinite;
+}
 .link, .link a {
-margin: -1rem auto;
+margin: -1rem auto -1.5rem;
 padding: .5rem;
 text-align: center;
 }
@@ -322,6 +310,7 @@ margin: 0 auto 1rem;
 font-size: .8rem;
 }
 a *:hover,
+.title a:hover,
 .content a:hover,
 .pagination a:hover,
 .copyright a:hover,
@@ -336,7 +325,7 @@ text-shadow: .4px .4px .2px #222;
 .mode {
 color: #ddd;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
-border: 0;
+border: .1rem solid rgba(250,250,250,.5);
 }
 .mode h1, .mode h2, .mode h3,
 .mode h4, .mode h5, .mode h6,
@@ -349,28 +338,25 @@ border: .05rem solid rgba(250,250,250,1);
 .mode .icon {
 fill: #ddd;
 }
-.mode .box,
-.mode .search,
+.mode .box, .mode .search,
 .mode .pagination a {
 color: #ddd;
 background: rgba(0,0,0,.5);
 border: .1rem solid rgba(250,250,250,.5);
 }
-.mode .button {
+.mode button {
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
 border: .1rem solid rgba(250,250,250,.5);
 }
-.mode .button,
-.mode .search,
-.mode .copyright,
-.mode .copyright a {
+.mode .button, .mode .search,
+.mode .copyright, .mode .copyright a {
 color: #ddd;
 text-shadow: none;
 }
 @font-face {
 font-family: "font";
 font-display: swap;
-src: url("/font.woff2");
+src: url("https://angora.twic.pics/font.woff2");
 }
 @keyframes fadeIn {
 from { opacity: 0; }
