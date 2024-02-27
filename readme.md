@@ -1,5 +1,5 @@
 <div id="BayuAngora">
-<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://raw.githubusercontent.com/BayuAngora/BayuAngora/main/static/bayuangora.svg" width="100%" height="100%"></a>
+<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://raw.githubusercontent.com/BayuAngora/BayuAngora/main/static/favicon.svg" width="100%" height="100%"></a>
 </div>
 
 ___
