@@ -29,8 +29,8 @@ ___
 [https://facebook.com/BayuAngora](https://facebook.com/BayuAngora)  
 [https://gab.com/BayuAngora](https://gab.com/BayuAngora)  
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
-[https://instagram.com/BayuAngora](https://instagram.com/BayuAngora)  
 [https://gravatar.com/bayuangora](https://gravatar.com/bayuangora)  
+[https://instagram.com/BayuAngora](https://instagram.com/BayuAngora)  
 [https://linkedin.com/in/BayuAngora](https://linkedin.com/in/BayuAngora
 )  
 [https://pinterest.com/BayuAngora](https://pinterest.com/BayuAngora)  
