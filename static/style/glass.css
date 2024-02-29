@@ -215,7 +215,7 @@ font-size: 1.2rem;
 }
 hr {
 margin: 1rem auto;
-border: .05rem solid rgba(250,250,250,.5);
+border: .05rem solid rgba(0,0,0,1);
 }
 img {
 width: 100%;
@@ -331,7 +331,7 @@ background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
 color: #ddd;
 }
 .mode hr {
-border: .05rem solid rgba(250,250,250,1);
+border: .05rem solid rgba(250,250,250,.5);
 }
 .mode .icon {
 fill: #ddd;
