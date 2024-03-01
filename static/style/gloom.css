@@ -272,6 +272,7 @@ font-size: 1.2rem;
 line-height: 1.25;
 font-weight: 700;
 text-align: center;
+text-shadow: none;
 }
 .pagination {
 display: flex;
