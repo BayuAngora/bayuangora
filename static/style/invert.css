@@ -38,14 +38,22 @@ height: 8rem;
 margin: 1rem auto 1.25rem;
 border-radius: 50%;
 }
+.box, .menu, .search {
+color: #000;
+background: #fff;
+border: #fff;
+border-radius: .5rem;
+}
+.box {
+width: 100%;
+margin: 0 0 -1rem;
+padding: 1rem 0;
+font-size: 1.2rem;
+}
 .menu, .menu a {
 display: flex;
 width: 100%;
-}
-.menu {
-padding: .7rem 0 1rem;
-}
-.menu a {
+padding: .35rem 0 .5rem;
 color: #000;
 font-size: 1.5rem;
 }
@@ -59,18 +67,6 @@ margin-right: auto;
 }
 .menu .right {
 margin-left: auto;
-}
-.menu, .error, .search {
-color: #000;
-background: #fff;
-border: #fff;
-border-radius: .5rem;
-}
-.error {
-width: 100%;
-margin: 0 0 -1rem;
-padding: 1rem 0;
-font-size: 1.2rem;
 }
 .search {
 width: 85%;
@@ -252,15 +248,15 @@ margin: .5rem 1.5rem 1rem;
 .content p, .content a {
 text-shadow: .4px .4px .2px #222;
 }
-.box {
-margin: 0 auto 1rem;
-padding: .5rem 0;
-}
 .box, .button, .search, .pagination a {
 color: #000;
 background: #fff;
 border: .1rem solid rgba(0,0,0,0);
 border-radius: .5rem;
+}
+.box {
+margin: 0 auto 1rem;
+padding: .5rem 0;
 }
 .button {
 color: #fff;
