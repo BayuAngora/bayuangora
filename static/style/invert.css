@@ -17,6 +17,10 @@ background: transparent;
 text-shadow: .4px .4px .2px #222;
 }
 body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 100vh;
 max-width: 50rem;
 margin: auto;
 color: #fff;
@@ -24,25 +28,21 @@ background: #000;
 text-align: center;
 }
 main {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-padding: 0 1.6rem;
+padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
 .profile {
 width: 8rem;
 height: 8rem;
-margin: 1rem auto 1.25rem;
+margin: 1rem auto .25rem;
 border-radius: 50%;
 }
 .box, .menu, .search {
 color: #000;
 background: #fff;
-border: #fff;
+border: .1rem solid #fff;
 border-radius: .5rem;
+box-sizing: border-box;
 }
 .box {
 width: 100%;
@@ -77,7 +77,7 @@ padding: .8rem 0 1rem;
 font-size: 1.2rem;
 }
 .link, .link a {
-margin: .3rem auto -.25rem;
+margin: -.7rem auto -.3rem;
 padding: .5rem;
 }
 .link .icon {
@@ -87,7 +87,7 @@ transition: fill 1s;
 }
 .copyright, .copyright a {
 max-height: 100%;
-margin: 0 auto -1rem;
+margin: 0 auto 1rem;
 font-size: .8rem;
 }
 .menu:hover,
@@ -253,9 +253,10 @@ color: #000;
 background: #fff;
 border: .1rem solid rgba(0,0,0,0);
 border-radius: .5rem;
+box-sizing: border-box;
 }
 .box {
-margin: 0 auto 1rem;
+margin: 0 0 1rem;
 padding: .5rem 0;
 }
 .button {
