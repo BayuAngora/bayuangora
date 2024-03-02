@@ -34,7 +34,7 @@ animation: fadeUp 1s;
 .profile {
 width: 8rem;
 height: 8rem;
-margin: 1rem auto .25rem;
+margin: 1rem auto 0;
 border-radius: 50%;
 }
 .box, .menu, .search {
