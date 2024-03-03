@@ -20,8 +20,8 @@ body {
 display: flex;
 flex-direction: column;
 justify-content: center;
-min-height: 100vh;
 max-width: 50rem;
+min-height: 100vh;
 margin: auto;
 color: #ddd;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
