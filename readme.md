@@ -132,10 +132,6 @@ ___
 ## Image Source  
 [https://freepik.com](https://freepik.com)  
 [https://logowik.com](https://logowik.com)  
-
-___
-
-## Image Dynamic  
 [https://loremflickr.com/600/300/abstract
 ](https://loremflickr.com)  
 [https://picsum.photos/seed/abstract/600/300
