@@ -27,7 +27,7 @@ ___
 [https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
 [https://dev.to/BayuAngora](https://dev.to/BayuAngora)  
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
-[https://gravatar.com/bayuangora](https://gravatar.com/bayuangora)  
+[https://gravatar.com/BayuAngora](https://gravatar.com/BayuAngora)  
 
 ___
 
