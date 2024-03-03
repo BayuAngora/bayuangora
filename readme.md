@@ -52,8 +52,8 @@ ___
 ## Static Hosting  
 [https://angora.now.sh](https://angora.now.sh)  
 [https://angora.pages.dev](https://angora.pages.dev)  
-[https://angora.vercel.app](https://angora.vercel.app)  
 [https://angora.netlify.app](https://angora.netlify.app)  
+[https://angora.vercel.app](https://angora.vercel.app)  
 
 ___
 
