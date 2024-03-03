@@ -162,7 +162,8 @@ ___
 
 ## Website Monitor  
 [https://pagescreen.io](https://pagescreen.io)  
-[https://uptrends.com](https://uptrends.com)  
+[https://uptime.com](https://uptime.com)  
+[https://uptrends.com](https://uptrends.com/tools)  
 [https://angora.instatus.com](https://angora.instatus.com)  
 [https://angora.betteruptime.com](https://angora.betteruptime.com)  
 
