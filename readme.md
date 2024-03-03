@@ -54,8 +54,6 @@ ___
 [https://angora.pages.dev](https://angora.pages.dev)  
 [https://angora.vercel.app](https://angora.vercel.app)  
 [https://angora.netlify.app](https://angora.netlify.app)  
-[https://angora.stormkit.io](https://angora.stormkit.io)  
-[https://angora.on.fleek.co](https://angora.on.fleek.co)  
 
 ___
 
