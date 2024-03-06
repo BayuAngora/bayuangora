@@ -196,4 +196,6 @@ https://fonts.googleapis.com/css2?family=Google+Fonts:wght@400;700&text=12345678
 
 ___
 
-<a href="https://trustedsite.com/verify?host=angora.id"><img alt="TrustedSite" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/image/trustedsite.svg"></a>
+<a href="https://trustedsite.com/verify?host=angora.id">
+<img alt="TrustedSite" src="https://github.com/BayuAngora/BayuAngora/blob/main/static/image/trustedsite.svg">
+</a>
