@@ -5,10 +5,10 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-font-family: "font", sans-serif;
-font-weight: 700;
-text-decoration: none;
 outline: none;
+user-select: none;
+text-decoration: none;
+font-family: "font", sans-serif;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
@@ -50,9 +50,12 @@ box-sizing: border-box;
 }
 .box {
 width: 100%;
-margin: 0 0 -1rem;
 padding: 1rem 0;
 font-size: 1.2rem;
+line-height: 1.25;
+}
+.menu {
+margin: 0 0 1rem;
 }
 .menu, .menu a {
 display: flex;
@@ -78,9 +81,10 @@ line-height: 1.25;
 margin: 1rem auto .5rem;
 padding: .8rem 0 1rem;
 font-size: 1.2rem;
+font-weight: 700;
 }
 .link, .link a {
-margin: -.7rem auto -.3rem;
+margin: -1.75rem auto -.25rem;
 padding: .5rem;
 }
 .link .icon {
@@ -102,7 +106,6 @@ text-shadow: .4px .4px .2px #222;
 }
 @font-face {
 font-family: "font";
-font-display: swap;
 src: url("/font.woff2");
 }
 @keyframes fadeIn {
@@ -123,43 +126,35 @@ background: #ddd;
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
-left: 0%;
-height: 8rem;
+left: 0%; height: 8rem;
 animation-duration: 20s;
 }
 .motion li:nth-child(2) {
-left: 15%;
-height: 4rem;
+left: 15%; height: 4rem;
 animation-duration: 12s;
 }
 .motion li:nth-child(3) {
-left: 30%;
-height: 6rem;
+left: 30%; height: 6rem;
 animation-duration: 16s;
 }
 .motion li:nth-child(4) {
-left: 45%;
-height: 2rem;
+left: 45%; height: 2rem;
 animation-duration: 8s;
 }
 .motion li:nth-child(5) {
-right: 0%;
-height: 2rem;
+right: 0%; height: 2rem;
 animation-duration: 6s;
 }
 .motion li:nth-child(6) {
-right: 15%;
-height: 8rem;
+right: 15%; height: 8rem;
 animation-duration: 18s;
 }
 .motion li:nth-child(7) {
-right: 30%;
-height: 4rem;
+right: 30%; height: 4rem;
 animation-duration: 10s;
 }
 .motion li:nth-child(8) {
-right: 45%;
-height: 6rem;
+right: 45%; height: 6rem;
 animation-duration: 14s;
 }
 @keyframes animate {
@@ -177,15 +172,40 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
-font-family: "font", sans-serif;
-text-decoration: none;
 outline: none;
+user-select: none;
+text-decoration: none;
+font-family: "font", sans-serif;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
 ::selection {
 color: #e00;
 background: transparent;
 text-shadow: .4px .4px .2px #222;
+}
+h1, h2, h3, h4, h5, h6, p, a, b {
+color: #ddd;
+}
+h1, h2, h3, h4, h5, h6, p, b {
+animation: fadeIn 1s;
+}
+h1, h2, h3 {
+margin: 0 0 .25rem;
+font-size: 1.5rem;
+}
+h4, h5, h6, p, a {
+margin: 0 0 .5rem;
+font-size: 1.2rem;
+}
+hr {
+margin: 1rem auto;
+border: .05rem solid rgba(250,250,250,.5);
+}
+img {
+width: 100%;
+margin: .25rem auto;
+border-radius: .5rem;
+animation: fadeIn 1s;
 }
 body {
 display: flex;
@@ -200,31 +220,8 @@ main {
 padding: 1rem 1.5rem;
 animation: fadeUp 1s;
 }
-h1, h2, h3, h4, h5, h6, p, a, b {
-margin: 0 0 .5rem;
-color: #ddd;
-}
-h1, h2, h3, h4, h5, h6, p, b {
-animation: fadeIn 1s;
-}
-h1, h2, h3 {
-font-size: 1.5rem;
-}
-h4, h5, h6, p, a {
-font-size: 1.2rem;
-}
-hr {
-margin: 1rem auto;
-border: .05rem solid rgba(250,250,250,.5);
-}
-img {
-width: 100%;
-margin: .25rem auto;
-border-radius: .5rem;
-animation: fadeIn 1s;
-}
-.center {
-margin: 0 auto -.25rem;
+header, footer, input,
+.center, .button, .search {
 text-align: center;
 }
 .justify {
@@ -241,7 +238,6 @@ transition: fill 1s;
 .menu, .menu a {
 margin: 1rem auto -.5rem;
 padding: 0 .5rem;
-text-align: center;
 }
 .title {
 margin: .5rem 1.5rem -.25rem;
@@ -267,22 +263,20 @@ padding: .5rem 0;
 width: 100%;
 padding: .8rem 0 1rem;
 font-size: 1.2rem;
+font-weight: 700;
 }
 .button, .search,
 .copyright, .copyright a {
 line-height: 1.25;
-font-weight: 700;
-text-align: center;
 text-shadow: none;
 }
 .pagination {
 display: flex;
-margin: -.4rem auto -.2rem;
+margin: -.4rem auto -.3rem;
 }
 .pagination a {
-padding: .1rem 1.2rem;
+padding: .1rem 1.1rem;
 font-size: 2rem;
-font-weight: 700;
 }
 .pagination .left {
 margin-right: auto;
@@ -301,22 +295,17 @@ animation: heartbeat 1.2s infinite;
 .link, .link a {
 margin: -1rem auto -.5rem;
 padding: .5rem;
-text-align: center;
 }
 .copyright, .copyright a {
 max-height: 100%;
 margin: 0 auto 1rem;
 font-size: .8rem;
 }
-a *:hover,
-.title a:hover,
-.content a:hover,
-.pagination a:hover,
-.copyright a:hover,
-.mode a *:hover,
-.mode .content a:hover,
-.mode .pagination a:hover,
-.mode .copyright a:hover {
+a *:hover, .mode a *:hover,
+.title a:hover, .mode .title a:hover,
+.content a:hover, .mode .content a:hover,
+.pagination a:hover, .mode .pagination a:hover,
+.copyright a:hover, .mode .copyright a:hover {
 fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
@@ -343,7 +332,6 @@ background: rgba(250,250,250,.5);
 }
 @font-face {
 font-family: "font";
-font-display: swap;
 src: url("/font.woff2");
 }
 @keyframes fadeIn {
@@ -356,9 +344,9 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 }
 @keyframes heartbeat {
 0% { transform: scale(1); }
-25% { transform: scale(1.05); }
-40% { transform: scale(1); }
-60% { transform: scale(1.05); }
+20% { transform: scale(1.05); }
+40% { transform: scale(1.02); }
+50% { transform: scale(1.10); }
 100% { transform: scale(1); }
 }
 .motion li {
@@ -371,43 +359,35 @@ background: #ddd;
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
-left: 0%;
-height: 8rem;
+left: 0%; height: 8rem;
 animation-duration: 20s;
 }
 .motion li:nth-child(2) {
-left: 15%;
-height: 4rem;
+left: 15%; height: 4rem;
 animation-duration: 12s;
 }
 .motion li:nth-child(3) {
-left: 30%;
-height: 6rem;
+left: 30%; height: 6rem;
 animation-duration: 16s;
 }
 .motion li:nth-child(4) {
-left: 45%;
-height: 2rem;
+left: 45%; height: 2rem;
 animation-duration: 8s;
 }
 .motion li:nth-child(5) {
-right: 0%;
-height: 2rem;
+right: 0%; height: 2rem;
 animation-duration: 6s;
 }
 .motion li:nth-child(6) {
-right: 15%;
-height: 8rem;
+right: 15%; height: 8rem;
 animation-duration: 18s;
 }
 .motion li:nth-child(7) {
-right: 30%;
-height: 4rem;
+right: 30%; height: 4rem;
 animation-duration: 10s;
 }
 .motion li:nth-child(8) {
-right: 45%;
-height: 6rem;
+right: 45%; height: 6rem;
 animation-duration: 14s;
 }
 @keyframes animate {
