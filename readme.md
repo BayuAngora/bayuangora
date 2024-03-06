@@ -84,19 +84,12 @@ ___
 ## File Storage  
 [https://storj.io](https://storj.io)  
 [https://box.com](https://box.com)  
-[https://koofr.net](https://koofr.net)  
-[https://blomp.com](https://blomp.com)  
-[https://multcloud.com](https://multcloud.com)  
-
-___
-
-## File Transfer  
 [https://files.fm](https://files.fm)  
+[https://multcloud.com](https://multcloud.com)  
 [https://sharedrop.io](https://sharedrop.io)  
 [https://filetransfer.io](https://filetransfer.io)  
 [https://mediafire.com](https://mediafire.com)  
 [https://wetransfer.com](https://wetransfer.com)  
-[https://transfer.pcloud.com](https://transfer.pcloud.com)  
 
 ___
 
