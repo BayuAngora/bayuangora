@@ -82,13 +82,9 @@ ___
 ___
 
 ## File Storage  
-[https://storj.io](https://storj.io)  
-[https://box.com](https://box.com)  
 [https://files.fm](https://files.fm)  
-[https://multcloud.com](https://multcloud.com)  
-[https://sharedrop.io](https://sharedrop.io)  
-[https://filetransfer.io](https://filetransfer.io)  
 [https://mediafire.com](https://mediafire.com)  
+[https://multcloud.com](https://multcloud.com)  
 [https://wetransfer.com](https://wetransfer.com)  
 
 ___
