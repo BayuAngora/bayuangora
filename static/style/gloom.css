@@ -5,9 +5,11 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
+color: #ddd;
 outline: none;
 user-select: none;
 text-decoration: none;
+font-weight: 700;
 font-family: "font", sans-serif;
 transition: color 1s, background 1s, border 1s, text-shadow 1s;
 }
@@ -23,7 +25,6 @@ justify-content: center;
 max-width: 50rem;
 min-height: 100vh;
 margin: auto;
-color: #ddd;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
 text-align: center;
 }
@@ -42,12 +43,10 @@ margin: 1rem auto 0;
 border-radius: 50%;
 }
 .box, .menu, .search {
-color: #ddd;
 background: rgba(0,0,0,.5);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
 box-sizing: border-box;
-font-weight: 700;
 }
 .box {
 width: 100%;
@@ -62,7 +61,6 @@ margin: 0 0 1rem;
 display: flex;
 width: 100%;
 padding: .35rem 0 .5rem;
-color: #ddd;
 font-size: 1.5rem;
 }
 .menu .left, .menu .right {
@@ -97,9 +95,8 @@ max-height: 100%;
 margin: 0 auto 1rem;
 font-size: .8rem;
 }
-.menu a:hover,
-.link .icon:hover,
-.copyright b:hover {
+.menu a:hover, .link .icon:hover,
+.copyright:hover, .copyright a:hover {
 fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
@@ -172,6 +169,7 @@ text-rendering: optimizeSpeed;
 -webkit-tap-highlight-color: transparent;
 }
 * {
+color: #ddd;
 outline: none;
 user-select: none;
 text-decoration: none;
@@ -182,9 +180,6 @@ transition: color 1s, background 1s, border 1s, text-shadow 1s;
 color: #e00;
 background: transparent;
 text-shadow: .4px .4px .2px #222;
-}
-h1, h2, h3, h4, h5, h6, p, a, b {
-color: #ddd;
 }
 h1, h2, h3, h4, h5, h6, p, b {
 animation: fadeIn 1s;
@@ -249,7 +244,6 @@ margin: .5rem 1.5rem 1rem;
 text-shadow: .4px .4px .2px #222;
 }
 .box, .button, .search, .pagination a {
-color: #ddd;
 background: linear-gradient(150deg, rgba(50,0,0,1) 0%, rgba(0,50,50,1) 100%);
 border: .1rem solid rgba(250,250,250,.5);
 border-radius: .5rem;
@@ -259,18 +253,15 @@ box-sizing: border-box;
 margin: 0 0 1rem;
 padding: .5rem 0;
 }
-.button {
-background: #000;
-}
 .button, .search {
 width: 100%;
 padding: .8rem 0 1rem;
 font-size: 1.2rem;
-font-weight: 700;
 }
 .button, .search,
 .copyright, .copyright a {
 line-height: 1.25;
+font-weight: 700;
 text-shadow: none;
 }
 .pagination {
@@ -278,7 +269,7 @@ display: flex;
 margin: -.4rem auto -.3rem;
 }
 .pagination a {
-padding: .1rem 1.1rem;
+padding: .1rem 1.2rem;
 font-size: 2rem;
 }
 .pagination .left {
@@ -313,15 +304,11 @@ fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
 }
+.mode * {
+color: #000;
+}
 .mode, .mode .button {
 background: linear-gradient(150deg, rgba(250,100,50,.5) 0%, rgba(50,200,250,.5) 100%);
-}
-.mode h1, .mode h2, .mode h3,
-.mode h4, .mode h5, .mode h6,
-.mode p, .mode a, .mode b,
-.mode .button, .mode .search,
-.mode .copyright, .mode .copyright a {
-color: #000;
 }
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
