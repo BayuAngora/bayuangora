@@ -171,11 +171,18 @@ ___
 
 ___
 
-## Website Validator    
+## Website Validator  
 [https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
 [https://pwabuilder.com](https://pwabuilder.com/reportcard?site=https://angora.id)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
+[https://achecks.org/achecker](https://achecks.org/achecker)  
+[https://accessibleweb.com](https://accessibleweb.com/website-accessibility-checker/?page_url=https://angora.id)  
+[https://accessibilitychecker.org](
+https://accessibilitychecker.org/audit/?website=https://angora.id)  
+[[https://websiteaccessibilitychecker.com](https://websiteaccessibilitychecker.com/checker/index.php)  
+[https://wave.webaim.org](
+https://wave.webaim.org/report#/https://angora.id/)  
 [https://inspect.userway.org](https://inspect.userway.org/angora.id)  
 [https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
 
