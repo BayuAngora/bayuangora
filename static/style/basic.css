@@ -310,8 +310,7 @@ color: #fff;
 font-size: .8rem;
 }
 * a:hover, .mode * a:hover,
-a *:hover, .mode a *:hover,
-.mode .copyright a:hover {
+a *:hover, .mode a *:hover {
 fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
