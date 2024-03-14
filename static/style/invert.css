@@ -12,6 +12,7 @@ max-width: 50rem;
 min-height: 100vh;
 margin: auto;
 background: linear-gradient(150deg, #300, #123);
+background-color: #000;
 text-align: center;
 }
 * {
@@ -313,15 +314,15 @@ text-shadow: .4px .4px .2px #222;
 .mode * {
 color: #000;
 }
-.mode, .mode .button {
-background: linear-gradient(150deg, #eba, #bcd);
-background-color: #fff;
-}
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
 }
 .mode .icon {
 fill: #000;
+}
+.mode, .mode .button {
+background: linear-gradient(150deg, #eba, #bcd);
+background-color: #fff;
 }
 .mode .box, .mode .search,
 .mode .pagination a {
