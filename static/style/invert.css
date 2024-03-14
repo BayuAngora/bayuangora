@@ -218,6 +218,7 @@ max-width: 50rem;
 line-height: 1.4;
 margin: auto;
 background: linear-gradient(150deg, #300, #123);
+background-color: #000;
 }
 main {
 padding: 1rem 1.5rem;
@@ -314,6 +315,7 @@ color: #000;
 }
 .mode, .mode .button {
 background: linear-gradient(150deg, #eba, #bcd);
+background-color: #fff;
 }
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
