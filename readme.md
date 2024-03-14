@@ -180,7 +180,7 @@ ___
 https://wave.webaim.org/report#/https://angora.id/)  
 [https://inspect.userway.org](https://inspect.userway.org/angora.id)  
 [https://webaccessibility.com](https://webaccessibility.com/results/?url=https://angora.id)  
-[https://achecks.org/achecker](https://achecks.org/achecker)  
+[https://achecks.org](https://achecks.org/achecker)  
 [https://accessibe.com](https://accessibe.com/accessscan?website=angora.id)  
 [https://accessibleweb.com](https://accessibleweb.com/website-accessibility-checker/?page_url=https://angora.id)  
 [https://accessibilitychecker.org](
