@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<meta name="keywords" content="{{ .Site.Title }}">
+<meta name="keywords" content="{{ .Title }}">
 <meta name="view-transition" content="same-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,20 +12,20 @@
 <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
 <meta name="image" content="{{ .Site.Params.Cdn }}bayuangora.webp">
 <meta name="description" content="
-{{ .Site.Params.Description }}
+{{ .Summary }}
 ">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Page Not Found">
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
 <meta name="twitter:image" content="{{ .Site.Params.Cdn }}bayuangora.webp">
 <meta name="twitter:description" content="
-{{ .Site.Params.Description }}
+{{ .Summary }}
 ">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:title" content="Page Not Found">
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
 <meta property="og:image" content="{{ .Site.Params.Cdn }}bayuangora.webp">
 <meta property="og:description" content="
-{{ .Site.Params.Description }}
+{{ .Summary }}
 ">
