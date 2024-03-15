@@ -11,7 +11,7 @@ justify-content: center;
 max-width: 50rem;
 min-height: 100vh;
 margin: auto;
-background: linear-gradient(150deg, #300, #123);
+background: linear-gradient(150deg,#300,#123);
 background-color: #000;
 text-align: center;
 }
@@ -84,7 +84,7 @@ line-height: 1.25;
 margin: 1rem auto .5rem;
 padding: .8rem 0 1rem;
 color: #fff;
-background: linear-gradient(150deg, #300, #123);
+background: linear-gradient(150deg,#300,#123);
 font-size: 1.2rem;
 }
 .link, .link a {
@@ -181,7 +181,7 @@ justify-content: center;
 max-width: 50rem;
 line-height: 1.4;
 margin: auto;
-background: linear-gradient(150deg, #300, #123);
+background: linear-gradient(150deg,#300,#123);
 background-color: #000;
 }
 * {
@@ -261,7 +261,7 @@ margin: 0 0 1rem;
 padding: .5rem 0;
 }
 .button {
-background: linear-gradient(150deg, #300, #123);
+background: linear-gradient(150deg,#300,#123);
 }
 .button, .search {
 width: 100%;
@@ -321,7 +321,7 @@ border: .05rem solid rgba(0,0,0,1);
 fill: #000;
 }
 .mode, .mode .button {
-background: linear-gradient(150deg, #eba, #bcd);
+background: linear-gradient(150deg,#eba,#bcd);
 background-color: #fff;
 }
 .mode .box, .mode .search,
