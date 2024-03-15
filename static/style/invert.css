@@ -127,36 +127,28 @@ background: rgba(250,250,250,.75);
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
-left: 0%; height: 8rem;
-animation-duration: 20s;
+left: 0%; height: 8rem; animation-duration: 20s;
 }
 .motion li:nth-child(2) {
-left: 15%; height: 4rem;
-animation-duration: 12s;
+left: 15%; height: 4rem; animation-duration: 12s;
 }
 .motion li:nth-child(3) {
-left: 30%; height: 6rem;
-animation-duration: 16s;
+left: 30%; height: 6rem; animation-duration: 16s;
 }
 .motion li:nth-child(4) {
-left: 45%; height: 2rem;
-animation-duration: 8s;
+left: 45%; height: 2rem; animation-duration: 8s;
 }
 .motion li:nth-child(5) {
-right: 0%; height: 2rem;
-animation-duration: 6s;
+right: 0%; height: 2rem; animation-duration: 6s;
 }
 .motion li:nth-child(6) {
-right: 15%; height: 8rem;
-animation-duration: 18s;
+right: 15%; height: 8rem; animation-duration: 18s;
 }
 .motion li:nth-child(7) {
-right: 30%; height: 4rem;
-animation-duration: 10s;
+right: 30%; height: 4rem; animation-duration: 10s;
 }
 .motion li:nth-child(8) {
-right: 45%; height: 6rem;
-animation-duration: 14s;
+right: 45%; height: 6rem; animation-duration: 14s;
 }
 @keyframes animate {
 0% { transform: rotate(150deg) translateY(0);
@@ -355,36 +347,28 @@ background: rgba(250,250,250,.75);
 animation: animate 10s linear infinite;
 }
 .motion li:nth-child(1) {
-left: 0%; height: 8rem;
-animation-duration: 20s;
+left: 0%; height: 8rem; animation-duration: 20s;
 }
 .motion li:nth-child(2) {
-left: 15%; height: 4rem;
-animation-duration: 12s;
+left: 15%; height: 4rem; animation-duration: 12s;
 }
 .motion li:nth-child(3) {
-left: 30%; height: 6rem;
-animation-duration: 16s;
+left: 30%; height: 6rem; animation-duration: 16s;
 }
 .motion li:nth-child(4) {
-left: 45%; height: 2rem;
-animation-duration: 8s;
+left: 45%; height: 2rem; animation-duration: 8s;
 }
 .motion li:nth-child(5) {
-right: 0%; height: 2rem;
-animation-duration: 6s;
+right: 0%; height: 2rem; animation-duration: 6s;
 }
 .motion li:nth-child(6) {
-right: 15%; height: 8rem;
-animation-duration: 18s;
+right: 15%; height: 8rem; animation-duration: 18s;
 }
 .motion li:nth-child(7) {
-right: 30%; height: 4rem;
-animation-duration: 10s;
+right: 30%; height: 4rem; animation-duration: 10s;
 }
 .motion li:nth-child(8) {
-right: 45%; height: 6rem;
-animation-duration: 14s;
+right: 45%; height: 6rem; animation-duration: 14s;
 }
 @keyframes animate {
 0% { transform: rotate(150deg) translateY(0);
