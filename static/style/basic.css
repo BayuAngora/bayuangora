@@ -43,7 +43,7 @@ text-align: center;
 .profile {
 width: 8rem;
 height: 8rem;
-margin: 1rem auto 0;
+margin: 1.25rem auto 0;
 border-radius: 50%;
 }
 .box, .menu, .search {
@@ -97,7 +97,7 @@ transition: fill 1s;
 }
 .copyright, .copyright a {
 max-height: 100%;
-margin: 0 auto 1rem;
+margin: 0 auto 1.25rem;
 color: #fff;
 font-size: .8rem;
 }
@@ -221,7 +221,7 @@ fill: #fff;
 transition: fill 1s;
 }
 .menu, .menu a {
-margin: 1rem auto -.5rem;
+margin: 1.25rem auto -.5rem;
 padding: 0 .5rem;
 }
 .title {
@@ -287,7 +287,7 @@ padding: .5rem;
 }
 .copyright, .copyright a {
 max-height: 100%;
-margin: 0 auto 1rem;
+margin: 0 auto 1.25rem;
 color: #fff;
 font-size: .8rem;
 }
@@ -307,6 +307,7 @@ border: .05rem solid #fff;
 fill: #000;
 }
 .mode, .mode .button {
+background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
 background-color: #fff;
 }
 .mode .box, .mode .search,
