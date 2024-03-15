@@ -31,7 +31,7 @@ ___
 
 ___
 
-## All In One  
+### All In One  
 [https://rss.app](https://rss.app)  
 [https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
@@ -43,15 +43,7 @@ ___
 
 ___
 
-## Static Hosting  
-[https://angora.now.sh](https://angora.now.sh)  
-[https://angora.pages.dev](https://angora.pages.dev)  
-[https://angora.netlify.app](https://angora.netlify.app)  
-[https://angora.vercel.app](https://angora.vercel.app)  
-
-___
-
-## Blogging Space  
+### Blogging Space  
 [https://angora.postach.io](https://angora.postach.io)  
 [https://angora.bearblog.dev](https://angora.bearblog.dev)  
 [https://angora.substack.com](https://angora.substack.com)  
@@ -60,7 +52,7 @@ ___
 
 ___
 
-## Developer Tools  
+### Developer Tools  
 [https://html.cafe](https://html.cafe)  
 [https://codepen.io](https://codepen.io)  
 [https://stackbit.com](https://stackbit.com)  
@@ -73,7 +65,7 @@ ___
 
 ___
 
-## Email Forwarder  
+### Email Forwarder  
 [https://cloudns.net](https://cloudns.net)  
 [https://mailtie.com](https://mailtie.com)  
 [https://dnsexit.com](https://dnsexit.com)  
@@ -82,7 +74,7 @@ ___
 
 ___
 
-## File Storage  
+### File Storage  
 [https://files.fm](https://files.fm)  
 [https://mediafire.com](https://mediafire.com)  
 [https://multcloud.com](https://multcloud.com)  
@@ -90,7 +82,7 @@ ___
 
 ___
 
-## Image Cloud  
+### Image Cloud  
 [https://angora.sirv.com/file-path](https://angora.sirv.com)  
 [https://angora.twic.pics/file-path](https://angora.twic.pics)  
 [https://angora.imgix.net/file-path](https://angora.imgix.net)  
@@ -102,7 +94,7 @@ ___
 
 ___
 
-## Image Editor  
+### Image Editor  
 [https://ezgif.com](https://ezgif.com)  
 [https://svgviewer.dev](https://svgviewer.dev)  
 [https://freeconvert.com](https://freeconvert.com)  
@@ -112,7 +104,7 @@ ___
 
 ___
 
-## Image Source  
+### Image Source  
 [https://freepik.com](https://freepik.com)  
 [https://logowik.com](https://logowik.com)  
 [https://loremflickr.com/600/300/abstract
@@ -124,14 +116,14 @@ ___
 
 ___
 
-## Social Media  
+### Social Media  
 [https://traffup.net](https://traffup.net)  
 [https://addmefast.com](https://followindo.com)  
 [https://followindo.com](https://followindo.com)  
 
 ___
 
-## Website Analyze  
+### Website Analyze  
 
 [https://ahrefs.com](https://ahrefs.com/backlink-checker/?input=https://angora.id)  
 [https://seoptimer.com](https://seoptimer.com/angora.id)  
@@ -139,7 +131,7 @@ ___
 
 ___
 
-## Website Monitor  
+### Website Monitor  
 [https://uptime.com](https://uptime.com)  
 [https://uptrends.com](https://uptrends.com/tools)  
 [https://pagescreen.io](https://pagescreen.io)  
@@ -148,7 +140,7 @@ ___
 
 ___
 
-## Website Optimize  
+### Website Optimize  
 [https://web.dev](https://web.dev)  
 [https://loader.io](https://loader.io)  
 [https://loadster.app](https://loadster.app)  
@@ -163,7 +155,7 @@ ___
 
 ___
 
-## Website Security  
+### Website Security  
 [https://ssllabs.com](https://ssllabs.com)  
 [https://hardenize.com](https://hardenize.com)  
 [https://sitecheck.sucuri.net](https://sitecheck.sucuri.net)  
@@ -172,7 +164,7 @@ ___
 
 ___
 
-## Website Validator  
+### Website Validator  
 [https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
 [https://pwabuilder.com](https://pwabuilder.com/reportcard?site=https://angora.id)  
