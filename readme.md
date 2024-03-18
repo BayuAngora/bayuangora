@@ -90,7 +90,8 @@ ___
 [https://angora.cloudimg.io/v7/file-path](https://angora.cloudimg.io)  
 [https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
 [https://cdn.statically.io/img/domain/file-path](https://statically.io)  
-[https://res.cloudinary.com/angora/image/fetch/source](https://cloudinary.com)  
+[https://res.cloudinary.com/angora/image/fetch/file-path](https://cloudinary.com)  
+[https://angora.netlify.app/.netlify/images?url=file-path](https://angora.netlify.app)  
 
 ___
 
