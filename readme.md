@@ -130,8 +130,8 @@ ___
 [https://ahrefs.com](https://ahrefs.com/backlink-checker/?input=https://angora.id)  
 [https://seoptimer.com](https://seoptimer.com/angora.id)  
 [https://smallseotools.com](https://smallseotools.com)  
-[https://seositecheckup.com](https://seositecheckup.com/seo-audit/angora.id)  
 [https://seoreviewtools.com](https://seoreviewtools.com)  
+[https://seositecheckup.com](https://seositecheckup.com/seo-audit/angora.id)  
 
 ___
 
