@@ -1,4 +1,0 @@
----
-title: Score
-layout: score
----
