@@ -104,6 +104,7 @@ ___
 [https://vectormagic.com](https://vectormagic.com)  
 [https://tools.picsart.com](https://tools.picsart.com)  
 [https://online-convert.com](https://online-convert.com)  
+[http://viliusle.github.io/miniPaint](http://viliusle.github.io/miniPaint)  
 
 ___
 
