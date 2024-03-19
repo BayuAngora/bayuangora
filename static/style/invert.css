@@ -216,7 +216,7 @@ text-align: center;
 text-align: justify;
 }
 .gallery {
-margin: 1rem;
+margin: .5rem .5rem .25rem;
 text-align: center;
 }
 .gallery img {
