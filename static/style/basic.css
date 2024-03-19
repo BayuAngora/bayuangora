@@ -215,6 +215,21 @@ text-align: center;
 .justify {
 text-align: justify;
 }
+.gallery {
+margin: 1rem;
+text-align: center;
+}
+.gallery img {
+margin: -.1rem auto;
+border-radius: .25rem;
+transition: 1s;
+}
+.gallery img:focus {
+width: 98%;
+}
+.big { width: 98%; }
+.half { width: 48.5%; }
+.small { width: 32%; }
 .icon {
 width: 3rem;
 fill: #fff;
