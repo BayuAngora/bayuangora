@@ -201,7 +201,7 @@ border: .05rem solid #000;
 img {
 width: 100%;
 margin: .25rem auto;
-border-radius: .5rem;
+border-radius: .25rem;
 animation: fadeIn 1s;
 }
 main {
@@ -221,7 +221,6 @@ text-align: center;
 }
 .gallery img {
 margin: -.1rem auto;
-border-radius: .25rem;
 transition: 1s;
 }
 .gallery img:focus {
@@ -291,9 +290,6 @@ margin-left: auto;
 .favicon {
 width: 3rem;
 margin: -.1rem auto .2rem;
-}
-.favicon img {
-border-radius: 0;
 animation: heartbeat 1.2s infinite;
 }
 .link, .link a {
