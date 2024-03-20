@@ -290,6 +290,8 @@ margin-left: auto;
 .favicon {
 width: 3rem;
 margin: -.1rem auto .2rem;
+}
+.favicon img {
 animation: heartbeat 1.2s infinite;
 }
 .link, .link a {
