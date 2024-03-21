@@ -101,7 +101,7 @@ margin: 0 auto 1.25rem;
 color: #fff;
 font-size: .8rem;
 }
-.menu a:hover, .link .icon:hover {
+.menu a:hover, .source .icon:hover {
 fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
