@@ -86,7 +86,7 @@ ___
 [https://angora.sirv.com/file-path](https://angora.sirv.com)  
 [https://angora.twic.pics/file-path](https://angora.twic.pics)  
 [https://angora.imgix.net/file-path](https://angora.imgix.net)  
-[https://angora.gumlet.com/file-path](https://angora.gumlet.com)  
+[https://angora.gumlet.io/file-path](https://angora.gumlet.io)  
 [https://angora.cloudimg.io/v7/file-path](https://angora.cloudimg.io)  
 [https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
 [https://cdn.statically.io/img/domain/file-path](https://statically.io)  
