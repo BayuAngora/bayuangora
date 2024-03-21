@@ -86,11 +86,11 @@ color: #fff;
 background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
 background-color: #000;
 }
-.link, .link a {
+.source, .source a {
 margin: -1.75rem auto -.25rem;
 padding: .5rem;
 }
-.link .icon {
+.source .icon {
 width: 3rem;
 fill: #fff;
 transition: fill 1s;
@@ -294,7 +294,7 @@ margin: -.1rem auto .2rem;
 .favicon img {
 animation: heartbeat 1.2s infinite;
 }
-.link, .link a {
+.source, .source a {
 margin: -1rem auto -.5rem;
 padding: .5rem;
 }
