@@ -309,19 +309,20 @@ text-shadow: .4px .4px .2px #222;
 .mode * {
 color: #000;
 }
+.mode, .mode .button {
+background: linear-gradient(150deg,#eba,#bcd);
+}
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
 }
 .mode .icon {
 fill: #000;
 }
-.mode, .mode .button {
-background: linear-gradient(150deg,#eba,#bcd);
-}
 .mode .box, .mode .search,
 .mode .pagination a {
 background: rgba(250,250,250,.75);
 }
+.mode .button, .mode .button a,
 .mode .copyright, .mode .copyright a {
 color: #000;
 }
