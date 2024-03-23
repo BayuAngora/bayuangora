@@ -306,6 +306,9 @@ fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
 }
+.mode {
+background: linear-gradient(150deg,#fcb,#cef);
+}
 .mode * {
 color: #fff;
 }
@@ -315,13 +318,11 @@ border: .05rem solid #fff;
 .mode .icon {
 fill: #000;
 }
-.mode, .mode .button {
-background: linear-gradient(150deg,#fcb,#cef);
-}
 .mode .box, .mode .search,
 .mode .pagination a {
 background: #000;
 }
+.mode .button, .mode .button a,
 .mode .copyright, .mode .copyright a {
 color: #000;
 }
