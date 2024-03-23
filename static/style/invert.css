@@ -12,7 +12,6 @@ max-width: 50rem;
 min-height: 100vh;
 margin: auto;
 background: linear-gradient(150deg,#300,#123);
-background-color: #000;
 text-align: center;
 }
 * {
@@ -84,7 +83,6 @@ margin: 1rem auto .5rem;
 padding: .8rem 0 1rem;
 color: #fff;
 background: linear-gradient(150deg,#300,#123);
-background-color: #000;
 }
 .source, .source a {
 margin: -1.75rem auto -.25rem;
@@ -165,7 +163,6 @@ max-width: 50rem;
 line-height: 1.4;
 margin: auto;
 background: linear-gradient(150deg,#300,#123);
-background-color: #000;
 }
 * {
 color: #fff;
@@ -260,7 +257,6 @@ padding: .5rem 0;
 .button {
 color: #fff;
 background: linear-gradient(150deg,#300,#123);
-background-color: #000;
 }
 .button, .search {
 width: 100%;
@@ -321,7 +317,6 @@ fill: #000;
 }
 .mode, .mode .button {
 background: linear-gradient(150deg,#eba,#bcd);
-background-color: #fff;
 }
 .mode .box, .mode .search,
 .mode .pagination a {
