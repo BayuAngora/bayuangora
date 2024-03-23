@@ -11,8 +11,7 @@ justify-content: center;
 max-width: 50rem;
 min-height: 100vh;
 margin: auto;
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
-background-color: #000;
+background: linear-gradient(150deg,#411,#134);
 text-align: center;
 }
 * {
@@ -83,8 +82,7 @@ width: 85%;
 margin: 1rem auto .5rem;
 padding: .8rem 0 1rem;
 color: #fff;
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
-background-color: #000;
+background: linear-gradient(150deg,#411,#134);
 }
 .source, .source a {
 margin: -1.75rem auto -.25rem;
@@ -164,8 +162,7 @@ justify-content: center;
 max-width: 50rem;
 line-height: 1.4;
 margin: auto;
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
-background-color: #000;
+background: linear-gradient(150deg,#411,#134);
 }
 * {
 color: #000;
@@ -259,8 +256,7 @@ padding: .5rem 0;
 }
 .button {
 color: #fff;
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
-background-color: #000;
+background: linear-gradient(150deg,#411,#134);
 }
 .button, .search {
 width: 100%;
@@ -320,8 +316,7 @@ border: .05rem solid #fff;
 fill: #000;
 }
 .mode, .mode .button {
-background: linear-gradient(150deg, rgba(250,100,50,.25) 0%, rgba(50,200,250,.25) 100%);
-background-color: #fff;
+background: linear-gradient(150deg,#fcb,#cef);
 }
 .mode .box, .mode .search,
 .mode .pagination a {
