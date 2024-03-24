@@ -312,12 +312,12 @@ fill: #e00;
 color: #e00;
 text-shadow: .4px .4px .2px #222;
 }
-.mode * {
-color: #000;
-}
 .mode, .mode .button {
 background: linear-gradient(150deg,#eba,#bcd);
 background-color: #000;
+}
+.mode * {
+color: #000;
 }
 .mode hr {
 border: .05rem solid rgba(0,0,0,1);
