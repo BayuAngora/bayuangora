@@ -25,8 +25,8 @@ ___
 
 [https://about.me/BayuAngora](https://about.me/BayuAngora)  
 [https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
-[https://dev.to/BayuAngora](https://dev.to/BayuAngora)  
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
+[https://glitch.com/@BayuAngora](https://glitch.com/@BayuAngora)  
 [https://gravatar.com/BayuAngora](https://gravatar.com/BayuAngora)  
 
 ___
