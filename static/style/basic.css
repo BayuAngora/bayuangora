@@ -327,7 +327,7 @@ fill: #000;
 }
 .mode .box, .mode .search,
 .mode .pagination a {
-background: #000;
+background: rgba(0,0,0,1);
 background-color: #000;
 }
 .mode .button, .mode .button a,
