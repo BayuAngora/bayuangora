@@ -236,7 +236,7 @@ width: 3rem;
 fill: #fff;
 transition: fill 1s;
 }
-.menu, .menu a {
+.navigation, .navigation a {
 margin: 1.25rem auto -.5rem;
 padding: 0 .5rem;
 }
