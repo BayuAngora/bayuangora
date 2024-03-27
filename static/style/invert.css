@@ -82,7 +82,7 @@ margin-left: auto;
 .search {
 width: 85%;
 margin: 1rem auto .5rem;
-padding: .8rem 0 1rem;
+padding: .85rem 0 1rem;
 color: #fff;
 background: linear-gradient(150deg,#300,#123);
 background-color: #000;
@@ -236,7 +236,7 @@ width: 3rem;
 fill: #fff;
 transition: fill 1s;
 }
-.navigation, .navigation a {
+.menu, .menu a {
 margin: 1.25rem auto -.5rem;
 padding: 0 .5rem;
 }
@@ -249,7 +249,7 @@ padding: 0 0 .5rem;
 .content p, .content a {
 text-shadow: .4px .4px .2px #222;
 }
-.box, .button, .search, .pagination a {
+.box, .button, .search, .paginator a {
 background: rgba(0,0,0,.75);
 background-color: rgba(0,0,0,.75);
 border: .1rem solid rgba(250,250,250,.75);
@@ -267,28 +267,22 @@ background-color: #000;
 }
 .button, .search {
 width: 100%;
-padding: .8rem 0 1rem;
+padding: .85rem 0 1rem;
 font-size: 1.2rem;
 }
-.button, .search, .pagination,
+.button, .search, .paginator,
 .copyright, .copyright a {
 line-height: 1.25;
 font-weight: 700;
 text-shadow: none;
 }
-.pagination {
+.paginator {
 display: flex;
 margin: 1rem auto -.3rem;
 }
-.pagination a {
+.paginator a {
 padding: 0 1.1rem;
 font-size: 2.25rem;
-}
-.pagination .left {
-margin-right: auto;
-}
-.pagination .right {
-margin-left: auto;
 }
 .favicon {
 width: 3rem;
@@ -327,7 +321,7 @@ border: .05rem solid rgba(0,0,0,1);
 fill: #000;
 }
 .mode .box, .mode .search,
-.mode .pagination a {
+.mode .paginator a {
 background: rgba(250,250,250,.75);
 background-color: rgba(250,250,250,.75);
 }
