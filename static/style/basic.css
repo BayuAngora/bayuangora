@@ -250,9 +250,9 @@ padding: 0 0 .5rem;
 text-shadow: .4px .4px .2px #222;
 }
 .share, .share img {
-fill: #fff;
 width: 1.5rem;
 margin: -2rem 0 0 auto;
+fill: #fff;
 }
 .box, .button, .search, .paginator a {
 background: rgba(0,0,0,.75);
