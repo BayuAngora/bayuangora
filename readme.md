@@ -76,7 +76,8 @@ ___
 
 ### File Storage  
 [https://files.fm](https://files.fm)  
-[https://mediafire.com](https://mediafire.com)  
+[https://yandex.com](https://yandex.com)  
+[https://mediafire.com](https://www.mediafire.com/?g774541)  
 [https://multcloud.com](https://multcloud.com)  
 [https://wetransfer.com](https://wetransfer.com)  
 
