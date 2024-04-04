@@ -252,7 +252,7 @@ text-shadow: .4px .4px .2px #222;
 }
 .share, .share a {
 width: 1.5rem;
-margin: -2rem 0 0 auto;
+margin: -2.5rem 0 .5rem auto;
 fill: #fff;
 transition: fill 1s;
 }
