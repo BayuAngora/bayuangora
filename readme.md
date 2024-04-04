@@ -76,7 +76,8 @@ ___
 
 ### File Storage  
 [https://files.fm](https://files.fm)  
-[https://yandex.com](https://yandex.com)  
+[https://mega.io](
+https://mega.io/?aff=LD9hG90b8HY)  
 [https://mediafire.com](https://www.mediafire.com/?g774541)  
 [https://multcloud.com](https://www.multcloud.com//inviteFriendsSign.html?inviteId=51feffd671bfaf540171ca3305492f8e)  
 [https://wetransfer.com](https://wetransfer.com)  
