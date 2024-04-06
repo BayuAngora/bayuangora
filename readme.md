@@ -164,6 +164,7 @@ ___
 [https://tools.keycdn.com](https://tools.keycdn.com)  
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 [https://app.wattspeed.com](https://app.wattspeed.com)  
+[https://webspeedtest.cloudinary.com](https://webspeedtest.cloudinary.com)  
 
 ___
 
