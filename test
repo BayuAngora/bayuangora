@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.Lang }}">
+
+{{ partial "head.html" . }}
+<body>
+
+{{ partial "header.html" . }}
+<main id="main">
+
+<div class="box">
+<a href="{{ .Permalink }}">
+<div class="center">
+<h1>{{ .Title }}</h1>
+</div>
+</a>
+</div>
+{{ range (.Paginate (.Pages).Reverse).Pages }}
+<article class="box">
+<a href="{{ .Permalink }}">
+<div class="title">
+<h2>{{ .Title }}</h2>
+</div>
+<div class="content">
+{{ .Content | truncate 80 }}
+</div>
+</a>
+</article>
+{{ end }}
+{{ partial "search.html" . }}
+<div class="paginator">
+<a class="left" role="button" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL | absURL }}{{ else }}#{{ end }}">«</a>
+<div id="mode" class="favicon">
+<div id="dark"><img alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}favicon.svg"></div>
+<div id="light" hidden><img alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}favicon.svg"></div>
+<div id="share" class="share" hidden></div>
+</div>
+<a class="right" role="button" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL | absURL }}{{ else }}#{{ end }}">»</a>
+</div>
+
+</main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>
