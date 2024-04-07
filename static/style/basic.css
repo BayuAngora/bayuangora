@@ -24,9 +24,6 @@ font-weight: 700;
 font-family: "font", sans-serif;
 transition: 1s, fill .25s;
 }
-*:focus {
-outline: .01px solid rgba(0,0,0,0);
-}
 ::selection {
 color: #e00;
 background: transparent;
@@ -175,9 +172,6 @@ user-select: none;
 text-decoration: none;
 font-family: "font", sans-serif;
 transition: 1s, fill .25s;
-}
-*:focus {
-outline: .01px solid rgba(0,0,0,0);
 }
 ::selection {
 color: #e00;
