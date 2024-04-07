@@ -79,8 +79,8 @@ ___
 [https://mega.io](
 https://mega.io/?aff=LD9hG90b8HY)  
 [https://pcloud.com](https://u.pcloud.com/#page=register&invite=gFd9ZXxo1PX)  
-[https://mediafire.com](https://www.mediafire.com/?g774541)  
-[https://multcloud.com](https://www.multcloud.com//inviteFriendsSign.html?inviteId=51feffd671bfaf540171ca3305492f8e)  
+[https://mediafire.com](https://mediafire.com/?g774541)  
+[https://multcloud.com](https://multcloud.com//inviteFriendsSign.html?inviteId=51feffd671bfaf540171ca3305492f8e)  
 [https://wetransfer.com](https://wetransfer.com)  
 
 ___
@@ -169,7 +169,7 @@ ___
 ___
 
 ### Website Security  
-[https://ssllabs.com](https://www.ssllabs.com/analyze.html?viaform=on&d=angora.id)  
+[https://ssllabs.com](https://ssllabs.com/analyze.html?viaform=on&d=angora.id)  
 [https://sitelock.com](https://sitelock.com/free-website-scan/?domain=angora.id)  
 [https://scanigma.com](https://scanigma.com/check-your-domain?checker_form[url_to_parse]=https://angora.id)  
 [https://hardenize.com](https://hardenize.com/report/angora.id)  
