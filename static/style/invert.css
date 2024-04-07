@@ -22,10 +22,10 @@ user-select: none;
 text-decoration: none;
 font-weight: 700;
 font-family: "font", sans-serif;
-transition: color 1s, background 1s, border 1s, text-shadow 1s;
+transition: 1s, fill .25s;
 }
 *:focus {
-outline: .01px solid rgba(0,0,0,0);
+outline: .01px solid rgba(250,250,250,0);
 }
 ::selection {
 color: #e00;
@@ -94,7 +94,6 @@ padding: .5rem;
 .source .icon {
 width: 3rem;
 fill: #fff;
-transition: fill 1s;
 }
 .copyright, .copyright a {
 max-height: 100%;
@@ -175,10 +174,10 @@ outline: none;
 user-select: none;
 text-decoration: none;
 font-family: "font", sans-serif;
-transition: color 1s, background 1s, border 1s, text-shadow 1s;
+transition: 1s, fill .25s;
 }
 *:focus {
-outline: .01px solid rgba(0,0,0,0);
+outline: .01px solid rgba(250,250,250,0);
 }
 ::selection {
 color: #e00;
@@ -224,7 +223,6 @@ text-align: center;
 }
 .gallery img {
 margin: -.1rem auto;
-transition: 1s;
 }
 .gallery img:focus {
 width: 98%;
@@ -235,7 +233,6 @@ width: 98%;
 .icon {
 width: 3rem;
 fill: #fff;
-transition: fill 1s;
 }
 .menu, .menu a {
 margin: 1.25rem auto -.5rem;
@@ -254,7 +251,6 @@ text-shadow: .4px .4px .2px #222;
 width: 1.5rem;
 margin: -2.5rem 0 .5rem auto;
 fill: #000;
-transition: fill 1s;
 }
 .box, .button, .search, .paginator a {
 background: rgba(250,250,250,1);
