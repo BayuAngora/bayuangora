@@ -39,8 +39,8 @@ ___
 [https://htmlrev.com](https://htmlrev.com)  
 [https://iframely.com](https://iframely.com)  
 [https://tinywow.com](https://tinywow.com)  
-[https://tools.pdf24.org](https://tools.pdf24.org)  
 [https://toolsdome.com](https://toolsdome.com)  
+[https://tools.pdf24.org](https://tools.pdf24.org)  
 
 ___
 
@@ -182,6 +182,7 @@ ___
 ### Website Validator  
 [https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
+[https://validator.schema.org](https://validator.schema.org/#url=https://angora.id)  
 [https://pwabuilder.com](https://pwabuilder.com/reportcard?site=https://angora.id)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
 [https://wave.webaim.org](
