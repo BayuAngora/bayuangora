@@ -19,8 +19,8 @@ if (isDark){light.style.display="block";
 dark.style.display="none";
 localStorage.setItem("preferredTheme","dark");
 } else {
-light.style.display="none";
 dark.style.display="block";
+light.style.display="none";
 localStorage.removeItem("preferredTheme");}
 document.body.classList.toggle("mode");}
 document.getElementById("dark").addEventListener("click", 
