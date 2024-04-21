@@ -95,7 +95,7 @@ ___
 [https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
 [https://cdn.statically.io/img/domain/file-path](https://statically.io)  
 [https://angora.netlify.app/.netlify/images?url=file-path](https://angora.netlify.app)  
-[https://res.cloudinary.com/angora/image/fetch/file-path](https://cloudinary.com)  
+[https://res.cloudinary.com/angora/file-path](https://cloudinary.com)  
 
 ___
 
