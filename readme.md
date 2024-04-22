@@ -16,15 +16,13 @@ ___
 <a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
 <a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
-<a href="https://observatory.mozilla.org/analyze/angora.id" target="_blank" rel="noopener"><img alt="Observatory" src="https://img.shields.io/mozilla-observatory/grade/angora.id"></a>
 <a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/badge/securityheaders-A+-success"></a>
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://api.netlify.com/api/v1/badges/3b4f7241-d58d-4cb3-9fdb-f909929dd567/deploy-status"></a>
 
 ___
 
-[https://about.me/BayuAngora](https://about.me/BayuAngora)  
-[https://codepen.io/BayuAngora](https://codepen.io/BayuAngora)  
+[https://about.me/BayuAngora](https://about.me/BayuAngora)    
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
 [https://glitch.com/@BayuAngora](https://glitch.com/@BayuAngora)  
 [https://gravatar.com/BayuAngora](https://gravatar.com/BayuAngora)  
