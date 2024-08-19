@@ -114,6 +114,7 @@ ___
 [https://freepik.com](https://freepik.com)  
 [https://logowik.com](https://logowik.com)  
 [https://iconscout.com](https://iconscout.com)  
+[https://stockcake.com](https://stockcake.com)  
 [https://loremflickr.com/600/300/abstract
 ](https://loremflickr.com)  
 [https://picsum.photos/seed/abstract/600/300
