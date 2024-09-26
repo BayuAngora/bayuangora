@@ -134,8 +134,8 @@ ___
 ### Website Analyze  
 
 [https://ahrefs.com](https://ahrefs.com/backlink-checker/?input=https://angora.id)  
+[https://seranking.com](https://seranking.com/domain-trust-checker.html)  
 [https://seoptimer.com](https://seoptimer.com/angora.id)  
-[https://seranking.com/domain-trust-checker.html](https://seranking.com/domain-trust-checker.html)  
 [https://prepostseo.com](https://prepostseo.com)  
 [https://smallseotools.com](https://smallseotools.com)  
 [https://seoreviewtools.com](https://seoreviewtools.com)  
