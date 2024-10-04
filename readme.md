@@ -134,6 +134,7 @@ ___
 
 ### Website Analyze  
 
+[https://moz.com](https://moz.com/domain-analysis?site=angora.id)  
 [https://ahrefs.com](https://ahrefs.com/backlink-checker/?input=https://angora.id)  
 [https://seranking.com](https://seranking.com/domain-trust-checker.html)  
 [https://seoptimer.com](https://seoptimer.com/angora.id)  
