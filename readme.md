@@ -176,10 +176,10 @@ ___
 [https://sitelock.com](https://sitelock.com/free-website-scan/?domain=angora.id)  
 [https://scanigma.com](https://scanigma.com/check-your-domain?checker_form[url_to_parse]=https://angora.id)  
 [https://hardenize.com](https://hardenize.com/report/angora.id)  
+[https://trustedsite.com](https://trustedsite.com/verify?host=angora.id)  
 [https://scamadvisor.com](https://scamadviser.com/check-website/angora.id)  
 [https://sitecheck.sucuri.net](https://sitecheck.sucuri.net/results/angora.id)  
 [https://securityheaders.com](https://securityheaders.com/?q=https://angora.id)  
-[https://trustedsite.com](https://trustedsite.com/verify?host=angora.id)  
 [https://observatory.mozilla.org](https://observatory.mozilla.org/analyze/angora.id)  
 
 ___
