@@ -32,8 +32,8 @@ ___
 ### All In One  
 [https://rss.app](https://rss.app)  
 [https://elink.io](https://elink.io)  
-[https://ifttt.com](https://ifttt.com)  
 [https://publer.io](https://publer.io)  
+[https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
 [https://htmlrev.com](https://htmlrev.com)  
 [https://iframely.com](https://iframely.com)  
