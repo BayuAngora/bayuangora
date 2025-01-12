@@ -22,6 +22,15 @@ ___
 
 ___
 
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BayuAngora&theme=github_dark" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BayuAngora&theme=github_dark"  />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BayuAngora&theme=github_dark"  />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BayuAngora&theme=github_dark"/>
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BayuAngora&theme=github_dark" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=BayuAngora&theme=transparent&hide_border=true&" align="center" />
+
+___
+
 [https://about.me/BayuAngora](https://about.me/BayuAngora)    
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
 [https://glitch.com/@BayuAngora](https://glitch.com/@BayuAngora)  
