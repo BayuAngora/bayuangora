@@ -35,7 +35,6 @@ ___
 [https://publer.io](https://publer.io)  
 [https://ifttt.com](https://ifttt.com)  
 [https://aspose.app](https://aspose.app)  
-[https://htmlrev.com](https://htmlrev.com)  
 [https://iframely.com](https://iframely.com)  
 [https://tinywow.com](https://tinywow.com)  
 [https://toolsdome.com](https://toolsdome.com)  
@@ -55,6 +54,7 @@ ___
 ### Developer Tools  
 [https://html.cafe](https://html.cafe)  
 [https://codepen.io](https://codepen.io)  
+[https://htmlrev.com](https://htmlrev.com)  
 [https://stackbit.com](https://stackbit.com)  
 [https://stackblitz.com](https://stackblitz.com)  
 [https://site-shot.com](https://site-shot.com)  
