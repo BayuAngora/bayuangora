@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chess Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+        }
+        .chessboard div {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        .black {
+            background-color: #769656;
+        }
+        .white {
+            background-color: #eeeed2;
+        }
+    </style>
+</head>
+<body>
+    <div class="chessboard" id="chessboard"></div>
+    <script>
+        const pieces = {
+            'r': '♜', 'n': '♞', 'b': '♝', 'q': '♛', 'k': '♚', 'p': '♟',
+            'R': '♖', 'N': '♘', 'B': '♗', 'Q': '♕', 'K': '♔', 'P': '♙'
+        };
+        const initialBoard = [
+            'rnbqkbnr', 'pppppppp', '        ', '        ',
+            '        ', '        ', 'PPPPPPPP', 'RNBQKBNR'
+        ];
+        const chessboard = document.getElementById('chessboard');
+
+        function createBoard() {
+            chessboard.innerHTML = '';
+            for (let row = 0; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    const square = document.createElement('div');
+                    const piece = initialBoard[row][col];
+                    square.className = (row + col) % 2 === 0 ? 'white' : 'black';
+                    square.dataset.row = row;
+                    square.dataset.col = col;
+                    if (piece !== ' ') {
+                        square.innerHTML = pieces[piece];
+                        square.draggable = true;
+                    }
+                    chessboard.appendChild(square);
+                }
+            }
+        }
+
+        function handleDragStart(event) {
+            event.dataTransfer.setData('text/plain', event.target.innerHTML);
+            event.target.innerHTML = '';
+        }
+
+        function handleDragOver(event) {
+            event.preventDefault();
+        }
+
+        function handleDrop(event) {
+            event.preventDefault();
+            const piece = event.dataTransfer.getData('text/plain');
+            event.target.innerHTML = piece;
+        }
+
+        createBoard();
+
+        document.querySelectorAll('.chessboard div').forEach(square => {
+            square.addEventListener('dragstart', handleDragStart);
+            square.addEventListener('dragover', handleDragOver);
+            square.addEventListener('drop', handleDrop);
+        });
+    </script>
+</body>
+</html>
