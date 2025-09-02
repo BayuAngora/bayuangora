@@ -1,10 +1,10 @@
 <div id="BayuAngora">
-<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://id.imgix.net/image/particle.svg" width="100%" height="100%"></a>
+<a href="https://github.com/BayuAngora/angora"><img alt="BayuAngora" src="https://id.imgix.net/particle.svg" width="100%" height="100%"></a>
 </div>
 
 ___
 
-<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://id.imgix.net/image/pagespeed.svg"></a>
+<a href="https://pagespeed.web.dev/report?url=https://angora.id"><img alt="PageSpeed" src="https://id.imgix.net/pagespeed.svg"></a>
 <a href="https://angora.betteruptime.com" target="_blank" rel="noopener"><img alt="Better Uptime" src="https://betteruptime.com/status-badges/v1/monitor/imf0.svg"></a>
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Uptime Status" src="https://img.shields.io/website?url=https://angora.id"></a>
 <a href="https://validator.w3.org/nu/?doc=https://angora.id" target="_blank" rel="noopener"><img alt="Validator" src="https://img.shields.io/w3c-validation/default?targetUrl=https://angora.id/"></a>
