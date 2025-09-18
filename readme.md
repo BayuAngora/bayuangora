@@ -21,8 +21,7 @@ ___
 <a href="https://websitecarbon.com/website/angora-id" target="_blank" rel="noopener"><img alt="Carbon" src="https://img.shields.io/badge/carbon-A+-success"></a>
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://img.shields.io/netlify/3b4f7241-d58d-4cb3-9fdb-f909929dd567"></a>
 <a href="https://app.netlify.com/sites/angora/deploys" target="_blank" rel="noopener"><img alt="Netlify" src="https://api.netlify.com/api/v1/badges/3b4f7241-d58d-4cb3-9fdb-f909929dd567/deploy-status"></a>
-
-<img src="https://app.greenweb.org/api/v3/greencheckimage/angora.id?nocache=true" alt="Green Hosting" width="100%">
+<a href="https://thegreenwebfoundation.org/green-web-check/?url=angora.id" target="_blank" rel="noopener"><img alt="Green Hosting" width="100%" src="https://app.greenweb.org/api/v3/greencheckimage/angora.id?nocache=true"></a>
 
 ___
 
