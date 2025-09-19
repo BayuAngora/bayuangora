@@ -192,7 +192,7 @@ ___
 [https://validator.w3.org](https://validator.w3.org/nu/?doc=https://angora.id)  
 [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator?uri=https://angora.id)  
 [https://digitalbeacon.co/report/angora-id](https://digitalbeacon.co/report/angora-id)
-[https://websitecarbon.com/website/angora-id](href="https://websitecarbon.com/website/angora-id)
+[https://websitecarbon.com/website/angora-id](https://websitecarbon.com/website/angora-id)
 [https://pwabuilder.com](https://pwabuilder.com/reportcard?site=https://angora.id)  
 [https://website.grader.com](https://website.grader.com/tests/angora.id)  
 [https://wave.webaim.org](
