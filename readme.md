@@ -211,6 +211,4 @@ https://fonts.googleapis.com/css2?family=Google+Fonts:wght@400;700&text=12345678
 
 ___
 
-<a href="https://trustedsite.com/verify?host=angora.id">
-<img alt="TrustedSite" src="https://id.imgix.net/image/trustedsite.svg">
-</a>
+<a href="https://trustedsite.com/verify?host=angora.id"><img alt="TrustedSite" src="https://ik.imagekit.io/angora/trustedsite.svg"></a>
