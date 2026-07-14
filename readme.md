@@ -16,7 +16,7 @@ ___
 <a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
 <a href="https://sitecheck.sucuri.net/results/angora.id/" target="_blank" rel="noopener"><img alt="Sucuri" src="https://img.shields.io/badge/sucuri-✓-success"></a>
-<a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-A+-success"></a>
+<a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-✓-success"></a>
 <a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/badge/securityheaders-A+-success"></a>
 <a href="https://digitalbeacon.co/report/angora-id" target="_blank" rel="noopener"><img alt="Beacon" src="https://img.shields.io/badge/beacon-A+-success"></a>
 <a href="https://websitecarbon.com/website/angora-id" target="_blank" rel="noopener"><img alt="Carbon" src="https://img.shields.io/badge/carbon-A+-success"></a>
