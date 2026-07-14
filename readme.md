@@ -28,7 +28,6 @@ ___
 
 [https://about.me/BayuAngora](https://about.me/BayuAngora)    
 [https://github.com/BayuAngora](https://github.com/BayuAngora)  
-[https://glitch.com/@BayuAngora](https://glitch.com/@BayuAngora)  
 [https://gravatar.com/BayuAngora](https://gravatar.com/BayuAngora)  
 
 ___
@@ -44,7 +43,7 @@ ___
 [https://tinywow.com](https://tinywow.com)  
 [https://toolsdome.com](https://toolsdome.com)  
 [https://tools.pdf24.org](https://tools.pdf24.org)  
-
+[https://transfonter.org](https://transfonter.org)  
 ___
 
 ### Blogging Space  
