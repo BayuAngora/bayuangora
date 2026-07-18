@@ -15,6 +15,7 @@ ___
 <a href="https://website.grader.com/tests/angora.id" target="_blank" rel="noopener"><img alt="Grader" src="https://img.shields.io/badge/grader-100-success"></a>
 <a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-A-success"></a>
+<a href="https://safeweb.norton.com/report/show?url=angora.id" target="_blank" rel="noopener"><img alt="Norton" src="https://img.shields.io/badge/norton-✓-success"></a>
 <a href="https://sitecheck.sucuri.net/results/angora.id/" target="_blank" rel="noopener"><img alt="Sucuri" src="https://img.shields.io/badge/sucuri-✓-success"></a>
 <a href="https://hardenize.com/report/angora.id" target="_blank" rel="noopener"><img alt="Hardenize" src="https://img.shields.io/badge/hardenize-✓-success"></a>
 <a href="https://securityheaders.com/?q=https://angora.id" target="_blank" rel="noopener"><img alt="Security Headers" src="https://img.shields.io/badge/securityheaders-A+-success"></a>
