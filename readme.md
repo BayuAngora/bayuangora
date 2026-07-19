@@ -98,9 +98,8 @@ ___
 [https://angora.gumlet.io/file-path](https://angora.gumlet.io)  
 [https://angora.cloudimg.io/v7/file-path](https://angora.cloudimg.io)  
 [https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
-[https://cdn.statically.io/img/domain/file-path](https://statically.io)  
-[https://angora.netlify.app/.netlify/images?url=file-path](https://angora.netlify.app)  
 [https://res.cloudinary.com/angora/file-path](https://cloudinary.com)  
+[https://angora.netlify.app/.netlify/images?url=file-path](https://angora.netlify.app)  
 
 ___
 
