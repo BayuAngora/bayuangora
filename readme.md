@@ -96,7 +96,6 @@ ___
 [https://angora.twic.pics/file-path](https://angora.twic.pics)  
 [https://angora.imgix.net/file-path](https://angora.imgix.net)  
 [https://angora.gumlet.io/file-path](https://angora.gumlet.io)  
-[https://angora.cloudimg.io/v7/file-path](https://angora.cloudimg.io)  
 [https://ik.imagekit.io/angora/file-path](https://imagekit.io)  
 [https://res.cloudinary.com/angora/file-path](https://cloudinary.com)  
 [https://angora.netlify.app/.netlify/images?url=file-path](https://angora.netlify.app)  
