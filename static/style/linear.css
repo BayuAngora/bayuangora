@@ -1,7 +1,6 @@
 ### LINEAR ###
 
 /* start */
-
 html {
 scroll-behavior: smooth;
 text-rendering: optimizeSpeed;
@@ -98,6 +97,31 @@ margin: 0 auto 1.25rem;
 color: #eee;
 font-size: .75rem;
 }
+.motion li {
+display: block;
+position: fixed;
+top: 0%;
+z-index: -1;
+width: .15rem;
+background: rgba(250,250,250,.75);
+animation: starfall 10s linear infinite;
+}
+.motion li:nth-child(1)
+{ left: 0%; height: 10rem; animation-duration: 20s; }
+.motion li:nth-child(2)
+{ left: 15%; height: 6rem; animation-duration: 12s; }
+.motion li:nth-child(3)
+{ left: 30%; height: 8rem; animation-duration: 16s; }
+.motion li:nth-child(4)
+{ left: 45%; height: 4rem; animation-duration: 8s; }
+.motion li:nth-child(5)
+{ right: 0%; height: 4rem; animation-duration: 6s; }
+.motion li:nth-child(6)
+{ right: 15%; height: 10rem; animation-duration: 18s; }
+.motion li:nth-child(7)
+{ right: 30%; height: 6rem; animation-duration: 10s; }
+.motion li:nth-child(8)
+{ right: 45%; height: 8rem; animation-duration: 14s; }
 @font-face {
 font-display: swap;
 font-family: "font";
@@ -111,32 +135,7 @@ to { opacity: 1; }
 from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
-.motion li {
-display: block;
-position: fixed;
-top: 0%;
-z-index: -1;
-width: .15rem;
-background: rgba(250,250,250,.75);
-animation: animate 10s linear infinite;
-}
-.motion li:nth-child(1)
-{ left: 0%; height: 8rem; animation-duration: 20s; }
-.motion li:nth-child(2)
-{ left: 15%; height: 4rem; animation-duration: 12s; }
-.motion li:nth-child(3)
-{ left: 30%; height: 6rem; animation-duration: 16s; }
-.motion li:nth-child(4)
-{ left: 45%; height: 2rem; animation-duration: 8s; }
-.motion li:nth-child(5)
-{ right: 0%; height: 2rem; animation-duration: 6s; }
-.motion li:nth-child(6)
-{ right: 15%; height: 8rem; animation-duration: 18s; }
-.motion li:nth-child(7)
-{ right: 30%; height: 4rem; animation-duration: 10s; }
-.motion li:nth-child(8)
-{ right: 45%; height: 6rem; animation-duration: 14s; }
-@keyframes animate {
+@keyframes starfall {
 0% { transform: rotate(150deg) translateY(0);
 opacity: .5; border-radius: 50%; }
 100% { transform: rotate(150deg) translateY(-100rem);
@@ -144,7 +143,6 @@ opacity: 0; border-radius: 50%; }
 }
 
 /* style */
-
 html {
 scroll-behavior: smooth;
 text-rendering: optimizeSpeed;
@@ -317,10 +315,42 @@ fill: #eef;
 .mode .copyright, .mode .copyright a {
 color: #300;
 }
+.motion li {
+position: fixed;
+display: block;
+top: 0%;
+z-index: -1;
+width: .15rem;
+background: rgba(250,250,250,.75);
+animation: starfall 10s linear infinite;
+}
+.motion li:nth-child(1)
+{ left: 0%; height: 10rem; animation-duration: 20s; }
+.motion li:nth-child(2)
+{ left: 15%; height: 6rem; animation-duration: 12s; }
+.motion li:nth-child(3)
+{ left: 30%; height: 8rem; animation-duration: 16s; }
+.motion li:nth-child(4)
+{ left: 45%; height: 4rem; animation-duration: 8s; }
+.motion li:nth-child(5)
+{ right: 0%; height: 4rem; animation-duration: 6s; }
+.motion li:nth-child(6)
+{ right: 15%; height: 10rem; animation-duration: 18s; }
+.motion li:nth-child(7)
+{ right: 30%; height: 6rem; animation-duration: 10s; }
+.motion li:nth-child(8)
+{ right: 45%; height: 8rem; animation-duration: 14s; }
 @font-face {
 font-display: swap;
 font-family: "font";
 src: url("/font.woff2");
+}
+@keyframes heartbeat {
+0% { transform: scale(1); }
+20% { transform: scale(1.05); }
+40% { transform: scale(1.02); }
+50% { transform: scale(1.10); }
+100% { transform: scale(1); }
 }
 @keyframes fadeIn {
 from { opacity: 0; }
@@ -330,43 +360,7 @@ to { opacity: 1; }
 from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
-@keyframes gradient {
-50% { background-color: #123; }
-0%, 100% { background-color: #400; }
-}
-@keyframes heartbeat {
-0% { transform: scale(1); }
-20% { transform: scale(1.05); }
-40% { transform: scale(1.02); }
-50% { transform: scale(1.10); }
-100% { transform: scale(1); }
-}
-.motion li {
-position: fixed;
-display: block;
-top: 0%;
-z-index: -1;
-width: .15rem;
-background: rgba(250,250,250,.75);
-animation: animate 10s linear infinite;
-}
-.motion li:nth-child(1)
-{ left: 0%; height: 8rem; animation-duration: 20s; }
-.motion li:nth-child(2)
-{ left: 15%; height: 4rem; animation-duration: 12s; }
-.motion li:nth-child(3)
-{ left: 30%; height: 6rem; animation-duration: 16s; }
-.motion li:nth-child(4)
-{ left: 45%; height: 2rem; animation-duration: 8s; }
-.motion li:nth-child(5)
-{ right: 0%; height: 2rem; animation-duration: 6s; }
-.motion li:nth-child(6)
-{ right: 15%; height: 8rem; animation-duration: 18s; }
-.motion li:nth-child(7)
-{ right: 30%; height: 4rem; animation-duration: 10s; }
-.motion li:nth-child(8)
-{ right: 45%; height: 6rem; animation-duration: 14s; }
-@keyframes animate {
+@keyframes starfall {
 0% { transform: rotate(150deg) translateY(0);
 opacity: .5; border-radius: 50%; }
 100% { transform: rotate(150deg) translateY(-100rem);
