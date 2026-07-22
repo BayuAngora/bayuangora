@@ -94,7 +94,7 @@ fill: #e00;
 .copyright, .copyright a {
 max-height: 100%;
 margin: 0 auto 1.25rem;
-color: #eee;
+color: #eef;
 font-size: .75rem;
 }
 .motion li {
@@ -249,10 +249,10 @@ margin: 0 auto;
 }
 .favicon img {
 width: 3.25rem;
-animation: heartbeat 1.5s infinite;
+animation: heart 1.5s infinite;
 }
 .favicon img:hover {
-animation: heartbeat .75s infinite;
+animation: heart .75s infinite;
 }
 .gallery {
 margin: 0 -.75rem -.25rem;
@@ -345,7 +345,7 @@ font-display: swap;
 font-family: "font";
 src: url("/font.woff2");
 }
-@keyframes heartbeat {
+@keyframes heart {
 0% { transform: scale(1); }
 20% { transform: scale(1.05); }
 40% { transform: scale(1.02); }
