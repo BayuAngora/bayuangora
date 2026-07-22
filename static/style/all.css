@@ -141,7 +141,6 @@ opacity: .5; border-radius: 50%; }
 100% { transform: rotate(150deg) translateY(-100rem);
 opacity: 0; border-radius: 50%; }
 }
-
 /* linear
 body {
 background: linear-gradient(150deg, #400 0%, #123 100%);
@@ -403,7 +402,6 @@ opacity: .5; border-radius: 50%; }
 100% { transform: rotate(150deg) translateY(-100rem);
 opacity: 0; border-radius: 50%; }
 }
-
 /* linear
 body {
 background: linear-gradient(150deg, #400 0%, #123 100%);
