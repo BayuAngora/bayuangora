@@ -54,7 +54,7 @@ font-size: 1.25rem;
 }
 .menu {
 margin: 0 auto 1rem;
-padding: .5rem 0 1.1rem;
+padding: .5rem 0 1rem;
 }
 .menu, .menu a {
 display: flex;
@@ -63,7 +63,7 @@ font-size: 1.5rem;
 font-weight: 700;
 }
 .menu .left, .menu .right {
-width: 1.5rem;
+width: 1.75rem;
 padding: .25rem 1rem 0;
 fill: #000;
 }
