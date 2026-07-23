@@ -301,6 +301,7 @@ fill: #000;
 }
 .mode .box, .mode .search,
 .mode .paginator a {
+border: .1rem solid transparent;
 background: #000;
 background-color: #000;
 }
