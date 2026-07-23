@@ -2,7 +2,9 @@ if ("serviceWorker" in navigator) {
 navigator.serviceWorker.register("/service.js");
 navigator.serviceWorker.ready.then(async function (registration) {
 if ("sync" in registration) {
-registration.sync.register("sync").catch(console.error);
+registration.sync.register("sync").catch(function (err) {
+console.warn("Background Sync is disabled in this environment.");
+});
 } try {
 if ("periodicSync" in registration) {
 const periodicSyncPermission = await navigator.permissions.query({
@@ -13,7 +15,7 @@ await registration.periodicSync.register("fetch-new-content", {
 minInterval: 24 * 60 * 60 * 1000,
 });}}
 } catch (error) {
-console.error("Periodic Sync Error:", error);
+console.warn("Periodic Sync is disabled in this environment.");
 }});}
 
 document.addEventListener("DOMContentLoaded", function () {
