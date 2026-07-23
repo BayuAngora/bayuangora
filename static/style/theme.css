@@ -332,8 +332,8 @@ border: .05rem solid #888;
 .mode .icon {
 fill: #000;
 }
-.mode .box, .mode .search,
-.mode .paginator a {
+.mode .box, .mode .button,
+.mode .search, .mode .paginator a {
 border: .1rem solid transparent;
 background: #000;
 background-color: #000;
@@ -450,8 +450,8 @@ border: .05rem solid #888;
 .mode .icon {
 fill: #300;
 }
-.mode .box, .mode .search,
-.mode .paginator a {
+.mode .box, .mode .button,
+.mode .search, .mode .paginator a {
 border: .1rem solid transparent;
 background: #300;
 background-color: #300;
