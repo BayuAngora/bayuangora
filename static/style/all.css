@@ -154,6 +154,7 @@ background: transparent;
 color: #300;
 }
 .box, .menu, .search {
+border: .1rem solid transparent;
 background: #eef;
 background-color: #eef;
 }
@@ -333,6 +334,7 @@ fill: #000;
 }
 .mode .box, .mode .search,
 .mode .paginator a {
+border: .1rem solid transparent;
 background: #000;
 background-color: #000;
 }
@@ -418,6 +420,7 @@ width: 3rem;
 fill: #eef;
 }
 .box, .button, .search, .paginator a {
+border: .1rem solid transparent;
 background: #eef;
 background-color: #eef;
 }
@@ -449,6 +452,7 @@ fill: #300;
 }
 .mode .box, .mode .search,
 .mode .paginator a {
+border: .1rem solid transparent;
 background: #300;
 background-color: #300;
 }
