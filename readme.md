@@ -18,5 +18,3 @@
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Website Status" src="https://img.shields.io/website?url=https://angora.id"></a>
 
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://ik.imagekit.io/angora/pagespeed.svg"></a>
-
-<hr>
