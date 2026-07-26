@@ -46,11 +46,6 @@ font-size: 1.25rem;
 h3, h4, h5, h6, p, a {
 font-size: 1rem;
 }
-hr {
-margin: 1.25rem auto 1rem;
-border: .05rem solid #888;
-opacity: 1;
-}
 img {
 width: 100%;
 margin: .25rem auto 0;
@@ -59,11 +54,15 @@ animation: fadeIn 1s;
 }
 header, footer, input,
 .center, .button, .search {
-text-align: center;
+text-align: ceter;
 }
 .justify {
 margin: 0 auto .5rem;
 text-align: justify;
+}
+.line {
+margin: 1rem auto .75rem;
+border: .05rem solid #888;
 }
 .icon {
 width: 3rem;
