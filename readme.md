@@ -2,6 +2,8 @@
 
 ___
 
+<a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://ik.imagekit.io/angora/pagespeed.svg"></a>
+
 <a href="https://accessibe.com/accessscan?website=angora.id" target="_blank" rel="noopener"><img alt="AccessiBe" src="https://img.shields.io/badge/accessibe-✓-success"></a>
 <a href="https://digitalbeacon.co/report/angora-id" target="_blank" rel="noopener"><img alt="Beacon" src="https://img.shields.io/badge/beacon-A+-success"></a>
 <a href="https://websitecarbon.com/website/angora-id" target="_blank" rel="noopener"><img alt="Carbon" src="https://img.shields.io/badge/carbon-A+-success"></a>
@@ -16,8 +18,6 @@ ___
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-✓-success"></a>
 <a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Website Status" src="https://img.shields.io/website?url=https://angora.id"></a>
-
-<a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://ik.imagekit.io/angora/pagespeed.svg"></a>
 
 ___
 
