@@ -27,12 +27,12 @@ transition: 1s, fill 1s;
 * a:hover, a *:hover {
 fill: #e00;
 color: #e00;
-text-shadow: .02rem .02rem #888;
+text-shadow: .025rem .025rem #888;
 }
 ::selection {
 color: #e00;
 background: transparent;
-text-shadow: .02rem .02rem #888;
+text-shadow: .025rem .025rem #888;
 }
 main {
 padding: 1rem 1.5rem;
