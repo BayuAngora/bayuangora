@@ -30,6 +30,7 @@ url: window.location.href,
 .then(() => console.log("Thanks"))
 .catch(console.error);
 }});}
+  
 const darkBtn = document.getElementById("dark");
 const lightBtn = document.getElementById("light");
 function setMode(isDark) {
