@@ -145,11 +145,11 @@ font-family: "font";
 src: url("https://angora.sirv.com/font/basic.woff2");
 }
 @keyframes fadeIn {
-from { opacity: 0.5; }
+from { opacity: 0; }
 to { opacity: 1; }
 }
 @keyframes fadeUp {
-from { opacity: 0.5; transform: translate3d(0,.5rem,0); }
+from { opacity: 0; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 @keyframes starfall {
