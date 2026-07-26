@@ -136,7 +136,14 @@ color: #eef;
 font-size: .75rem;
 }
 .sr-only {
-display: none;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+border-width: 0;
+overflow: hidden;
+white-space: nowrap;
 }
 * a:hover, a *:hover,
 .mode * a:hover, .mode a *:hover {
