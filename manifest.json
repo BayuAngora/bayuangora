@@ -14,12 +14,25 @@
   "display_override": [
     "window-controls-overlay"
   ],
-  "categories": [
-    "lifestyle"
-  ],
   "launch_handler": {
     "client_mode": "auto"
   },
+  "categories": [
+    "website"
+  ],
+  "shortcuts": [
+    {
+      "name": "Bayu Angora",
+      "url": "/"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "id": "Bayu Angora",
+      "url": "/"
+    }
+  ],
   "icons": [
     {
       "src": "/favicon.png",
@@ -28,20 +41,14 @@
       "purpose": "any"
     },
     {
-      "src": "/favicon.png",
-      "type": "image/png",
+      "src": "/favicon.svg",
+      "type": "image/svg",
       "sizes": "512x512",
       "purpose": "maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/bayuangora.webp",
-      "type": "image/webp",
-      "sizes": "1280x1280",
-      "form-factor": "wide"
-    },
-        {
       "src": "/bayuangora.webp",
       "type": "image/webp",
       "sizes": "1280x1280",
