@@ -54,7 +54,7 @@ animation: fadeIn 1s;
 }
 header, footer, input,
 .center, .button, .search {
-text-align: ceter;
+text-align: center;
 }
 .justify {
 margin: 0 auto .5rem;
