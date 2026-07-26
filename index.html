@@ -283,10 +283,11 @@ src="https://angora.sirv.com/event/multitalenan.webp">
 </div>
 
 <search>
-  <form name="site-search" action="/search" method="get" role="search">
-    <label for="query">Find your perfect pizza</label>
-    <input type="search" id="query" name="query" />
-  </form>
+<form action="https://google.com/search" target="_blank" rel="noopener" method="get" role="search" aria-label="Search, opens new tab">
+<input type="search" name="q" name="search" class="search" aria-label="Search" placeholder="Search?">
+<input type="hidden" name="q" name="search" class="search" value="site:angora.id">
+<button type="submit" class="sr-only">Search?</button>
+</form>
 </search>
 
 <div class="paginator">
