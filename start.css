@@ -14,7 +14,7 @@ min-height: 100vh;
 margin: 0 auto;
 background: linear-gradient(150deg, #400 0%, #123 100%);
 background-color: #300;
-
+animation: fadeUp 1s;
 }
 * {
 color: #300;
@@ -36,7 +36,6 @@ text-shadow: .025rem .025rem #888;
 }
 main {
 padding: 1rem 1.5rem;
-animation: fadeUp 1s;
 }
 .profile {
 width: 10rem;
@@ -146,11 +145,11 @@ font-family: "font";
 src: url("https://angora.sirv.com/font/basic.woff2");
 }
 @keyframes fadeIn {
-from { opacity: 0; }
+from { opacity: 0.5; }
 to { opacity: 1; }
 }
 @keyframes fadeUp {
-from { opacity: 0; transform: translate3d(0,.5rem,0); }
+from { opacity: 0.5; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 @keyframes starfall {
