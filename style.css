@@ -137,13 +137,10 @@ font-size: .75rem;
 }
 .sr-only {
 position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
+width: 0.01rem;
+height: 0.01rem;
 padding: 0;
-border-width: 0;
-overflow: hidden;
-white-space: nowrap;
+border: 0;
 }
 * a:hover, a *:hover,
 .mode * a:hover, .mode a *:hover {
