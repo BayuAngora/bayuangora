@@ -105,10 +105,13 @@ font-size: .75rem;
 }
 .sr-only {
 position: absolute;
-width: 0.01rem;
-height: 0.01rem;
+width: 1px;
+height: 1px;
+margin: -1px;
 padding: 0;
 border: 0;
+overflow: hidden;
+white-space: nowrap;
 }
 .motion span {
 display: block;
@@ -139,7 +142,7 @@ will-change: transform, opacity;
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("https://angora.sirv.com/font/basic.woff2");
+src: url("/font.woff2");
 }
 @keyframes fadeIn {
 from { opacity: 0; }
