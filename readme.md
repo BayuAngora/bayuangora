@@ -36,8 +36,8 @@ ___
 
 <hr>
 
-### Blogging Space  
-[https://angora.bearblog.dev](https://angora.bearblog.dev)  
+### Blog Bio Link  
+[https://angora.bio.link](https://angora.bio.link)  
 [https://angora.hashnode.dev](https://angora.hashnode.dev)  
 [https://angora.postach.io](https://angora.postach.io)  
 [https://angora.substack.com](https://angora.substack.com)  
