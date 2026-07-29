@@ -12,7 +12,7 @@ max-width: 50rem;
 min-height: 100vh;
 line-height: 1.25;
 margin: 0 auto;
-background: linear-gradient(150deg, #400 0%, #123 100%);
+background: linear-gradient(180deg, #300 0%, #012 100%);
 background-color: #300;
 }
 * {
@@ -129,7 +129,7 @@ fill: #300;
 .source, .source a {
 margin: -1.25rem .5rem .25rem;
 }
-.copyright, .copyright a {
+.copyright p, .copyright a {
 max-height: 100%;
 margin: 0 auto 1.25rem;
 color: #eef;
@@ -151,15 +151,13 @@ fill: #e00;
 color: #e00;
 text-shadow: .025rem .025rem #888;
 }
+/*
 .mode {
-background: linear-gradient(150deg, #fcc 0%, #ddf 100%);
+background: linear-gradient(180deg, #fcc 0%, #ddf 100%);
 background-color: #eef;
 }
 .mode * {
 color: #eef;
-}
-.mode hr {
-border: .05rem solid #888;
 }
 .mode .icon {
 fill: #300;
@@ -176,9 +174,10 @@ background: #eef;
 .mode .share, .mode .share a {
 fill: #eef;
 }
-.mode .copyright, .mode .copyright a {
+.mode .copyright p, .mode .copyright a {
 color: #300;
 }
+*/
 .motion span {
 display: block;
 position: fixed;
