@@ -12,16 +12,21 @@ max-width: 50rem;
 min-height: 100vh;
 line-height: 1.25;
 margin: 0 auto;
-background: linear-gradient(180deg, #300 0%, #012 100%);
-background-color: #300;
+background: #111;
+background-color: #111;
 }
 * {
-color: #300;
+color: #111;
 user-select: none;
 text-decoration: none;
 outline: 1px solid transparent;
 font-family: "font", sans-serif;
 transition: 1s, fill 1s;
+}
+* a:hover, a *:hover {
+fill: #e00;
+color: #e00;
+text-shadow: .025rem .025rem #888;
 }
 ::selection {
 color: #e00;
@@ -89,7 +94,7 @@ font-size: 1.25rem;
 .button {
 margin: 1rem auto .5rem;
 color: #eef;
-background: #300;
+background: #111;
 }
 .paginator {
 display: flex;
@@ -124,7 +129,7 @@ width: 98%;
 .share, .share a {
 width: 1.5rem;
 margin: -1.75rem 0 0 auto;
-fill: #300;
+fill: #111;
 }
 .source, .source a {
 margin: -1.25rem .5rem .25rem;
@@ -142,49 +147,16 @@ height: 1px;
 margin: -1px;
 padding: 0;
 border: 0;
+opacity: 0;
 overflow: hidden;
-white-space: nowrap;
 }
-* a:hover, a *:hover,
-.mode * a:hover, .mode a *:hover {
-fill: #e00;
-color: #e00;
-text-shadow: .025rem .025rem #888;
-}
-/*
-.mode {
-background: linear-gradient(180deg, #fcc 0%, #ddf 100%);
-background-color: #eef;
-}
-.mode * {
-color: #eef;
-}
-.mode .icon {
-fill: #300;
-}
-.mode .box, .mode .button,
-.mode .search, .mode .paginator a {
-border: .1rem solid transparent;
-background: #300;
-}
-.mode .button, .mode .button a {
-color: #300;
-background: #eef;
-}
-.mode .share, .mode .share a {
-fill: #eef;
-}
-.mode .copyright p, .mode .copyright a {
-color: #300;
-}
-*/
 .motion span {
 display: block;
 position: fixed;
 top: 0%;
 z-index: -1;
 width: 0.15rem;
-background-color: rgba(250, 250, 250, 0.75);
+background-color: rgba(250, 250, 250, .75);
 animation: starfall 10s linear infinite;
 will-change: transform, opacity;
 }
@@ -229,4 +201,59 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 transform: rotate(150deg) translateY(0); }
 100% { opacity: 0; border-radius: 50%;
 transform: rotate(150deg) translateY(-100rem); }
+}
+/* linear */
+body {
+background: linear-gradient(180deg, #300 0%, #012 100%);
+background-color: #200;
+}
+* {
+color: #200;
+}
+.icon {
+fill: #eef;
+}
+.box, .button, .search, .paginator a {
+border: .1rem solid transparent;
+background: #eef;
+}
+.button {
+color: #eef;
+background: #200;
+}
+.share, .share a {
+fill: #200;
+}
+.copyright p, .copyright a {
+color: #eef;
+}
+/* dark mode */
+.mode {
+background: #111;
+background-color: #111;
+}
+.mode * {
+color: #eef;
+}
+.mode * a:hover, .mode a *:hover {
+fill: #e00;
+color: #e00;
+}
+.mode .icon {
+fill: #eef;
+}
+.mode .box, .mode .button,
+.mode .search, .mode .paginator a {
+border: .1rem solid rgba(250, 250, 250, .5);
+background: #222;
+}
+.mode .button, .mode .button a {
+color: #eef;
+background: #111;
+}
+.mode .share, .mode .share a {
+fill: #eef;
+}
+.mode .copyright p, .mode .copyright a {
+color: #eef;
 }
