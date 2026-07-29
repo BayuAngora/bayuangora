@@ -139,11 +139,6 @@ will-change: transform, opacity;
 { right: 30%; height: 6rem; animation-duration: 10s; }
 .motion span:nth-child(8)
 { right: 45%; height: 8rem; animation-duration: 14s; }
-@font-face {
-font-display: swap;
-font-family: "font";
-src: url("/font.woff2");
-}
 @keyframes fadeIn {
 from { opacity: 0; }
 to { opacity: 1; }
@@ -157,6 +152,11 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 transform: rotate(150deg) translateY(0); }
 100% { opacity: 0; border-radius: 50%;
 transform: rotate(150deg) translateY(-100rem); }
+}
+@font-face {
+font-display: swap;
+font-family: "font";
+src: url("/font.woff2");
 }
 /* linear */
 body {
