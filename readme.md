@@ -125,6 +125,14 @@ https://mega.io/?aff=LD9hG90b8HY)
 
 <hr>
 
+### Static Hosting  
+[https://netlify.com](https://angora.netlify.app)  
+[https://pages.dev](https://angora.pages.dev)  
+[https://wasmer.io](https://angora.wasmer.app)  
+[https://vercel.com](https://angora.vercel.app)  
+
+<hr>
+
 ### Website Analyze  
 [https://ahrefs.com](https://ahrefs.com/backlink-checker/?input=https://angora.id)  
 [https://majestic.com](https://majestic.com/reports/site-explorer?oq=angora.id&IndexDataSource=F&q=angora.id)  
