@@ -1,0 +1,42 @@
+title: Bayu Angora
+baseURL: https://angora.id/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  mounts:
+  - source: layouts
+    target: layouts/_default
+
+summaryLength: 30
+pagination:
+  path: /
+  pagerSize: 6
+
+permalinks:
+  about: /:title/
+  art: /:title/
+  blog: /:title/
+  book: /:title/
+  poem: /:title/
+  quote: /:title/
+
+params:
+  lang: id
+  menu1: art
+  menu2: book
+  menu3: quote
+  menu4: about
+  alt: ᮘᮚᮥ ᮃᮍᮧᮛ
+  summary: Artist | Curator | Writer
+  primary: 111;
+  secondary: eef;
+  facebook: https://facebook.com/BayuAngora
+  twitter: https://twitter.com/BayuAngora
+  instagram: https://instagram.com/BayuAngora
+  copyright: • Bayu Angora © All Rights Reserved •
+
+disableHugoGeneratorInject: true
