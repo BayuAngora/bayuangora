@@ -180,6 +180,7 @@ https://mega.io/?aff=LD9hG90b8HY)
 [https://sitecheck.sucuri.net](https://sitecheck.sucuri.net/results/angora.id)  
 [https://sitelock.com](https://sitelock.com/free-website-scan/?domain=angora.id)  
 [https://ssllabs.com](https://ssllabs.com/analyze.html?viaform=on&d=angora.id)  
+[https://testtls.com](https://testtls.com/angora.id/)  
 [https://trustedsite.com](https://trustedsite.com/verify?host=angora.id)  
 
 <hr>
