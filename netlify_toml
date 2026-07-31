@@ -1,0 +1,30 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.160.0"
+
+[[redirects]]
+  status = 301
+  force = true
+  from = "https://angora.netlify.app/*"
+  to = "https://angora.id/:splat"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Vary = "Accept-Encoding"
+    X-XSS-Protection = "0"
+    X-Frame-Options = "sameorigin"
+    X-Content-Type-Options = "nosniff"
+    X-Permitted-Cross-Domain-Policies = "all"
+    Access-Control-Allow-Origin = "https://angora.id"
+    Cache-Control = "no-cache"
+    Referrer-Policy = "no-referrer"
+    Permissions-Policy = "autoplay=self"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Resource-Policy = "same-origin"
+    Cross-Origin-Embedder-Policy = "unsafe-none"
+    Content-Security-Policy = "default-src 'self'; img-src https:"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
