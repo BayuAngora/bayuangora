@@ -21,7 +21,7 @@ ___
 
 <hr>
 
-### Bio Link  
+### About Link  
 [https://angora.bio.link](https://angora.bio.link)  
 [https://angora.hashnode.dev](https://angora.hashnode.dev)  
 [https://angora.postach.io](https://angora.postach.io)  
