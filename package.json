@@ -1,13 +1,13 @@
 {
-  "name": "eleventy",
+  "name": "Bayu Angora",
+  "version": "1.0.0",
+  "description": "Artist | Curator | Writer",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "build-ghpages": "npx @11ty/eleventy"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.0.0"
-  },
-  "engines": {
-    "node": "20"
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.0.0"
   }
 }
