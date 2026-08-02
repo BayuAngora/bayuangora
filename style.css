@@ -19,7 +19,7 @@ background-color: #111;
 user-select: none;
 text-decoration: none;
 outline: 1px solid transparent;
-font-family: "font", sans-serif;
+font-family: "font", system-ui, sans-serif;
 transition: 1s, fill 1s, color 1s;
 }
 ::selection {
@@ -50,9 +50,13 @@ animation: fadeUp 1s;
 }
 img {
 width: 100%;
+height: auto;
 margin: .25rem auto 0;
 border-radius: .25rem;
 animation: fadeIn 1s;
+}
+img[loading="lazy"] {
+animation: fadeIn 2s;
 }
 header, footer, input,
 .center, .button, .search {
