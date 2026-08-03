@@ -157,17 +157,17 @@ will-change: transform, opacity;
 .motion span:nth-child(8)
 { right: 45%; height: 8rem; animation-duration: 14s; }
 @keyframes fadeIn {
-from { opacity: 0; }
+from { opacity: .1; }
 to { opacity: 1; }
 }
 @keyframes fadeUp {
-from { opacity: 0; transform: translate3d(0,.5rem,0); }
+from { opacity: .1; transform: translate3d(0,.5rem,0); }
 to { opacity: 1; transform: translate3d(0,0,0); }
 }
 @keyframes starfall {
 0% { opacity: .5; border-radius: 50%;
 transform: rotate(150deg) translateY(0); }
-100% { opacity: 0; border-radius: 50%;
+100% { opacity: .1; border-radius: 50%;
 transform: rotate(150deg) translateY(-100rem); }
 }
 @font-face {
