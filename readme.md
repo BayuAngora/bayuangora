@@ -18,7 +18,7 @@ ___
 <a href="https://upguard.com/instant-security-score/report?c=angora.id" target="_blank" rel="noopener"><img alt="UpGuard" src="https://img.shields.io/badge/upguard-✓-success"></a>
 <a href="https://app.wattspeed.com/snapshot?url=https://angora.id" target="_blank" rel="noopener"><img alt="WattSpeed" src="https://img.shields.io/badge/wattspeed-100-success"></a>
 <a href="https://angora.instatus.com" target="_blank" rel="noopener"><img alt="Website Status" src="https://img.shields.io/website?url=https://angora.id"></a>
-<a href="https://whois.com/whois/angora.id" target="_blank" rel="noopener"><img alt="Whois" src="https://img.shields.io/badge/whois-✓-success"></a>
+<a href="https://whois.com/whois/angora.id" target="_blank" rel="noopener"><img alt="WHOIS" src="https://img.shields.io/badge/whois-✓-success"></a>
 
 <hr>
 
