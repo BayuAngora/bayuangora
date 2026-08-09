@@ -103,7 +103,7 @@ padding: .9rem 0 1.3rem;
 font-size: 1.25rem;
 }
 .button {
-margin: .5rem auto .25rem;
+margin: .5rem auto 0;
 color: #eef;
 background: #111;
 }
