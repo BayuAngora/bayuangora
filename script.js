@@ -53,3 +53,77 @@ if (lightBtn) {
 lightBtn.addEventListener("click", function () {
 setMode(false);
 });}});
+
+const emojis =
+["🐅", "🐎", "🐂", "🐘", "🐊", "🐍", "🐢", "🐧"];
+let cards = [];
+let hasFlippedCard = false;
+let lockBoard = false;
+let firstCard, secondCard;
+let moves = 0;
+let matches = 0;
+const board = document.getElementById("board");
+const movesEl = document.getElementById("moves");
+const matchesEl = document.getElementById("matches");
+function initGame() {
+hasFlippedCard = false;
+lockBoard = false;
+firstCard = null;
+secondCard = null;
+moves = 0;
+matches = 0;
+updateStats();
+board.innerHTML = "";
+cards = [...emojis, ...emojis];
+cards.sort(() => Math.random() - 0.5);
+cards.forEach(emoji => {
+const
+cardElement = document.createElement("div");
+cardElement.classList.add("card");
+cardElement.dataset.emoji = emoji;
+cardElement.innerHTML = `
+<div class="card-face card-front">${emoji}</div>
+<div class="card-face card-back"></div>`;
+cardElement.addEventListener("click", flipCard);
+board.appendChild(cardElement);});}
+function flipCard() {
+if (lockBoard) return;
+if (this === firstCard) return;
+this.classList.add("flip");
+if (!hasFlippedCard) {
+hasFlippedCard = true;
+firstCard = this; return;}
+secondCard = this;
+moves++;
+updateStats();
+checkForMatch();}
+function checkForMatch() {
+let isMatch = 
+firstCard.dataset.emoji === 
+secondCard.dataset.emoji;
+if (isMatch) {
+disableCards();
+matches++;
+updateStats();
+if (matches === 8) {
+setTimeout(() => alert(`Won in ${moves} Moves!`), 500);}
+} else {
+unflipCards();}}
+function disableCards() {
+firstCard.removeEventListener("click", flipCard);
+secondCard.removeEventListener("click", flipCard);
+resetBoard();}
+function unflipCards() {
+lockBoard = true;
+setTimeout(() => {
+firstCard.classList.remove("flip");
+secondCard.classList.remove("flip");
+resetBoard();
+}, 1000);}
+function resetBoard() {
+[hasFlippedCard, lockBoard] = [false, false];
+[firstCard, secondCard] = [null, null];}
+function updateStats() {
+movesEl.textContent = moves;
+matchesEl.textContent = matches;}
+initGame();
