@@ -198,3 +198,47 @@ background: #200;
 .copyright p, .copyright a {
 color: #eef;
 }
+/* 404 */
+.board {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: .5rem;
+width: 100%;
+margin: .75rem auto;
+}
+.card {
+width: 100%;
+aspect-ratio: 1 / 1;
+cursor: pointer;
+position: relative;
+background: transparent;
+transform-style: preserve-3d;
+transition: transform .5s cubic-bezier(.4, .2, .2, 1);
+}
+.card-face {
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: .5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.5rem;
+backface-visibility: hidden;
+box-shadow: .1rem .1rem .1rem #888;
+}
+.card-front {
+background: #eef;
+transform: rotateY(180deg);
+}
+.card-back {
+background: #200;
+}
+.card-back::after {
+content: "?";
+color: #eef;
+font-size: 2.5rem;
+}
+.card.flip {
+transform: rotateY(180deg);
+}
