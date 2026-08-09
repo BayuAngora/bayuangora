@@ -225,10 +225,10 @@ align-items: center;
 justify-content: center;
 font-size: 2.5rem;
 backface-visibility: hidden;
-box-shadow: .1rem .1rem .1rem #888;
 }
 .card-front {
 background: #eef;
+box-shadow: .1rem .1rem .1rem #888;
 transform: rotateY(180deg);
 }
 .card-back {
