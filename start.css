@@ -103,7 +103,7 @@ padding: .9rem 0 1.3rem;
 font-size: 1.25rem;
 }
 .button {
-margin: .5rem auto;
+margin: .5rem auto .25rem;
 color: #eef;
 background: #111;
 }
@@ -204,7 +204,7 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: .5rem;
 width: 100%;
-margin: .75rem auto;
+margin: .5rem auto;
 }
 .card {
 width: 100%;
