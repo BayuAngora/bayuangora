@@ -73,7 +73,7 @@ background: #eef;
 }
 .box {
 margin: 0 auto 1rem;
-padding: 1rem 1.5rem;
+padding: .9rem 1.5rem 1.3rem;
 font-size: 1.25rem;
 }
 .menu {
@@ -103,7 +103,7 @@ padding: .9rem 0 1.3rem;
 font-size: 1.25rem;
 }
 .button {
-margin: 1rem auto .5rem;
+margin: .5rem auto;
 color: #eef;
 background: #111;
 }
