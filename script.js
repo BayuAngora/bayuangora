@@ -63,7 +63,9 @@ const movesEl = document.getElementById("moves");
 const matchesEl = document.getElementById("matches");
 board.addEventListener("click", (e) => {
 const clickedCard = e.target.closest(".card");
-if (!clickedCard || lockBoard || clickedCard === firstCard || clickedCard.classList.contains("flip")) return;
+if (!clickedCard || lockBoard || clickedCard === 
+firstCard || clickedCard.classList.contains("flip"))
+  return;
 flipCard(clickedCard);});
 function initGame() {
 [hasFlippedCard, lockBoard] = [false, false];
