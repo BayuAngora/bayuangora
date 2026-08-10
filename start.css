@@ -218,7 +218,7 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: .5rem;
 width: 100%;
-min-height: 20rem;
+min-height: 18rem;
 margin: .75rem auto;
 }
 .card {
