@@ -216,6 +216,7 @@ color: #eef;
 .board {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
+aspect-ratio: 1 / 1;
 gap: .5rem;
 width: 100%;
 margin: .75rem auto;
@@ -223,7 +224,7 @@ margin: .75rem auto;
 .card {
 position: relative;
 width: 100%;
-aspect-ratio: 1 / 1;
+height: 100%;
 background: transparent;
 transform-style: preserve-3d;
 }
