@@ -80,11 +80,12 @@ padding: .7rem 1.5rem 1.2rem;
 display: grid;
 place-items: center;
 }
-.swap b {
+.swap b, .swap span {
 grid-area: 1 / 1;
 animation: swap 5s infinite alternate;
 }
-.swap b:last-child {
+.swap b:last-child,
+.swap span:last-child {
 animation-direction: alternate-reverse;
 }
 .menu {
@@ -216,10 +217,11 @@ color: #eef;
 .board {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-aspect-ratio: 1 / 1;
 gap: .5rem;
 width: 100%;
+max-width: 25rem;
 margin: .75rem auto;
+aspect-ratio: 1 / 1;
 }
 .card {
 position: relative;
@@ -236,7 +238,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: .5rem;
-font-size: 2.5rem;
+font-size: 3rem;
 backface-visibility: hidden;
 }
 .card-front {
@@ -248,7 +250,7 @@ transform: rotateY(180deg);
 background: #200;
 }
 .card-back::after {
-content: "🎟";
+content: "🔘";
 color: #eef;
 font-size: 1.5rem;
 }
