@@ -1,0 +1,58 @@
+{
+  "id": "Bayu Angora",
+  "name": "Bayu Angora",
+  "short_name": "Bayu Angora",
+  "description": "★★★★★",
+  "lang": "id",
+  "dir": "auto",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "any",
+  "theme_color": "#200",
+  "background_color": "#200",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "categories": [
+    "website"
+  ],
+  "shortcuts": [
+    {
+      "name": "Bayu Angora",
+      "url": "/"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "id": "Bayu Angora",
+      "url": "/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/bayuangora.webp",
+      "type": "image/webp",
+      "sizes": "1280x1280",
+      "form-factor": "narrow"
+    }
+  ]
+}
