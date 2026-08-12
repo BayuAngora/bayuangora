@@ -188,7 +188,7 @@ transform: rotate(150deg) translateY(-100rem); }
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("/font.woff2");
+src: url("/static/font.woff2");
 }
 /* linear */
 body {
