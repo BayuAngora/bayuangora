@@ -51,40 +51,32 @@ setMode(false);
 });}});
 
 const board = document.getElementById("board");
-if (board) {
-const emojis =
+if (board) { const emojis =
 ["🏜", "🏞", "🌃", "🌄", "🌇", "🌉", "🌌", "🎑"];
-let firstCard, lockBoard, moves, matches; 
-const movesEl = document.getElementById("moves");
-const matchesEl = document.getElementById("matches");
-document.getElementById("restart").addEventListener("click", initGame);
-board.addEventListener("click", (e) => {
+const $ = id => document.getElementById(id);
+let firstCard, lockBoard, moves, matches;
+const updateStats = () => {
+$("moves").textContent = moves;
+$("matches").textContent = matches;};
+const initGame = () => {firstCard = lockBoard = null;
+moves = matches = 0; updateStats();
+board.innerHTML = [...emojis, ...emojis]
+.sort(() => Math.random() - 0.5) .map(e => `
+<div class="card" data-e="${e}">
+<div class="card-face card-front">${e}</div>
+<div class="card-face card-back"></div></div> `)
+.join("");}; $("restart")
+.addEventListener("click", initGame);
+board.addEventListener("click", e => {
 const card = e.target.closest(".card");
-if (!card || lockBoard || card === firstCard || card.classList.contains("flip"))
+if (!card || lockBoard || card === 
+firstCard || card.classList.contains("flip")) 
 return; card.classList.add("flip");
-if (!firstCard) {firstCard = card;
-return;} moves++;
-if (firstCard.dataset.e === card.dataset.e) {matches++; firstCard = null;
-if (matches === 8) setTimeout(() =>
-alert(`✨ Score 8 / ${moves} Moves ✨`), 1000);
-} else {
+if (!firstCard) return (firstCard = card); moves++;
+if (firstCard.dataset.e === card.dataset.e) {firstCard = null;
+if (++matches === 8) setTimeout(() => 
+alert(`✨ Score 8 / ${moves} Moves ✨`), 1000); } else {
 lockBoard = true; setTimeout(() => {
-firstCard.classList.remove("flip");
-card.classList.remove("flip");
-firstCard = null; lockBoard = false;}, 1000);} updateStats();});
-function initGame() {
-firstCard = null; lockBoard = false;
-moves = matches = 0; updateStats(); board.innerHTML = "";
-const cards = [...emojis, ...emojis];
-for (let i = 15; i > 0; i--) {
-const j = Math.floor(Math.random() * (i + 1));
-[cards[i], cards[j]] = [cards[j], cards[i]];}
-const frag = document.createDocumentFragment(); cards.forEach(emoji => {
-const d = document.createElement("div");
-d.className = "card"; d.dataset.e = emoji; d.innerHTML = `
-<div class="card-face card-front">${emoji}</div>
-<div class="card-face card-back"></div>`;
-frag.appendChild(d);}); board.appendChild(frag);}
-function updateStats() {
-movesEl.textContent = moves; matchesEl.textContent = matches;}
+firstCard.classList.remove("flip"); card.classList.remove("flip");
+firstCard = lockBoard = null; }, 1000);} updateStats();});
 initGame();}
