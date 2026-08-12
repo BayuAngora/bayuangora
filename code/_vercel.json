@@ -19,12 +19,16 @@
           "value": "Accept-Encoding"
         },
         {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
           "key": "X-XSS-Protection",
           "value": "0"
         },
         {
           "key": "X-Frame-Options",
-          "value": "sameorigin"
+          "value": "deny"
         },
         {
           "key": "X-Content-Type-Options",
@@ -32,23 +36,19 @@
         },
         {
           "key": "X-Permitted-Cross-Domain-Policies",
-          "value": "all"
+          "value": "none"
         },
         {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://angora.id"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "no-cache"
+          "key": "Permissions-Policy",
+          "value": "autoplay=self"
         },
         {
           "key": "Referrer-Policy",
           "value": "no-referrer"
         },
         {
-          "key": "Permissions-Policy",
-          "value": "autoplay=self"
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://angora.id"
         },
         {
           "key": "Cross-Origin-Opener-Policy",
