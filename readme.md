@@ -35,10 +35,10 @@ ___
 <hr>
 
 ### Build Hosting  
-[https://angora.netlify.com](https://angora.netlify.app)  
+[https://angora.netlify.app](https://angora.netlify.app)  
 [https://angora.pages.dev](https://angora.pages.dev)  
-[https://angora.vercel.com](https://angora.vercel.app)  
-[https://angora.wasmer.io](https://angora.wasmer.app)  
+[https://angora.vercel.app](https://angora.vercel.app)  
+[https://angora.wasmer.app](https://angora.wasmer.app)  
 
 <hr>
 
