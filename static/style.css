@@ -157,7 +157,7 @@ display: block;
 width: 0.15rem;
 background-color: #888;
 animation: starfall 10s linear infinite;
-will-change: transform, opacity;
+will-change: opacity, transform;
 }
 .motion span:nth-child(1)
 { left: 0%; height: 10rem; animation-duration: 20s; }
