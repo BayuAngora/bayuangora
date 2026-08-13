@@ -163,6 +163,7 @@ https://mega.io/?aff=LD9hG90b8HY)
 
 ### Website Optimize  
 [https://app.wattspeed.com](https://app.wattspeed.com)  
+[https://debugbear.com/tools](https://debugbear.com/tools)  
 [https://giftofspeed.com](https://giftofspeed.com)  
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://loader.io](https://loader.io)  
