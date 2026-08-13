@@ -117,7 +117,7 @@ https://mega.io/?aff=LD9hG90b8HY)
 [https://svgviewer.dev](https://svgviewer.dev)  
 [https://tools.picsart.com](https://tools.picsart.com)  
 [https://vectormagic.com](https://vectormagic.com)  
-[https://viliusle.github.io/miniPaint](http://viliusle.github.io/miniPaint)  
+[https://viliusle.github.io](http://viliusle.github.io/miniPaint)  
 
 <hr>
 
@@ -125,9 +125,9 @@ https://mega.io/?aff=LD9hG90b8HY)
 [https://freepik.com](https://freepik.com)  
 [https://iconscout.com](https://iconscout.com)  
 [https://logowik.com](https://logowik.com)  
-[https://loremflickr.com/600/300/abstract
+[https://loremflickr.com
 ](https://loremflickr.com)  
-[https://picsum.photos/seed/abstract/600/300
+[https://picsum.photos
 ](https://picsum.photos)  
 [https://stockcake.com](https://stockcake.com)  
 
@@ -163,7 +163,7 @@ https://mega.io/?aff=LD9hG90b8HY)
 
 ### Website Optimize  
 [https://app.wattspeed.com](https://app.wattspeed.com)  
-[https://debugbear.com/tools](https://debugbear.com/tools)  
+[https://debugbear.com](https://debugbear.com/tools)  
 [https://giftofspeed.com](https://giftofspeed.com)  
 [https://gtmetrix.com](https://gtmetrix.com)  
 [https://loader.io](https://loader.io)  
@@ -173,7 +173,6 @@ https://mega.io/?aff=LD9hG90b8HY)
 [https://tools.pingdom.com](https://tools.pingdom.com)  
 [https://web.dev](https://web.dev)  
 [https://webpagetest.org](https://webpagetest.org)  
-[https://webspeedtest.cloudinary.com](https://webspeedtest.cloudinary.com)  
 [https://yellowlab.tools](https://yellowlab.tools)  
 
 <hr>
