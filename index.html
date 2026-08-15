@@ -3,7 +3,266 @@
 
 <head>
 
-<meta http-equiv="refresh" content="0;url=https://angora.id/404">
+<style>
+html {
+scroll-behavior: smooth;
+touch-action: pan-x pan-y;
+text-rendering: optimizeSpeed;
+-webkit-tap-highlight-color: transparent;
+}
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+max-width: 50rem;
+min-height: 100vh;
+margin: 0 auto;
+background: #111;
+background-color: #111;
+animation: fadeUp 1s;
+}
+*, *::before, *::after {
+user-select: none;
+text-decoration: none;
+outline: 1px solid transparent;
+font-family: "font", system-ui, sans-serif;
+transition: 1s, fill 1s, color 1s;
+}
+::selection {
+color: #e00;
+background: transparent;
+text-shadow: .025rem .025rem #888;
+}
+a {
+fill: inherit;
+color: inherit;
+}
+a:hover, a:hover * {
+fill: #e00;
+color: #e00;
+text-shadow: .025rem .025rem #888;
+}
+main {
+padding: 1rem 1.5rem;
+}
+header, footer, input,
+.center, .button, .search {
+text-align: center;
+}
+.justify {
+margin: 0 auto .5rem;
+text-align: justify;
+}
+.line {
+margin: 1rem auto .75rem;
+border: .05rem solid #888;
+}
+.icon {
+width: 3rem;
+fill: #eef;
+}
+.profile {
+width: 10rem;
+height: 10rem;
+margin: 1.25rem auto 0;
+border-radius: 50%;
+}
+.box, .menu, .button, .search {
+width: 100%;
+box-sizing: border-box;
+border: .1rem solid transparent;
+border-radius: .5rem;
+font-size: 1.25rem;
+text-align: center;
+color: #111;
+background: #eef;
+}
+.box {
+margin: 0 auto 1rem;
+padding: .7rem 1.5rem 1.2rem;
+}
+.box .swap {
+display: grid;
+place-items: center;
+}
+.swap b, .swap span {
+grid-area: 1 / 1;
+animation: swap 5s infinite alternate;
+}
+.swap b:last-child,
+.swap span:last-child {
+animation-direction: alternate-reverse;
+}
+.menu {
+margin: 0 auto 1rem;
+font-size: 1.5rem;
+}
+.menu a {
+display: flex;
+width: 100%;
+padding: .5rem 0 1rem;
+}
+.menu .left, .menu .right {
+width: 1.75rem;
+padding: .25rem .75rem 0;
+fill: #111;
+}
+.menu .left {
+margin-right: auto;
+}
+.menu .right {
+margin-left: auto;
+}
+.button, .search {
+width: 100%;
+padding: .7rem 0 1.2rem;
+}
+.button {
+margin: .75rem auto .25rem;
+color: #eef;
+background: #111;
+}
+.search {
+margin: 0 auto 1rem;
+}
+.source, .source a {
+margin: -1.25rem .5rem .25rem;
+}
+.copyright p, .copyright a {
+max-height: 100%;
+margin: 0 auto 1.25rem;
+color: #eef;
+font-size: .75rem;
+}
+.sr-only {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+border: 0;
+opacity: 0;
+overflow: hidden;
+white-space: nowrap;
+}
+.motion span {
+position: fixed;
+top: 0%;
+z-index: -1;
+display: block;
+width: 0.15rem;
+background-color: #888;
+animation: starfall 10s linear infinite;
+will-change: opacity, transform;
+}
+.motion span:nth-child(1)
+{ left: 0%; height: 10rem; animation-duration: 20s; }
+.motion span:nth-child(2)
+{ left: 15%; height: 6rem; animation-duration: 12s; }
+.motion span:nth-child(3)
+{ left: 30%; height: 8rem; animation-duration: 16s; }
+.motion span:nth-child(4)
+{ left: 45%; height: 4rem; animation-duration: 8s; }
+.motion span:nth-child(5)
+{ right: 0%; height: 4rem; animation-duration: 6s; }
+.motion span:nth-child(6)
+{ right: 15%; height: 10rem; animation-duration: 18s; }
+.motion span:nth-child(7)
+{ right: 30%; height: 6rem; animation-duration: 10s; }
+.motion span:nth-child(8)
+{ right: 45%; height: 8rem; animation-duration: 14s; }
+@keyframes fadeIn {
+from { opacity: .5; }
+to { opacity: 1; }
+}
+@keyframes fadeUp {
+from { opacity: .5; transform: translate3d(0,.5rem,0); }
+to { opacity: 1; transform: translate3d(0,0,0); }
+}
+@keyframes swap {
+0%, 40% { opacity: 0; }
+60%, 100% { opacity: 1; }
+}
+@keyframes starfall {
+0% { opacity: .5; border-radius: 50%;
+transform: rotate(150deg) translateY(0); }
+100% { opacity: .1; border-radius: 50%;
+transform: rotate(150deg) translateY(-100rem); }
+}
+@font-face {
+font-display: swap;
+font-family: "font";
+src: url("/font.woff2");
+}
+/* linear */
+body {
+background: linear-gradient(180deg, #300 0%, #012 100%);
+background-color: #200;
+}
+.icon {
+fill: #eef;
+}
+.box, .menu, .button, .search {
+border: .1rem solid transparent;
+color: #200;
+background: #eef;
+}
+.menu .left, .menu .right {
+fill: #200;
+}
+.button {
+color: #eef;
+background: #200;
+}
+.copyright p, .copyright a {
+color: #eef;
+}
+/* game */
+.board {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: .5rem;
+width: 100%;
+max-width: 25rem;
+margin: .75rem auto;
+aspect-ratio: 1 / 1;
+}
+.card {
+position: relative;
+width: 100%;
+height: 100%;
+background: transparent;
+transform-style: preserve-3d;
+}
+.card-face {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: .5rem;
+font-size: 3rem;
+backface-visibility: hidden;
+}
+.card-front {
+background: #eef;
+box-shadow: 0 .1rem .1rem #888;
+transform: rotateY(180deg);
+}
+.card-back {
+background: #200;
+}
+.card-back::after {
+content: "🔘";
+color: #eef;
+font-size: 1.5rem;
+}
+.card.flip {
+transform: rotateY(180deg);
+}
+</style>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +273,7 @@
 
 <link rel="canonical" href="https://angora.id/">
 <link rel="preload" as="font" type="font/woff2" href="/static/font.woff2" crossorigin>
-<link rel="stylesheet" type="text/css" media="all" href="/static/start.css">
+<link rel="stylesheet" type="text/css" media="all" href="/static/start">
 <link rel="manifest" href="/static/manifest.json">
 <link rel="icon" type="image/png" href="/static/favicon.png">
 <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
