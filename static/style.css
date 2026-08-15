@@ -44,16 +44,16 @@ fill: #e00;
 color: #e00;
 text-shadow: .025rem .025rem #888;
 }
-main {
-padding: 1rem 1.5rem;
-animation: fadeUp 1s;
-}
 img {
 width: 100%;
 height: auto;
 margin: .25rem auto 0;
 border-radius: .25rem;
 animation: fadeIn 2s, scaleUp 1s;
+}
+main {
+padding: 1rem 1.5rem;
+animation: fadeUp 1s;
 }
 header, footer, input,
 .center, .button, .search {
@@ -202,7 +202,7 @@ transform: rotate(150deg) translateY(-100rem); }
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("/font.woff2");
+src: url("/static/font.woff2");
 }
 /* linear */
 body {
