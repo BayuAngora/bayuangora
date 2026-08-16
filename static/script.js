@@ -1,5 +1,5 @@
 if ("serviceWorker" in navigator) {
-navigator.serviceWorker.register("/static/service.js");
+navigator.serviceWorker.register("/service.js");
 navigator.serviceWorker.ready.then(async function (registration) {
 if ("sync" in registration) {registration.sync.register("sync").catch(
 function (err) {console.warn("Background sync is disabled."); });} try {
@@ -32,7 +32,7 @@ if (darkBtn) {darkBtn.addEventListener("click", function () {setMode(true); });}
 if (lightBtn) {lightBtn.addEventListener("click", function () {setMode(false);});}});
 
 const board = document.getElementById("board");
-if (board) { const emojis =
+if (board) {const emojis =
 ["🏜", "🏞", "🌃", "🌄", "🌇", "🌉", "🌌", "🎑"];
 const $ = id => document.getElementById(id);
 let firstCard, lockBoard, moves, matches; const updateStats = () => {
