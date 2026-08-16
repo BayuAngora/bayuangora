@@ -14,7 +14,7 @@ min-height: 100vh;
 margin: 0 auto;
 background: #111;
 background-color: #111;
-animation: fadeUp 1s;
+animation: fadeIn 1.5s;
 }
 *, *::before, *::after {
 user-select: none;
@@ -181,13 +181,13 @@ to { opacity: 1; transform: translate3d(0,0,0); }
 @keyframes starfall {
 0% { opacity: .5; border-radius: 50%;
 transform: rotate(150deg) translateY(0); }
-100% { opacity: .1; border-radius: 50%;
+100% { opacity: .5; border-radius: 50%;
 transform: rotate(150deg) translateY(-100rem); }
 }
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("/static/font.woff2");
+src: url("/font.woff2");
 }
 /* linear */
 body {
