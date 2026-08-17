@@ -65,20 +65,20 @@ border-radius: 50%;
 .box, .menu, .button, .search {
 width: 100%;
 margin: 0 auto 1rem;
+padding: .75rem 1rem 1rem;
 box-sizing: border-box;
 border: .1rem solid transparent;
 border-radius: .5rem;
-font-size: 1.25rem;
+font-size: 1.5rem;
+line-height: 1;
 text-align: center;
 color: #111;
 background: #eef;
 }
-.box {
-padding: .7rem 1.5rem 1.2rem;
-}
 .box .swap {
 display: grid;
 place-items: center;
+padding: 0 0 .15rem;
 }
 .swap b, .swap span {
 grid-area: 1 / 1;
@@ -88,17 +88,11 @@ animation: swap 5s infinite alternate;
 .swap span:last-child {
 animation-direction: alternate-reverse;
 }
-.menu {
-font-size: 1.5rem;
-}
 .menu a {
 display: flex;
-width: 100%;
-padding: .5rem 0 1rem;
 }
 .menu .left, .menu .right {
 width: 1.75rem;
-padding: .25rem .75rem 0;
 fill: #111;
 }
 .menu .left {
@@ -108,11 +102,11 @@ margin-right: auto;
 margin-left: auto;
 }
 .button, .search {
-width: 100%;
-padding: .7rem 0 1.2rem;
+font-size: 1.25rem;
+line-height: 1.35;
 }
 .button {
-margin: .75rem auto .25rem;
+margin: .5rem auto .25rem;
 color: #eef;
 background: #111;
 }
