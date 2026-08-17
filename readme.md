@@ -1,6 +1,6 @@
 <a href="https://angora.id" target="_blank" rel="noopener"><img alt="Bayu Angora" src="https://angora.my.id/image/bayuangora.webp"></a>
 
-___
+<hr>
 
 <a href="https://pagespeed.web.dev/report?url=https://angora.id" target="_blank" rel="noopener"><img alt="PageSpeed" src="https://angora.my.id/image/pagespeed.svg"></a>
 
