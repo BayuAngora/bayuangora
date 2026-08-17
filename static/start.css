@@ -65,7 +65,7 @@ border-radius: 50%;
 .box, .menu, .button, .search {
 width: 100%;
 margin: 0 auto 1rem;
-padding: .7rem 1.5rem 1.2rem;
+padding: .6rem 1.5rem 1rem;
 box-sizing: border-box;
 border: .1rem solid transparent;
 border-radius: .5rem;
@@ -92,7 +92,6 @@ font-size: 1.5rem;
 }
 .menu .left, .menu .right {
 width: 1.75rem;
-padding: .25rem .75rem 0;
 fill: #111;
 }
 .menu .left {
