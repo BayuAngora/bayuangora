@@ -65,7 +65,7 @@ border-radius: 50%;
 .box, .menu, .button, .search {
 width: 100%;
 margin: 0 auto 1rem;
-padding: .6rem 1.5rem 1rem;
+padding: .7rem 1.5rem 1.2rem;
 box-sizing: border-box;
 border: .1rem solid transparent;
 border-radius: .5rem;
@@ -85,6 +85,10 @@ animation: swap 5s infinite alternate;
 .swap b:last-child,
 .swap span:last-child {
 animation-direction: alternate-reverse;
+}
+.menu {
+line-height: 1.25;
+padding: .6rem 1rem 1rem;
 }
 .menu a {
 display: flex;
