@@ -7,11 +7,11 @@ text-rendering: optimizeSpeed;
 body {
 display: flex;
 flex-direction: column;
-justify-content: center;
-text-align: center;
 max-width: 50rem;
 min-height: 100vh;
 margin: 0 auto;
+text-align: center;
+justify-content: center;
 background: #111;
 background-color: #111;
 animation: fadeIn 1.5s;
@@ -65,12 +65,11 @@ border-radius: 50%;
 .box, .menu, .button, .search {
 width: 100%;
 margin: 0 auto 1rem;
-padding: .75rem 1rem 1rem;
+padding: .7rem 1.5rem 1.2rem;
 box-sizing: border-box;
 border: .1rem solid transparent;
 border-radius: .5rem;
-font-size: 1.5rem;
-line-height: 1;
+font-size: 1.25rem;
 text-align: center;
 color: #111;
 background: #eef;
@@ -78,7 +77,6 @@ background: #eef;
 .box .swap {
 display: grid;
 place-items: center;
-padding: 0 0 .15rem;
 }
 .swap b, .swap span {
 grid-area: 1 / 1;
@@ -90,9 +88,12 @@ animation-direction: alternate-reverse;
 }
 .menu a {
 display: flex;
+padding: .5rem 0 1rem;
+font-size: 1.5rem;
 }
 .menu .left, .menu .right {
 width: 1.75rem;
+padding: .25rem .75rem 0;
 fill: #111;
 }
 .menu .left {
@@ -101,13 +102,8 @@ margin-right: auto;
 .menu .right {
 margin-left: auto;
 }
-.button, .search {
-padding: .65rem 1rem 1.1rem;
-font-size: 1.25rem;
-line-height: 1.35;
-}
 .button {
-margin: .5rem auto .25rem;
+margin: .75rem auto .25rem;
 color: #eef;
 background: #111;
 }
@@ -133,9 +129,9 @@ white-space: nowrap;
 }
 .motion span {
 position: fixed;
+display: block;
 top: 0%;
 z-index: -1;
-display: block;
 width: 0.15rem;
 background-color: #888;
 animation: starfall 10s linear infinite;
@@ -222,13 +218,13 @@ transform-style: preserve-3d;
 }
 .card-face {
 position: absolute;
+display: flex;
 width: 100%;
 height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
 border-radius: .5rem;
 font-size: 3rem;
+align-items: center;
+justify-content: center;
 backface-visibility: hidden;
 }
 .card-front {
