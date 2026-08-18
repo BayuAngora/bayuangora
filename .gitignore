@@ -1,7 +1,3 @@
 node_modules/
 public/
 .DS_Store
-*.png
-*.jpg
-*.svg
-*.webp
