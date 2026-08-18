@@ -99,7 +99,7 @@ display: flex;
 margin: 1rem auto;
 }
 .paginator span {
-padding: 0 1rem;
+padding: 0 1.1rem;
 line-height: 1;
 font-size: 2.75rem;
 }
@@ -232,25 +232,25 @@ background: #111;
 background-color: #111;
 }
 .mode a {
-fill: #edc;
-color: #edc;
+fill: #edb;
+color: #edb;
 }
 .mode .icon {
-fill: #edc;
+fill: #edb;
 }
 .mode .box, .mode .button,
 .mode .search, .mode .paginator a {
-border: .1rem solid #edc;
-color: #edc;
+border: .1rem solid #edb;
+color: #edb;
 background: #222;
 }
 .mode .button, .mode .button a {
-color: #edc;
+color: #edb;
 background: #111;
 }
 .mode .share, .mode .share a {
-fill: #edc;
+fill: #edb;
 }
 .mode .copyright p, .mode .copyright a {
-color: #edc;
+color: #edb;
 }
