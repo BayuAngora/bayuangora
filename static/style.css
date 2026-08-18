@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 margin: 0 auto .5rem;
 animation: fadeIn 1.5s;
 }
-h1 { margin: -.4rem auto .1rem;
+h1 { margin: -.45rem auto .15rem;
 font-size: 1.5rem; }
 h2 { font-size: 1.25rem; }
 h3, h4, h5, h6, p, a { font-size: 1rem; }
