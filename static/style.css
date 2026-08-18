@@ -71,7 +71,7 @@ width: 3rem;
 fill: #eef;
 }
 .menu, .menu a {
-margin: 1.25rem .5rem -.5rem;
+margin: 1rem .5rem -.5rem;
 }
 .box, .button, .search, .paginator a {
 border: .1rem solid transparent;
@@ -129,11 +129,11 @@ margin: -1.75rem 0 0 auto;
 fill: #111;
 }
 .source, .source a {
-margin: -1.25rem .5rem .25rem;
+margin: -1.5rem .5rem 0;
 }
 .copyright p, .copyright a {
 max-height: 100%;
-margin: 0 auto 1.25rem;
+margin: 0 auto 1rem;
 color: #eef;
 font-size: .75rem;
 }
