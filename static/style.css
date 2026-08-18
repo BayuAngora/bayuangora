@@ -226,35 +226,31 @@ fill: #200;
 .copyright p, .copyright a {
 color: #eef;
 }
-/* dark mode */
+/* mode */
 .mode {
 background: #111;
 background-color: #111;
 }
 .mode a {
-fill: #eef;
-color: #eef;
-}
-.mode a:hover, .mode a:hover * {
-fill: #e00;
-color: #e00;
+fill: #edc;
+color: #edc;
 }
 .mode .icon {
-fill: #eef;
+fill: #edc;
 }
 .mode .box, .mode .button,
 .mode .search, .mode .paginator a {
-border: .1rem solid #888;
-color: #eef;
+border: .1rem solid #edc;
+color: #edc;
 background: #222;
 }
 .mode .button, .mode .button a {
-color: #eef;
+color: #edc;
 background: #111;
 }
 .mode .share, .mode .share a {
-fill: #eef;
+fill: #edc;
 }
 .mode .copyright p, .mode .copyright a {
-color: #eef;
+color: #edc;
 }
