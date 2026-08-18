@@ -232,25 +232,25 @@ background: #111;
 background-color: #111;
 }
 .mode a {
-fill: #fec;
-color: #fec;
+fill: #eef;
+color: #eef;
 }
 .mode .icon {
-fill: #fec;
+fill: #eef;
 }
 .mode .box, .mode .button,
 .mode .search, .mode .paginator a {
-border: .1rem solid #edb;
-color: #fec;
+border: .1rem solid #eef;
+color: #eef;
 background: #222;
 }
 .mode .button, .mode .button a {
-color: #fec;
+color: #eef;
 background: #111;
 }
 .mode .share, .mode .share a {
-fill: #fec;
+fill: #eef;
 }
 .mode .copyright p, .mode .copyright a {
-color: #fec;
+color: #eef;
 }
