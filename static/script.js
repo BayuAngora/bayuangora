@@ -1,5 +1,5 @@
 if ("serviceWorker" in navigator) {
-navigator.serviceWorker.register("/service.js");
+navigator.serviceWorker.register("/static/service.js");
 navigator.serviceWorker.ready.then(async function (registration) {
 if ("sync" in registration) {registration.sync.register("sync").catch(
 function (err) {console.warn("Background sync is disabled."); });} try {
