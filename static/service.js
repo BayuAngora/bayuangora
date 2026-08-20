@@ -1,5 +1,5 @@
 const CACHE_VERSION = 1;
-const OFFLINE_URL = "/404.html";
+const OFFLINE_URL = "/404";
 let CURRENT_CACHES = {
 notFound: "404-v" + CACHE_VERSION,
 offline: "offline-v" + CACHE_VERSION,
