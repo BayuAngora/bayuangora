@@ -14,7 +14,7 @@ margin: 0 auto;
 text-align: center;
 background: #111;
 background-color: #111;
-animation: fadeIn 1.5s;
+animation: fadeIn 1s;
 }
 *, *::before, *::after {
 user-select: none;
