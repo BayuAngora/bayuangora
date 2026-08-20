@@ -1,21 +1,24 @@
 if ("serviceWorker" in navigator) {
-navigator.serviceWorker.register("/static/service.js");
+navigator.serviceWorker.register("/static/service.js") .then(function () {
 navigator.serviceWorker.ready.then(async function (registration) {
-if ("sync" in registration) {registration.sync.register("sync").catch(
-function (err) {console.warn("Background sync is disabled."); });} try {
-if ("periodicSync" in registration) {const periodicSyncPermission = 
-await navigator.permissions.query({ name: "periodic-background-sync", });
+if ("sync" in registration) {
+registration.sync.register("sync").catch(function (err) {
+console.warn("Background sync is disabled.");});} try {
+if ("periodicSync" in registration) {
+const periodicSyncPermission = await navigator.permissions.query({
+name: "periodic-background-sync",});
 if (periodicSyncPermission.state === "granted") {
 await registration.periodicSync.register("fetch-new-content", {
-minInterval: 24 * 60 * 60 * 1000, });}}} 
-catch (error) {console.warn("Periodic sync is disabled.");}});}
+minInterval: 24 * 60 * 60 * 1000,});}}} catch (error) {
+console.warn("Periodic sync is disabled.");}});}) .catch(function (error) {
+console.warn("Service Worker registration was blocked or failed:", error);});}
 
 document.addEventListener("DOMContentLoaded", function () {
 const shareBtn = document.getElementById("share");
 if (shareBtn) {shareBtn.addEventListener("click", function () {
 if (navigator.share) {navigator.share({
-title: "Bayu Angora", url: window.location.href, })
-.then(() => console.log("Thanks")) .catch(console.error);}});}
+title: "Bayu Angora", url: window.location.href, }) .then(() => 
+console.log("Thanks")) .catch(console.error);}});}
 
 const darkBtn = document.getElementById("dark");
 const lightBtn = document.getElementById("light");
