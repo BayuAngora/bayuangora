@@ -35,13 +35,13 @@
   ],
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "/static/favicon.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/favicon.svg",
+      "src": "/static/favicon.svg",
       "type": "image/svg",
       "sizes": "512x512",
       "purpose": "maskable"
@@ -49,7 +49,7 @@
   ],
   "screenshots": [
     {
-      "src": "/bayuangora.webp",
+      "src": "/static/bayuangora.webp",
       "type": "image/webp",
       "sizes": "1280x1280",
       "form-factor": "narrow"
