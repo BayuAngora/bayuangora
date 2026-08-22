@@ -13,6 +13,7 @@ minInterval: 24 * 60 * 60 * 1000,});}}} catch (error) {
 console.warn("Periodic sync is disabled.");}});}) .catch(function (error) {
 console.warn("Service Worker registration was blocked or failed:", error);});}
 
+document.addEventListener("DOMContentLoaded", function () {
 const darkBtn = document.getElementById("dark");
 const lightBtn = document.getElementById("light");
 function setMode(isDark) {if (isDark) {
@@ -24,12 +25,11 @@ if (darkBtn) darkBtn.style.display = "block";
 localStorage.removeItem("preferredTheme");}
 document.body.classList.toggle("mode", isDark);}
 if (localStorage.getItem("preferredTheme") === "dark") {setMode(true);}
-if (darkBtn) {darkBtn.addEventListener("click", function () {setMode(true); });}
-if (lightBtn) {lightBtn.addEventListener("click", function () {setMode(false);});}});
+if (darkBtn) {darkBtn.addEventListener("click", function () {setMode(true);});}
+if (lightBtn) {lightBtn.addEventListener("click", function () {setMode(false);});}
 
-document.addEventListener("DOMContentLoaded", function () {
 const shareBtn = document.getElementById("share");
 if (shareBtn) {shareBtn.addEventListener("click", function () {
 if (navigator.share) {navigator.share({
-title: "Bayu Angora", url: window.location.href, }) .then(() => 
-console.log("Thanks")) .catch(console.error);}});}
+title: "Bayu Angora", url: window.location.href,}) .then(() => 
+console.log("Thanks")) .catch(console.error);}});}});
