@@ -208,6 +208,10 @@ body {
 background: linear-gradient(180deg, #300 0%, #012 100%);
 background-color: #200;
 }
+a {
+fill: #200;
+color: #200;
+}
 .icon {
 fill: #eef;
 }
