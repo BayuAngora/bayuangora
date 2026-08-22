@@ -29,8 +29,8 @@ background: transparent;
 text-shadow: .025rem .025rem #888;
 }
 a {
-fill: inherit;
-color: inherit;
+fill: #111;
+color: #111;
 }
 a:hover, a:hover * {
 fill: #e00;
@@ -182,6 +182,10 @@ src: url("/static/font.woff2");
 body {
 background: linear-gradient(180deg, #300 0%, #012 100%);
 background-color: #200;
+}
+a {
+fill: #200;
+color: #200;
 }
 .icon {
 fill: #eef;
