@@ -59,7 +59,6 @@ header, footer, input,
 text-align: center;
 }
 .justify {
-margin: 0 auto .5rem;
 text-align: justify;
 }
 .line {
@@ -201,7 +200,7 @@ transform: rotate(150deg) translateY(-100rem); }
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("/static/font.woff2");
+src: url("/font.woff2");
 }
 /* linear */
 body {
