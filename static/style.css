@@ -19,7 +19,6 @@ user-select: none;
 text-decoration: none;
 outline: 1px solid transparent;
 font-family: "font", system-ui, sans-serif;
-transition: 1s, fill 1s, color 1s;
 }
 ::selection {
 color: #e00;
@@ -29,6 +28,7 @@ text-shadow: .025rem .025rem #888;
 h1, h2, h3, h4, h5, h6, p, span {
 margin: 0 auto .5rem;
 animation: fadeIn 1s;
+transition: 1s;
 }
 h1 {
 margin: -.45rem auto .15rem;
@@ -75,6 +75,9 @@ border: .05rem solid #888;
 width: 3rem;
 fill: #eef;
 }
+.icon * {
+transition: 1s;
+}
 .menu, .menu a {
 margin: 1rem .5rem -.5rem;
 }
@@ -103,13 +106,15 @@ background: #111;
 display: flex;
 margin: 1rem auto;
 }
-.paginator span {
-padding: 0 1.1rem;
+.paginator b {
+padding: 0 1rem;
 line-height: 1;
 font-size: 2.75rem;
+transition: 1s;
 }
 .favicon, .favicon img {
 margin: 0 auto;
+cursor: pointer;
 }
 .favicon img {
 width: 3.5rem;
@@ -206,7 +211,7 @@ transform: rotate(150deg) translateY(-100rem); }
 @font-face {
 font-display: swap;
 font-family: "font";
-src: url("https://angora.my.id/static/font.woff2");
+src: url("/static/font.woff2");
 }
 /* linear */
 body {
