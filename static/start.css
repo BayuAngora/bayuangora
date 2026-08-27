@@ -110,6 +110,7 @@ margin-left: auto;
 margin: .75rem auto .25rem;
 color: #eef;
 background: #111;
+cursor: pointer;
 }
 .source, .source a {
 margin: -1.5rem .5rem 0;
