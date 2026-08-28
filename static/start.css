@@ -80,12 +80,11 @@ background: #eef;
 display: grid;
 place-items: center;
 }
-.swap b, .swap span {
+.swap * {
 grid-area: 1 / 1;
 animation: swap 5s infinite alternate;
 }
-.swap b:last-child,
-.swap span:last-child {
+.swap *:first-child {
 animation-direction: alternate-reverse;
 }
 .menu {
