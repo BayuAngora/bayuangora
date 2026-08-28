@@ -21,6 +21,7 @@ user-select: none;
 text-decoration: none;
 outline: 1px solid transparent;
 font-family: "font", system-ui, sans-serif;
+transition: 1s;
 }
 ::selection {
 color: #e00;
@@ -30,9 +31,6 @@ text-shadow: .025rem .025rem #888;
 a {
 fill: #111;
 color: #111;
-}
-a * {
-transition: 1s;
 }
 a:hover * {
 fill: #e00;
