@@ -40,8 +40,8 @@ moves = matches = 0; updateStats();
 board.innerHTML = [...emojis, ...emojis] .sort(() => Math.random() - 0.5) .map(e => `
 <div class="card" data-e="${e}">
 <div class="card-face card-front">${e}</div>
-<div class="card-face card-back"></div></div> `)
-.join("");}; $("restart") .addEventListener("click", initGame);
+<div class="card-face card-back"></div>
+</div> `) .join("");};
 board.addEventListener("click", e => {const card = e.target.closest(".card");
 if (!card || lockBoard || card === firstCard || card.classList.contains("flip")) 
 return; card.classList.add("flip");
