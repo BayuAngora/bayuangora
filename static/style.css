@@ -133,6 +133,7 @@ width: 98%;
 width: 1.5rem;
 margin: -1.75rem 0 0 auto;
 fill: #111;
+cursor: pointer;
 }
 .source, .source a {
 margin: -1.5rem .5rem 0;
