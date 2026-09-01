@@ -5,7 +5,7 @@ self.addEventListener('install', function(event) {
 		caches.open(OFFLINE_CACHE).then(function(cache) {
 			return cache.addAll([
 				'/',
-        '/404',
+                '/404',
 				'/start.js',
 				'/script.js'
 			]);
