@@ -33,23 +33,26 @@ const board = document.getElementById("board");
 if (board) {const emojis =
 ["🏜", "🏞", "🌃", "🌄", "🌇", "🌉", "🌌", "🎑"];
 const $ = id => document.getElementById(id);
-let firstCard, lockBoard, moves, matches; const updateStats = () => {
-$("moves").textContent = moves; $("matches").textContent = matches;};
-const initGame = () => {firstCard = lockBoard = null;
-moves = matches = 0; updateStats();
-board.innerHTML = [...emojis, ...emojis] .sort(() => Math.random() - 0.5) .map(e => `
+let firstCard, lockBoard, moves, matches;
+const updateStats = () => {
+$("moves").textContent = moves;
+$("matches").textContent = matches;};
+const initGame = () => {
+firstCard = lockBoard = null; moves = matches = 0; updateStats();
+board.innerHTML = [...emojis, ...emojis]
+.sort(() => Math.random() - 0.5) .map(e => `
 <div class="card" data-e="${e}">
 <div class="card-face card-front">${e}</div>
 <div class="card-face card-back"></div>
 </div> `) .join("");};
-board.addEventListener("click", e => {const card = e.target.closest(".card");
-if (!card || lockBoard || card === firstCard || card.classList.contains("flip")) 
-return; card.classList.add("flip");
+board.addEventListener("click", e => {
+const card = e.target.closest(".card");
+if (!card || lockBoard || card === firstCard ||
+card.classList.contains("flip")) return; card.classList.add("flip");
 if (!firstCard) return (firstCard = card); moves++;
 if (firstCard.dataset.e === card.dataset.e) {firstCard = null;
-if (++matches === 8) setTimeout(() => 
-alert(`✨ Score 8 / ${moves} Moves ✨`), 1000); } else {
+if (++matches === 8) setTimeout(() =>
+alert(`✨ Score 8 / ${moves} Moves ✨`), 1000);} else {
 lockBoard = true; setTimeout(() => {
 firstCard.classList.remove("flip"); card.classList.remove("flip");
-firstCard = lockBoard = null; }, 1000);} updateStats();});
-initGame();}
+firstCard = lockBoard = null; }, 1000);} updateStats();}); initGame();}
