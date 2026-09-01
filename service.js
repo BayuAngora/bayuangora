@@ -1,7 +1,7 @@
 const CACHE_VERSION = 1;
 const OFFLINE_URL = "/404";
 const STATIC_ASSETS =
-["/start.css", "/script.js", "/font.woff2"];
+["/static/start.css", "/static/script.js", "/static/font.woff2"];
 let CURRENT_CACHES = {
 notFound: "404-v" + CACHE_VERSION,
 offline: "offline-v" + CACHE_VERSION,
